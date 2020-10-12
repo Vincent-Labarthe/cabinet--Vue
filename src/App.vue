@@ -1,28 +1,60 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container-fluid">
+    <BurgerMenu></BurgerMenu>
+    <Navbar v-if="scrollpx > 450"></Navbar>
+    <HomePage @handle-book="switchPage"></HomePage>
+    <BookPage v-if="page === 'book'"></BookPage>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomePage from "@/components/home-page/HomePage";
+import BurgerMenu from "@/components/menu/BurgerMenu";
+import BookPage from "@/components/book/BookPage";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 export default {
   name: 'App',
+  data() {
+    return {
+      page: '',
+      scrollpx: 0,
+    }
+  },
   components: {
-    HelloWorld
+    HomePage,
+    BurgerMenu,
+    BookPage,
+    Navbar,
+    Footer
+  },
+  methods: {
+    switchPage(param) {
+      this.page = param
+    },
+    handleScroll() {
+      this.scrollpx = window.scrollY;
+    }
+  },
+  created() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.handleScroll);
   }
 }
 </script>
 
 <style>
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 </style>

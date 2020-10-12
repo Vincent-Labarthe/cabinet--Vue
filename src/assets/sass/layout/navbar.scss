@@ -1,0 +1,33 @@
+.navbar {
+  height: 6rem;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  text-transform: uppercase;
+  color: #666;
+  box-shadow: 0.067em 0.067em 4.133em rgba(12, 71, 84, 0.08);
+  line-height: 9px;
+
+  &--left {
+    align-self: center;
+
+    &--2 {
+      font-size: 0.8rem;
+      margin-left: 1rem;
+    }
+
+  }
+
+  &--center {
+    margin-top: 1rem;
+    text-align: center;
+    align-self: center;
+
+    &--2 {
+    }
+
+  }
+}
+

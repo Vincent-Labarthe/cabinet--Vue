@@ -1,0 +1,39 @@
+#footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #F9F9F9;
+
+}
+
+.footer--container {
+  text-align: center;
+
+  &__top {
+    margin-top: 1rem;
+    color: #666;
+  }
+
+  &__medium{
+margin-bottom: 1rem;
+    &--icon{
+      height: 2rem;
+      padding: 0 0.5rem;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 0 0.5rem;
+
+  }
+
+  &__bottom {
+
+    &--text {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+
