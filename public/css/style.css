@@ -489,11 +489,35 @@ a {
   width: 75%;
   color: #666;
   font-size: 14px;
-  font-family: 'Noto Sans', sans-serif; }
+  font-family: 'Noto Sans', sans-serif;
+  transform: translate(-100px, 100px); }
 
 .profile-picture--box {
-  height: 25px; }
+  height: 25px;
+  position: relative;
+  transform: translateY(-100px);
+  opacity: 0; }
 
 .profile-picture {
   height: 20rem;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); }
+
+.profile-box {
+  position: absolute; }
+  .profile-box--1 {
+    top: -3rem;
+    right: 3rem; }
+  .profile-box--2 {
+    top: -3rem;
+    left: 3rem; }
+
+.video-box {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .video-box--modal {
+    width: 20%;
+    border: 1px solid #666; }
+    .video-box--modal--1 {
+      width: 50%; }
