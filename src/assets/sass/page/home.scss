@@ -143,9 +143,11 @@
 @media only screen and (max-width: 1200px) {
   .home-box {
     flex-direction: column;
-
+    justify-content: center;
+    width: 100vw;
+    border-radius: 0;
+    height: 100vh;
     &--1 {
-      border-radius: 5px;
       width: 100%;
       transition: height 1s;
       box-shadow: 0 5px 5px rgba(black, 0.2);
@@ -159,7 +161,6 @@
     }
 
     &--2 {
-      border-radius: 5px;
       width: 100%;
       transition: height 1s;
 

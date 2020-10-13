@@ -1,8 +1,8 @@
 <template>
   <div class="navbar">
     <div class="navbar--left">
-      <p class="navbar--center navbar--left--1">Joséphine Lyon</p>
-      <p class="navbar--center navbar--left--2">Ostéopathe D.O</p>
+      <p class="navbar--left navbar--left--1">Joséphine Lyon</p>
+      <p class="navbar--left navbar--left--2">Ostéopathe D.O</p>
     </div>
     <div class="navbar--center">
       <p class="navbar--center navbar--center--1">18 avenue Quihou - 94160 Saint-Mandé</p>

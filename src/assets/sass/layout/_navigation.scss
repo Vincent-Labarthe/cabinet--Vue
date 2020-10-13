@@ -1,4 +1,7 @@
 .navigation {
+  li{
+    list-style: none;
+  }
   a {
     text-decoration: none;
   }
@@ -154,4 +157,75 @@
 
 .navigation__sub{
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navigation {
+    li{
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+    }
+
+    &__button {
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+      position: fixed;
+      top: 1rem;
+      right: 3.5rem;
+      z-index: 200;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid #eee;
+    }
+
+    &__background {
+      height: 1rem;
+      width: 1rem;
+      border-radius: 50%;
+      position: fixed;
+      top: 1.5rem;
+      right: 4rem;
+      background-image: radial-gradient(rgb(221, 221, 221), rgb(149, 186, 199));
+      z-index: 100;
+      transition: transform 1s cubic-bezier(0.85, 0, 0.15, 1);
+      transform: scale(0);
+    }
+    &__icon {
+      position: relative;
+      margin-top: 1.46rem;
+
+      &,
+      &::before,
+      &::after {
+        width: 1.3rem;
+        height: 2px;
+        background-color: #333;
+        display: inline-block;
+      }
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        transition: all 0.2s;
+      }
+
+      &:before {
+        top: -0.5rem;
+      }
+
+      &:after {
+        top: 0.5rem;
+      }
+    }
+    &__checkbox:checked ~ &__background {
+      transform: scale(150);
+    }
+  }
+
+
 }
