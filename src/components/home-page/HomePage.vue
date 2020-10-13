@@ -25,7 +25,6 @@ export default {
   name: 'HomePage',
 methods:{
     handleBookPage(param){
-      event.preventDefault()
       this.$emit('handle-book',param)
     }
 }

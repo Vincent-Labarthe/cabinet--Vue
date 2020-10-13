@@ -4,7 +4,7 @@
     <Navbar v-if="scrollpx > 450"></Navbar>
     <HomePage @handle-book="switchPage"></HomePage>
     <BookPage v-if="page === 'book'"></BookPage>
-    <Footer></Footer>
+    <Footer v-if="scrollpx > 1000"></Footer>
   </div>
 </template>
 
