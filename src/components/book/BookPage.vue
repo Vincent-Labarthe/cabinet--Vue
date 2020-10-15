@@ -115,7 +115,7 @@
           <h4>Video 1</h4>
         </div>
         <div class="video--modal ">
-          <video class="video--modal video--modal--1" src="../../../public/video/video-1.mp4" autoplay ></video>
+          <video class="video--modal video--modal--1" src="" autoplay ></video>
         </div>
       </div>
       <div class="video-box video-box--modal video-box--modal--2">
