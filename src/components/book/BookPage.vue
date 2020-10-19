@@ -11,36 +11,7 @@
     </div>
     <OrderLink></OrderLink>
     <AuthorPage></AuthorPage>
-    <div class="video-box">
-      <div class="video-box video-box--modal video-box--modal--1">
-        <div class="video-header">
-          <h4>Ceci est le titre 1</h4>
-        </div>
-        <div class="video-main ">
-        </div>
-      </div>
-      <div class="video-box video-box--modal video-box--modal--2">
-        <div>
-          <h4>Video 2</h4>
-        </div>
-        <div class="video--modal video--modal--2">
-        </div>
-      </div>
-      <div class="video-box video-box--modal video-box--modal--3">
-        <div>
-          <h4>Video 3</h4>
-        </div>
-        <div class="video--modal video--modal--3">
-        </div>
-      </div>
-      <div class="video-box video-box--modal video-box--modal--4">
-        <div>
-          <h4>Video 4</h4>
-        </div>
-        <div class="video--modal video--modal--4">
-        </div>
-      </div>
-    </div>
+    <BookVideo></BookVideo>
   </div>
 </template>
 
@@ -51,6 +22,7 @@ import Resume from "@/components/book/Resume";
 import HomePictureLeft from "@/components/book/HomePictureLeft";
 import OrderLink from "@/components/book/OrderLink";
 import AuthorPage from "@/components/book/AuthorPage";
+import BookVideo from "@/components/book/BookVideo";
 
 export default {
   name: 'BookPage',
@@ -59,7 +31,8 @@ export default {
     Resume,
     HomePictureLeft,
     OrderLink,
-    AuthorPage
+    AuthorPage,
+    BookVideo
   },
   data() {
     return {
