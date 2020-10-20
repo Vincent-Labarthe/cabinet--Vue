@@ -1,23 +1,9 @@
-#book_page {
-  margin: 7rem;
-  width: 90vw;
-  text-align: left;
-
+#book-container{
+  width: 100vw;
 }
 
-.header--primary {
-  color: #b5c5d3;
-  font-size: 3rem;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
 
-.header--secondary {
-  color: #666;
-  margin-top: 1.5rem;
-  font-style: italic;
-  font-family: 'GFS Didot', serif;
-}
+
 
 .book-containter {
   display: flex;

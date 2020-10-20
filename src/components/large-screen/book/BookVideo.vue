@@ -1,5 +1,5 @@
 <template>
-  <div class="video-box">
+  <div id="video" class="video-box">
     <div class="video-box video-box--modal video-box--modal--1">
       <div class="video-header">
         <h4>Ceci est le titre 1</h4>

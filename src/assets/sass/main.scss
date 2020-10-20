@@ -3,6 +3,7 @@
 
 @import "layout/navigation";
 @import "layout/navbar";
+@import "layout/cabinet-navbar";
 @import "layout/footer";
 @import "layout/cover";
 @import "layout/resume";
@@ -13,4 +14,6 @@
 @import "base/_base.scss";
 @import "page/book-page";
 @import "page/author-page";
+@import "page/common-page";
+@import "page/cabinet";
 
