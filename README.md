@@ -1,4 +1,5 @@
-# web_site_project
+# Joséphine Lyon - Ostéopathe 
+http://www.josephinelyon.com/
 
 ## Project setup
 ```
