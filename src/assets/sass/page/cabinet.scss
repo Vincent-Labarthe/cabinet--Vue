@@ -10,7 +10,9 @@
 
   }
 }
-
+.cabinet-header{
+  margin-bottom: 1rem;
+}
 .cabinet-content {
   display: flex;
   flex-direction: row;
@@ -64,6 +66,7 @@
 }
 
 .acces-text{
+  color: #666666;
   margin-left: 25%;
 }
 
@@ -78,4 +81,24 @@
   right: 7rem;
   box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
   border-radius: 5px;
+}
+
+.doctolib-btn {
+  margin-top: 3rem;
+  border-radius: 25px;
+  background-color:rgba(181, 197, 211, 0.5);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all .3s;
+  letter-spacing: 2px;
+
+  &:hover{
+    transform: translateY(-3px);
+  }
+  &:active{
+    transform: translateY(3px);
+  }
+  a:hover{
+    color:#666666;
+  }
 }

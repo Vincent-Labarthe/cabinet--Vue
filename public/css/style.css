@@ -29,7 +29,7 @@
     transform: scale(1.2); }
 
 .icon-doctolib {
-  width: 5rem;
+  width: 3.5rem;
   margin-right: 1rem;
   transition: all .3s; }
   .icon-doctolib:hover {
@@ -267,7 +267,7 @@
     text-align: right;
     align-self: center;
     letter-spacing: 2px;
-    margin-right: 2rem;
+    margin-right: 5rem;
     border: 1px solid #ffffff;
     border-radius: 25px;
     padding: 1rem 2rem;
@@ -373,7 +373,7 @@
     text-align: right;
     align-self: center;
     letter-spacing: 2px;
-    margin-right: 2rem;
+    margin-right: 5rem;
     border: 1px solid #ffffff;
     border-radius: 25px;
     padding: 1rem 2rem;
@@ -453,9 +453,9 @@
 .cover--box {
   position: relative; }
   .cover--box:hover .cover--box--front {
-    transform: rotateY(-180deg) scale(1.7) translateX(50px); }
+    transform: rotateY(-180deg) scale(1.7) translateX(60px); }
   .cover--box:hover .cover--box--back {
-    transform: rotateY(0) scale(1.7) translateX(50px); }
+    transform: rotateY(0) scale(1.7) translateX(60px); }
 
 .download {
   margin-top: 31rem;
@@ -521,7 +521,8 @@
   text-align: center;
   display: inline-block;
   width: 100%;
-  color: #666; }
+  color: #666;
+  font-weight: 400; }
   .order-link:hover {
     opacity: 0.8; }
   .order-link::after {
@@ -529,9 +530,9 @@
     content: '';
     display: block;
     width: 10%;
-    height: 3px;
+    height: 2px;
     opacity: 0.5;
-    background: #666666;
+    background: #b5c5d3;
     margin-left: 50%;
     transform: translateX(-50%);
     transition: width .3s, opacity .3s; }
@@ -591,11 +592,12 @@
   .home-box a {
     text-decoration: none; }
   .home-box--1 {
-    height: 62%;
+    height: 70%;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 40px 0 0 40px;
     background: linear-gradient(to right, rgba(221, 221, 221, 0.5), rgba(149, 186, 199, 0.5)), url("../img/cover-left-picture.jpg");
     background-size: cover;
     background-position: center;
@@ -604,13 +606,13 @@
     animation-name: moveInLeft;
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
-    transition: width 1.5s;
-    box-shadow: 9px 3px 8px rgba(0, 0, 0, 0.25); }
+    transition: width 1.5s; }
     .home-box--1:hover {
       width: 80%;
       box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5); }
   .home-box--2 {
-    height: 62%;
+    border-radius: 0 40px 40px 0;
+    height: 70%;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -622,8 +624,7 @@
     animation-name: moveInRight;
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
-    transition: width 1.5s;
-    box-shadow: 9px 3px 8px rgba(0, 0, 0, 0.25); }
+    transition: width 1.5s; }
     .home-box--2:hover {
       width: 80%;
       box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.2); }
@@ -760,7 +761,11 @@ a {
     height: 3rem; }
 
 .author__box {
-  text-align: center; }
+  text-align: center;
+  line-height: 1.75rem; }
+  .author__box p {
+    color: #666666;
+    font-weight: 400; }
   .author__box a {
     color: #666; }
     .author__box a:hover {
@@ -773,7 +778,8 @@ a {
     color: #b5c5d3;
     margin-top: 0.5rem;
     font-style: italic;
-    font-family: 'GFS Didot', serif; }
+    font-family: 'GFS Didot', serif;
+    font-size: 2.25rem; }
     .author__box--header--1 {
       text-align: left; }
       .author__box--header--1::after {
@@ -810,6 +816,12 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
+  .author__box li {
+    list-style: none;
+    font-weight: 400; }
+
+.author--book {
+  margin-left: 1rem; }
 
 .author__text {
   text-align: justify;
@@ -827,7 +839,8 @@ a {
 
 .profile-picture {
   height: 20rem;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px; }
 
 .profile-box {
   position: absolute; }
@@ -861,6 +874,9 @@ a {
     color: #666666; }
     .cabinet-page a:hover {
       color: #b5c5d3; }
+
+.cabinet-header {
+  margin-bottom: 1rem; }
 
 .cabinet-content {
   display: flex;
@@ -906,6 +922,7 @@ a {
   margin-top: 6rem; }
 
 .acces-text {
+  color: #666666;
   margin-left: 25%; }
 
 .acces-info {
@@ -918,6 +935,21 @@ a {
   right: 7rem;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px; }
+
+.doctolib-btn {
+  margin-top: 3rem;
+  border-radius: 25px;
+  background-color: rgba(181, 197, 211, 0.5);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all .3s;
+  letter-spacing: 2px; }
+  .doctolib-btn:hover {
+    transform: translateY(-3px); }
+  .doctolib-btn:active {
+    transform: translateY(3px); }
+  .doctolib-btn a:hover {
+    color: #666666; }
 
 #cabinet {
   width: 100vw; }
@@ -952,3 +984,41 @@ a {
 .accordion-text {
   color: #666666;
   text-decoration: none; }
+
+#specialisation {
+  margin-top: 10rem; }
+
+.spe-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.spe-img-box {
+  width: 30%;
+  height: 20rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 4px;
+  transition: all .2s; }
+  .spe-img-box:hover {
+    transform: scale(1.1); }
+  .spe-img-box--1 {
+    background-image: url("../img/sport.jpg");
+    background-size: cover; }
+  .spe-img-box--2 {
+    background-image: url("../img/baby-1.jpg");
+    background-size: cover; }
+  .spe-img-box--3 {
+    background-image: url("../img/pregnant.jpg");
+    background-size: cover; }
+  .spe-img-box a {
+    color: #BCCBD7; }
+
+.spe-img {
+  width: 100%; }

@@ -4,6 +4,7 @@
     <div id="page" >
       <Cabinet></Cabinet>
       <Osteopathie></Osteopathie>
+      <Specialisation></Specialisation>
   </div>
   </div>
 </template>
@@ -12,13 +13,15 @@
 import CabinetNavBar from "@/components/large-screen/cabinet/layout/CabinetNavBar";
 import Cabinet from "@/components/large-screen/cabinet/Cabinet";
 import Osteopathie from "@/components/large-screen/cabinet/Osteopathie";
+import Specialisation from "@/components/large-screen/cabinet/Specialisation";
 
 export default {
   name: 'HomePageCabinet',
   components: {
     CabinetNavBar,
     Cabinet,
-    Osteopathie
+    Osteopathie,
+    Specialisation
   },
   data() {
     return {

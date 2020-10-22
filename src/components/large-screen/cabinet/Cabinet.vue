@@ -1,6 +1,6 @@
 <template>
   <div class="cabinet-page">
-    <div>
+    <div class="cabinet-header">
       <h2 class="header--primary">Cabinet d'ostéopathie Paris - 15 </h2>
       <h3 class="header--secondary"> 2 square du Croisic 75015 Paris</h3>
     </div>
@@ -40,9 +40,10 @@
                       alt="icon métro cabinet ostéopathie Paris 15">Métro : Duroc - Falguière - Montparnasse</p>
               <p><img class="icon" src="../../../../public/icon/send-email.svg" alt="icon adresse email">josephinelyon.osteo@gmail.com
               </p>
-              <p><a href="https://www.doctolib.fr/osteopathe/paris/josephine-lyon" target="_blank"><img
+              <div class="doctolib-btn" ><a href="https://www.doctolib.fr/osteopathe/paris/josephine-lyon" target="_blank"><p ><img
                   class="icon-doctolib" src="../../../../public/icon/doctolib.svg" alt="icon doctolib">Prendre
-                rendez-vous via Doctolib</a></p>
+                rendez-vous via Doctolib</p></a></div>
+
             </div>
           </div>
           <div>

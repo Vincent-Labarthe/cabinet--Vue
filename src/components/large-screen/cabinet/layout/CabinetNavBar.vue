@@ -3,7 +3,7 @@
     <div class="cabinet--navbar--left">
       <p class="cabinet--navbar--left cabinet--navbar--left--1">Joséphine LYON</p>
       <p class="cabinet--navbar--left cabinet--navbar--left--2">Ostéopathe D.O</p>
-      <p class="cabinet--navbar--left cabinet--navbar--left--3">06.62.02.81.18</p>
+      <p class="cabinet--navbar--left cabinet--navbar--left--3">01.53.69.19.32</p>
     </div>
     <div class="cabinet--navbar--center">
       <ul>
@@ -17,7 +17,7 @@
 
         <li>
           <div class="dropdown">
-          <a class="cabinet--navbar--center cabinet--navbar--center--link " href="">Mes Spécialisations
+          <a class="cabinet--navbar--center cabinet--navbar--center--link " href="#specialisation">Mes Spécialisations
           </a>
             <div class="dropdown-content">
               <a class="cabinet--navbar--center--link--sub" href="#">Ostéopathie du Sport</a>

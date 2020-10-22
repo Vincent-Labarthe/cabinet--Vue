@@ -39,31 +39,41 @@
             <img class="profile-picture" src="../../../../public/img/fred-brigaud.jpg" alt="Fred Brigaud">
           </div>
         </div>
-        <p class="author__text">Consultant en biomécanique Humaine, Ostéopathe DO auprès de sportifs de haut niveau
-          depuis 1994 :
-          <br><br>
-          - Consultant en biomécanique Humaine et sportive, Ostéopathe.DO de formation auprès de sportifs de haut niveau
-          depuis 1994 : Trail, football, Ski alpin, Ski de fond, biathlon…
+        <div class="author__text">
+          <p>Consultant en biomécanique Humaine, Ostéopathe DO auprès de sportifs de haut niveau
+            depuis 1994 : </p>
+          <ul>
+            <li>Consultant en biomécanique Humaine et sportive, Ostéopathe.DO de formation auprès de sportifs de haut
+              niveau
+              depuis 1994 : Trail, football, Ski alpin, Ski de fond, biathlon…
+            </li>
+            <li>Concepteur des principes posturo-dynamiques d’Empilement Articulaire Dynamique, pour l'organisation et
+              la
+              gestion du corps et des stratégies biomécaniques dans le mouvement, enseignés en Kinésithérapie du sport
+              et
+              auprès des BE Sport (Ski alpin, Tennis, Golf, Surf…)
+            </li>
+            <li>Consultant et formateur sport/santé pour UCPA Loisir et UCPA Formation depuis 2004</li>
+            <li>Auteur d'articles sportifs et biomécaniques</li>
+          </ul>
+          <p>Auteur de :</p>
+              <ul class="author--book">
+                <li> Repenser l'équitation, 2021, Éditions DésIris (à paraître). Ouvrage co-écrit avec Joséphine Lyon.
+                </li>
+                <li> Corriger le pied sans semelle - nouvelle édition, 2019, Éditions DésIris
+                </li>
+                <li> Corriger la posture et les instabilités articulaires, 2019, Éditions DésIris
+                </li>
+                <li> Guide de la foulée- nouvelle édition, 2016, Éditions DésIris
+                </li>
+                <li> Améliorer sa posture du quotidien à la pratique sportive, 2016, Éditions DésIris
+                </li>
+                <li> Gestuelle Dynamique du mouvement, 2006, Éditions Jouvence
+                </li>
+              </ul>
 
-          - Concepteur des principes posturo-dynamiques d’Empilement Articulaire Dynamique, pour l'organisation et la
-          gestion du corps et des stratégies biomécaniques dans le mouvement, enseignés en Kinésithérapie du sport et
-          auprès des BE Sport (Ski alpin, Tennis, Golf, Surf…)
-
-          - Consultant et formateur sport/santé pour UCPA Loisir et UCPA Formation depuis 2004
-
-          - Auteur d'articles sportifs et biomécaniques
-
-          - Auteur de :
-
-          Repenser l'équitation, 2021, Éditions DésIris (à paraître). Ouvrage co-écrit avec Joséphine Lyon.
-          Corriger le pied sans semelle - nouvelle édition, 2019, Éditions DésIris
-          Corriger la posture et les instabilités articulaires, 2019, Éditions DésIris
-          Guide de la foulée- nouvelle édition, 2016, Éditions DésIris
-          Améliorer sa posture du quotidien à la pratique sportive, 2016, Éditions DésIris
-          Gestuelle Dynamique du mouvement, 2006, Éditions Jouvence
-          <br>
           <a href="http://www.eadconcept.com">Site : http://www.eadconcept.com</a>
-        </p>
+        </div>
       </div>
     </div>
   </div>

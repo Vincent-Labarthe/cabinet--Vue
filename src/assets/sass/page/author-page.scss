@@ -1,6 +1,12 @@
 
 .author__box {
 text-align: center;
+  line-height: 1.75rem;
+
+  p{
+    color: #666666;
+    font-weight: 400;
+  }
   a{
     color: #666;
     &:hover{
@@ -22,6 +28,7 @@ text-align: center;
     margin-top: 0.5rem;
     font-style: italic;
     font-family: 'GFS Didot', serif;
+    font-size: 2.25rem;
     &--1 {
       text-align: left;
 
@@ -72,6 +79,13 @@ text-align: center;
     flex-direction: row;
     justify-content: space-between;
   }
+  li{
+    list-style: none;
+    font-weight: 400;
+  }
+}
+.author--book{
+  margin-left: 1rem;
 }
 
 .author__text {
@@ -93,6 +107,7 @@ text-align: center;
 .profile-picture {
   height: 20rem;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 
 }
 

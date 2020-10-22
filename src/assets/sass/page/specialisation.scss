@@ -1,0 +1,50 @@
+#specialisation {
+  margin-top: 10rem;
+}
+
+.spe-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.spe-img-box {
+
+  width: 30%;
+  height: 20rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 4px;
+  transition: all .2s;
+
+  &:hover{
+    transform: scale(1.1);
+  }
+
+  &--1 {
+    background-image: url("../img/sport.jpg");
+    background-size: cover;
+  }
+
+  &--2 {
+    background-image: url("../img/baby-1.jpg");
+    background-size: cover;
+  }
+  &--3 {
+    background-image: url("../img/pregnant.jpg");
+    background-size: cover;
+  }
+  a {
+    color:#BCCBD7;
+  }
+}
+
+.spe-img {
+  width: 100%;
+}
