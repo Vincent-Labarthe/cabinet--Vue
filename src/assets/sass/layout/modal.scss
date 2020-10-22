@@ -1,0 +1,38 @@
+.modal-box{
+  color: #f9f9f9;
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 20000 ;
+ // background: linear-gradient(to right, rgba(221, 221, 221, 0.9), rgba(149, 186, 199, 0.9));
+  background-color: #b5c5d3;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+  padding:2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal-btn{
+  padding: 0.5rem 2rem;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+  transition: all .3s;
+  color: #666666;
+  font-family: "Lato", sans-serif;
+  &:hover{
+    transform: translateY(-3px);
+  }
+  &:active{
+    transform: translateY(3px);
+
+  }
+}
+

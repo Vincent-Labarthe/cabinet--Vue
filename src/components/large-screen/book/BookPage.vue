@@ -13,7 +13,7 @@
     </div>
     <OrderLink></OrderLink>
     <AuthorPage></AuthorPage>
-    <BookVideo></BookVideo>
+    <BookVideo v-show="false"></BookVideo>
   </div>
   </div>
 </template>

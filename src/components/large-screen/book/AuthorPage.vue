@@ -1,7 +1,7 @@
 <template>
   <div id="author" class="author__box ">
     <div class="author__box author__box--1">
-      <h3 class="author__box author__box--header header--secondary author__box--header--1"> Joséphine Lyon</h3>
+      <h3 class="author__box author__box--header author__box--header--1"> Joséphine Lyon</h3>
       <div class="author__box author__box--modal">
         <p class="author__text">Ostéopathe DO exerçant à Paris depuis 2011, est passionnée d’équitation
           depuis l’enfance.
@@ -32,7 +32,7 @@
       </div>
     </div>
     <div class="author__box author__box--2">
-      <h3 class="author__box author__box--header header--secondary author__box--header--2"> Frédérique Brigaud</h3>
+      <h3 class="author__box author__box--header author__box--header--2"> Fred Brigaud</h3>
       <div class="author__box author__box--modal">
         <div class="profile-picture--box">
           <div class="profile-box profile-box--2">

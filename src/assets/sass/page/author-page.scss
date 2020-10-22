@@ -1,6 +1,12 @@
 
 .author__box {
 text-align: center;
+  a{
+    color: #666;
+    &:hover{
+      color: #b5c5d3;
+    }
+  }
   &--1 {
     margin-top: 10rem;
 
@@ -11,46 +17,52 @@ text-align: center;
 
   }
 
-  &--header--1 {
+  &--header{
     color: #b5c5d3;
-    text-align: left;
-    &::after {
-      text-align: center;
-      content: '';
-      display: block;
-      width: 0;
-      height: 2px;
-      opacity: 0.5;
-      background: #666666;
-      transition: width .3s, opacity .3s;
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-family: 'GFS Didot', serif;
+    &--1 {
+      text-align: left;
+
+      &::after {
+        text-align: center;
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        opacity: 0.5;
+        background: #666666;
+        transition: width .3s, opacity .3s;
+      }
+
+      &:hover::after {
+        width: 10%;
+        transition: width .5s;
+        opacity: 1;
+      }
     }
 
-    &:hover::after {
-      width: 10%;
-      transition: width .5s;
-      opacity: 1;
-    }
-  }
+    &--2 {
+      text-align: right;
+      color: #b5c5d3;
 
-  &--header--2 {
-    text-align: right;
-    color: #b5c5d3;
+      &::after {
+        margin-left: 87%;
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        opacity: 0.5;
+        background: #666666;
+        transition: width .3s, opacity .3s;
+      }
 
-    &::after {
-      margin-left: 87%;
-      content: '';
-      display: block;
-      width: 0;
-      height: 2px;
-      opacity: 0.5;
-      background: #666666;
-      transition: width .3s, opacity .3s;
-    }
-
-    &:hover::after {
-      width: 13%;
-      transition: width .5s;
-      opacity: 1;
+      &:hover::after {
+        width: 13%;
+        transition: width .5s;
+        opacity: 1;
+      }
     }
   }
 

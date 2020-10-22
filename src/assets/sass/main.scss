@@ -1,5 +1,6 @@
 @import "abstracts/variables";
 @import "abstracts/animations";
+@import "abstracts/icon";
 
 @import "layout/navigation";
 @import "layout/navbar";
@@ -9,6 +10,7 @@
 @import "layout/resume";
 @import "layout/homeLeftPicture";
 @import "layout/order-link";
+@import "layout/modal";
 
 @import "page/home.scss";
 @import "base/_base.scss";
@@ -16,4 +18,5 @@
 @import "page/author-page";
 @import "page/common-page";
 @import "page/cabinet";
+@import "page/home-page-cabinet";
 

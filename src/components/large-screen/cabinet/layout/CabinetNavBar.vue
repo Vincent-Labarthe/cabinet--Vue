@@ -8,7 +8,7 @@
     <div class="cabinet--navbar--center">
       <ul>
         <li>
-          <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Le Cabinet</a>
+          <a href="#cabinet-page" class="cabinet--navbar--center cabinet--navbar--center--link">Le Cabinet</a>
         </li>
         <li>
           <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">L'Ostéopathie</a>

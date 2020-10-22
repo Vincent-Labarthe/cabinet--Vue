@@ -3,6 +3,7 @@
     <CabinetNavBar v-if="scrollpx > 450"></CabinetNavBar>
     <div id="page" >
       <Cabinet></Cabinet>
+      <Osteopathie></Osteopathie>
   </div>
   </div>
 </template>
@@ -10,11 +11,14 @@
 <script>
 import CabinetNavBar from "@/components/large-screen/cabinet/layout/CabinetNavBar";
 import Cabinet from "@/components/large-screen/cabinet/Cabinet";
+import Osteopathie from "@/components/large-screen/cabinet/Osteopathie";
+
 export default {
   name: 'HomePageCabinet',
   components: {
     CabinetNavBar,
-    Cabinet
+    Cabinet,
+    Osteopathie
   },
   data() {
     return {
