@@ -40,9 +40,10 @@
                       alt="icon métro cabinet ostéopathie Paris 15">Métro : Duroc - Falguière - Montparnasse</p>
               <p><img class="icon" src="../../../../public/icon/send-email.svg" alt="icon adresse email">josephinelyon.osteo@gmail.com
               </p>
-              <div class="doctolib-btn" ><a href="https://www.doctolib.fr/osteopathe/paris/josephine-lyon" target="_blank"><p ><img
-                  class="icon-doctolib" src="../../../../public/icon/doctolib.svg" alt="icon doctolib">Prendre
-                rendez-vous via Doctolib</p></a></div>
+              <div class="doctolib-btn" >
+                <a href="https://www.doctolib.fr/osteopathe/paris/josephine-lyon" target="_blank"><p >Prendre
+                rendez-vous via <img class="icon-doctolib" src="../../../../public/icon/doctolib.svg" alt="icon doctolib"></p></a>
+              </div>
 
             </div>
           </div>

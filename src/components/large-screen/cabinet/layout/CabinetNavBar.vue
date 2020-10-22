@@ -17,10 +17,10 @@
 
         <li>
           <div class="dropdown">
-          <a class="cabinet--navbar--center cabinet--navbar--center--link " href="#specialisation">Mes Spécialisations
+          <a class="cabinet--navbar--center cabinet--navbar--center--link " href="#specialisation" @click="selectedSpe('')">Mes Spécialisations
           </a>
             <div class="dropdown-content">
-              <a class="cabinet--navbar--center--link--sub" href="#">Ostéopathie du Sport</a>
+              <a class="cabinet--navbar--center--link--sub" href="#osteo_sport" @click="selectedSpe('sport')">Ostéopathie du Sport</a>
               <a class="cabinet--navbar--center--link--sub" href="#">Ostéopathie pédiatrique</a>
               <a class="cabinet--navbar--center--link--sub" href="#">Ostéopathie de la femme enceinte</a>
             </div>
@@ -51,7 +51,11 @@
 
 export default {
   name: 'CabinetNavBar',
-  methods: {}
+  methods: {
+    selectedSpe(param) {
+      this.$emit('handle-spe', param)
+    }
+  }
 }
 
 </script>
