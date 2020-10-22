@@ -26,7 +26,7 @@
         </p>
         <div class="profile-picture--box">
           <div class="profile-box profile-box--1">
-            <img class="profile-picture" src="../../../../public/img/josephine-lyon.jpg" alt="">
+            <img class="profile-picture" src="../../../../public/img/josephine-lyon.jpg" alt="Joséphine Lyon">
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@
       <div class="author__box author__box--modal">
         <div class="profile-picture--box">
           <div class="profile-box profile-box--2">
-            <img class="profile-picture" src="../../../../public/img/fred-brigaud.jpg" alt="">
+            <img class="profile-picture" src="../../../../public/img/fred-brigaud.jpg" alt="Fred Brigaud">
           </div>
         </div>
         <p class="author__text">Consultant en biomécanique Humaine, Ostéopathe DO auprès de sportifs de haut niveau

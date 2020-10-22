@@ -20,12 +20,12 @@
     opacity: 1;
     transform: translateX(0); } }
 
-.icon-tel {
+.icon {
   height: 25px;
   width: 25px;
   margin-right: 1rem;
   transition: all .3s; }
-  .icon-tel:hover {
+  .icon:hover {
     transform: scale(1.2); }
 
 .icon-doctolib {
@@ -316,7 +316,7 @@
   width: 100vw;
   position: fixed;
   top: 0;
-  z-index: 5;
+  z-index: 2500;
   text-transform: uppercase;
   box-shadow: 0.067em 0.067em 4.133em rgba(12, 71, 84, 0.08);
   line-height: 9px;
@@ -496,7 +496,8 @@
   font-size: 14px;
   font-family: 'Noto Sans', sans-serif;
   color: #666;
-  margin-right: 2rem; }
+  margin-right: 2rem;
+  font-weight: 400; }
   .resume__text {
     text-align: justify;
     list-style: none; }
@@ -862,8 +863,6 @@ a {
       color: #b5c5d3; }
 
 .cabinet-content {
-  margin-top: 2rem;
-  padding-top: 2rem;
   display: flex;
   flex-direction: row; }
 
@@ -871,6 +870,11 @@ a {
   border-radius: 5px;
   box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
   padding-bottom: 2rem; }
+
+.cabinet-header {
+  padding-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem; }
 
 .cabinet-img-modal {
   width: 25%;
@@ -917,3 +921,34 @@ a {
 
 #cabinet {
   width: 100vw; }
+
+.osteopathie-page {
+  margin-top: 10rem; }
+  .osteopathie-page p {
+    font-weight: 400; }
+
+.osteopathie-header {
+  padding-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem; }
+
+.osteopathie-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1rem; }
+
+.osteopathie-img {
+  width: 18%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px; }
+
+.osteopathie-text {
+  width: 70%; }
+
+.accordion {
+  margin: 2rem 0; }
+
+.accordion-text {
+  color: #666666;
+  text-decoration: none; }

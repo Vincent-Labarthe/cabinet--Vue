@@ -2,9 +2,9 @@
   <div class="cover">
     <div class="cover--box">
       <img class=" cover--box--front cover__img cover__img--front"
-           src="../../../../public/img/repenser_equitation_cover.jpg" alt="">
+           src="../../../../public/img/repenser_equitation_cover.jpg" alt="repenser l'équitation">
       <img class=" cover--box--back cover__img cover__img--back" src="../../../../public/img/repenser_equitation_4.jpg"
-           alt="">
+           alt="repenser l'équitation">
     </div>
     <div class="download">
       <a class="download__text" href="../../../../public/doc/repenser-lequitation.pdf" download> <img

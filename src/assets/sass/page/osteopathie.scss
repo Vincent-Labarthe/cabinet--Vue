@@ -1,0 +1,35 @@
+.osteopathie-page{
+  margin-top: 10rem;
+  p{
+    font-weight: 400;
+  }
+}
+.osteopathie-header{
+  padding-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.osteopathie-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.osteopathie-img{
+  width: 18%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.osteopathie-text{
+  width: 70%;
+}
+.accordion{
+  margin: 2rem 0;
+}
+.accordion-text{
+  color:#666666;
+  text-decoration: none;
+}

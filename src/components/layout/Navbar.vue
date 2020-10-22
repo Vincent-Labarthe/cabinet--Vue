@@ -8,10 +8,10 @@
     <div class="cabinet--navbar--center">
       <ul>
         <li>
-          <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Le Livre</a>
+          <a href="#page" class="cabinet--navbar--center cabinet--navbar--center--link">Le Livre</a>
         </li>
         <li>
-          <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Les auteurs</a>
+          <a href="#author" class="cabinet--navbar--center cabinet--navbar--center--link">Les auteurs</a>
         </li>
         <li>
           <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Vidéos</a>

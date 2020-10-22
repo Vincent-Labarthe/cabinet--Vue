@@ -12,8 +12,6 @@
 }
 
 .cabinet-content {
-  margin-top: 2rem;
-  padding-top: 2rem;
   display: flex;
   flex-direction: row;
 }
@@ -22,6 +20,11 @@
   border-radius: 5px;
   box-shadow: 0 7px 30px rgba(0,0,0,0.1);
   padding-bottom: 2rem;
+}
+.cabinet-header{
+  padding-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
 }
 .cabinet-img-modal{
   width: 25%;
