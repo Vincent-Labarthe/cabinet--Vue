@@ -1,6 +1,6 @@
 <template>
   <div style="width: 100vw">
-    <BurgerMenu v-if="scrollpx < 450"></BurgerMenu>
+    <BurgerMenu v-show="false"></BurgerMenu>
     <HomePage @handle-book="switchPage"></HomePage>
     <BookPage v-if="page === 'book'"></BookPage>
     <HomePageCabinet v-if="page === 'cabinet'"> </HomePageCabinet>
