@@ -1,3 +1,67 @@
 #osteo_sport {
   margin-top: 10rem;
 }
+
+.spe-sport{
+  display: flex;
+  justify-content: space-around;
+}
+
+.sport-card{
+  position: relative;
+  width: 20rem;
+  height: 26rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+
+  &--header{
+    text-align: center;
+    height: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    h5{
+      transition: all 1s;
+      color: #f9f9f9;
+    }
+    &--1{
+      background-image: url("../img/sport-interet.jpg");
+      background-size: cover;
+    }
+
+    &--2{
+      background-image: url("../img/all-sport.jpg");
+      background-size: cover;
+    }
+    &--3{
+      background-image: url("../img/practic-sport.jpg");
+      background-size: cover;
+    }
+  }
+
+  &:hover &--header{
+    height: 26rem;
+    filter: blur(7px) ;
+    h5{
+      transform: translateY(-150px);
+    }
+  }
+
+  &:hover  div.sport-card--body{
+    transform: translateY(-150px);
+    color: #f9f9f9;
+  }
+}
+
+.sport-card--body{
+  position: absolute;
+  top:19rem;
+  transition: all 1s;
+  color: #666666;
+  margin: 1rem;
+  p{
+    font-weight: 400;
+  }
+}

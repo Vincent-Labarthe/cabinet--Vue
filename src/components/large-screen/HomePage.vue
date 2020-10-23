@@ -1,5 +1,5 @@
 <template>
-  <div class=" home d-flex flex-column justify-content-center">
+  <div id="home" class=" home d-flex flex-column justify-content-center">
     <div class="home-box">
         <div class="home-box--1">
           <div class="home-modal">

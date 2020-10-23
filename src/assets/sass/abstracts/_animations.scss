@@ -29,3 +29,30 @@
     transform: translateX(0);
   }
 }
+
+@keyframes arrow-left {
+ 0% {
+   transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes arrow-right {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

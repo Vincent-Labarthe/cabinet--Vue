@@ -20,12 +20,19 @@
     align-self: center;
     margin-left: 1rem;
     letter-spacing: 2px;
+    a{
+      color:#fff;
+      text-decoration: none;
+      &:hover{
+        color:#E8E8E8;
+      }
+    }
     &--1{
       font-size: 1.25rem;
     }
     &--2 {
       font-size: 0.8rem;
-      margin-bottom: 7px;
+      margin-bottom: 0.5rem;
     }
 
     &--3 {
@@ -109,6 +116,7 @@
 }
 
 .dropdown-content {
+  border-radius: 5px;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -124,7 +132,7 @@
     display: block;
     text-align: left;
     &:hover{
-      background-color: #ddd;
+      background-color: rgba(181,197,211,0.5);
       width: 100%;
     }
   }

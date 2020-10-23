@@ -1,9 +1,10 @@
 <template>
   <div class="cabinet--navbar">
     <div class="cabinet--navbar--left">
-      <p class="cabinet--navbar--left cabinet--navbar--left--1">Joséphine LYON</p>
+      <a href="#home"> <p class="cabinet--navbar--left cabinet--navbar--left--1">Joséphine LYON</p>
       <p class="cabinet--navbar--left cabinet--navbar--left--2">Ostéopathe D.O</p>
       <p class="cabinet--navbar--left cabinet--navbar--left--3">01.53.69.19.32</p>
+      </a>
     </div>
     <div class="cabinet--navbar--center">
       <ul>
@@ -28,7 +29,18 @@
 
         </li>
         <li>
-          <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Pourquoi consulter</a>
+          <div class="dropdown">
+            <a class="cabinet--navbar--center cabinet--navbar--center--link " href="#" >Pourquoi consulter ?
+            </a>
+            <div class="dropdown-content">
+              <a class="cabinet--navbar--center--link--sub" href="#" >Maux de dos</a>
+              <a class="cabinet--navbar--center--link--sub" href="#">Douleurs articulaire</a>
+              <a class="cabinet--navbar--center--link--sub" href="#">Stress & trouble du sommeil</a>
+              <a class="cabinet--navbar--center--link--sub" href="#">Douleur post-trauma</a>
+
+            </div>
+          </div>
+
         </li>
         <li>
           <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Formations</a>

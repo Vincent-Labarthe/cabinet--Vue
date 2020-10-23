@@ -21,7 +21,7 @@
                 <h2 class="mb-0">
                   <button class="btn btn-link text-left accordion-text" type="button" data-toggle="collapse"
                           data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
-                    <img class="icon icon-arrow--1" src="../../../../public/icon/right-arrow.svg" alt="icon téléphone">  La globalité
+                    <img class="icon icon-arrow-left icon-arrow--1" src="../../../../public/icon/right-arrow.svg" alt="icon téléphone">  La globalité
                   </button>
                 </h2>
               </div>
@@ -40,7 +40,7 @@
                 <h2 class="mb-0">
                   <button class="btn btn-link text-left accordion-text" type="button" data-toggle="collapse"
                           data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-                    <img class="icon icon-arrow--2" src="../../../../public/icon/right-arrow.svg" alt="icon téléphone">  La structure gouverne la fonction
+                    <img class="icon icon-arrow-left icon-arrow--2" src="../../../../public/icon/right-arrow.svg" alt="icon téléphone">  La structure gouverne la fonction
                   </button>
                 </h2>
               </div>
@@ -57,7 +57,7 @@
                 <h2 class="mb-0">
                   <button class="btn btn-link text-left accordion-text" type="button" data-toggle="collapse"
                           data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-                    <img class="icon icon-arrow--3" src="../../../../public/icon/right-arrow.svg" alt="icon téléphone"> L'auto régulation du corps
+                    <img class="icon icon-arrow-left icon-arrow--3" src="../../../../public/icon/right-arrow.svg" alt="icon téléphone"> L'auto régulation du corps
                   </button>
                 </h2>
               </div>

@@ -35,7 +35,7 @@
               <p><a href="https://bit.ly/3dPt3Sn" target="_blank"><img class="icon"
                                                                        src="../../../../public/icon/location.svg"
                                                                        alt="icon adresse cabinet ostéopathie Paris 15">2
-                square du Croisic Paris 15</a></p>
+                square du Croisic 75015 Paris</a></p>
               <p><img class="icon" src="../../../../public/icon/metro.svg"
                       alt="icon métro cabinet ostéopathie Paris 15">Métro : Duroc - Falguière - Montparnasse</p>
               <p><img class="icon" src="../../../../public/icon/send-email.svg" alt="icon adresse email">josephinelyon.osteo@gmail.com
