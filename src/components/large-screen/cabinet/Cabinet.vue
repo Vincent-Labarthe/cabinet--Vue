@@ -1,6 +1,6 @@
 <template>
   <div class="cabinet-page">
-    <div class="cabinet-header">
+    <div id="cabinet_header" class="cabinet-header">
       <h2 class="header--primary">Cabinet d'ostéopathie Paris - 15 </h2>
       <h3 class="header--secondary"> 2 square du Croisic 75015 Paris</h3>
     </div>

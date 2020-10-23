@@ -2,7 +2,7 @@
   <div id="book-container">
   <Navbar v-if="scrollpx > 450"></Navbar>
   <div id="page" >
-    <div>
+    <div id="book-header">
       <h2 class="header--primary">Repenser l'équitation</h2>
       <h3 class="header--secondary"> Gestes, postures et performance</h3>
     </div>

@@ -3,6 +3,7 @@
     <div class="cover--box">
       <img class=" cover--box--front cover__img cover__img--front"
            src="../../../../public/img/repenser_equitation_cover.jpg" alt="repenser l'équitation">
+      <img class="cover__img--pointer" src="../../../../public/icon/pointer.svg" alt="">
       <img class=" cover--box--back cover__img cover__img--back" src="../../../../public/img/repenser_equitation_4.jpg"
            alt="repenser l'équitation">
     </div>

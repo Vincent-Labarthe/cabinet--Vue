@@ -7,8 +7,8 @@
       <div class="spe-body">
 
         <a class="spe-img-box spe-img-box--1" href="" @click="selectedSpe('sport')"><p class=" ">Les Sportifs</p></a>
-        <a class=" spe-img-box spe-img-box--2" href=""><p >Les Nourrissons / Bébés / Jeunes Enfants</p></a>
-        <a class=" spe-img-box spe-img-box--3" href=""><p >Les Femmes Enceintes</p></a>
+        <a class=" spe-img-box spe-img-box--2" href="" @click="selectedSpe('baby')"><p >Les Nourrissons / Bébés / Jeunes Enfants</p></a>
+        <a class=" spe-img-box spe-img-box--3" href="" @click="selectedSpe('pregnant')"><p >Les Femmes Enceintes</p></a>
       </div>
     </div>
   </div>

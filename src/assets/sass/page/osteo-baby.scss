@@ -1,0 +1,67 @@
+#osteo_baby {
+  margin-top: 10rem;
+}
+
+.spe-baby{
+  display: flex;
+  justify-content: space-around;
+}
+
+.baby-card{
+  position: relative;
+  width: 20rem;
+  height: 26rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+
+  &--header{
+    text-align: center;
+    height: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    h5{
+      transition: all 1s;
+      color: #f9f9f9;
+    }
+    &--1{
+      background-image: url("../img/baby-2.jpg");
+      background-size: cover;
+    }
+
+    &--2{
+      background-image: url("../img/kid.jpg");
+      background-size: cover;
+    }
+    &--3{
+      background-image: url("../img/young.jpg");
+      background-size: cover;
+    }
+  }
+
+  &:hover &--header{
+    height: 26rem;
+    filter: blur(7px) ;
+    h5{
+      transform: translateY(-150px);
+    }
+  }
+
+  &:hover  div.baby-card--body{
+    transform: translateY(-200px);
+    color: #f9f9f9;
+  }
+}
+
+.baby-card--body{
+  position: absolute;
+  top:19rem;
+  transition: all 1s;
+  color: #666666;
+  margin: 1rem;
+  p{
+    font-weight: 400;
+  }
+}

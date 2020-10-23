@@ -6,6 +6,9 @@
       <Osteopathie></Osteopathie>
       <Specialisation v-if="spePage === ''" @handle-spe="displaySpe"></Specialisation>
       <OsteoSport v-if="spePage === 'sport'" @handle-spe="displaySpe"></OsteoSport>
+      <OsteoBaby v-if="spePage === 'baby'" @handle-spe="displaySpe"></OsteoBaby>
+      <OsteoPregnant v-if="spePage === 'pregnant'" @handle-spe="displaySpe"></OsteoPregnant>
+      <Reasons></Reasons>
   </div>
   </div>
 </template>
@@ -16,6 +19,10 @@ import Cabinet from "@/components/large-screen/cabinet/Cabinet";
 import Osteopathie from "@/components/large-screen/cabinet/Osteopathie";
 import Specialisation from "@/components/large-screen/cabinet/Specialisation";
 import OsteoSport from "@/components/large-screen/cabinet/OsteoSport";
+import OsteoBaby from "@/components/large-screen/cabinet/OsteoBaby";
+import OsteoPregnant from "@/components/large-screen/cabinet/OsteoPregnant";
+import Reasons from "@/components/large-screen/cabinet/Reasons";
+import $ from "jquery";
 
 export default {
   name: 'HomePageCabinet',
@@ -24,7 +31,10 @@ export default {
     Cabinet,
     Osteopathie,
     Specialisation,
-    OsteoSport
+    OsteoSport,
+    OsteoBaby,
+    OsteoPregnant,
+    Reasons
   },
   data() {
     return {
@@ -35,11 +45,29 @@ export default {
   methods: {
     handleScroll() {
       this.scrollpx = window.scrollY;
+      if (this.scrollpx > 2862) {
+        $(".reason-img").css({
+          'transform': 'translate(' + 0 + ',' + 0 + ')',
+          'transition': 'all ' + 1.5 + 's'
+        })
+        $(".reason-text").css({
+          'transform': 'translateY(' + 0 + ')',
+          'transition': 'all ' + 1.5 + 's'
+        })
+      }
+      else{
+        $(".reason-img").css({
+          'transform': 'translate(-' + 50 + 'px,-' + 20 + 'px)',
+          'transition': 'all ' + 1.5 + 's'
+        })
+        $(".reason-text").css({
+          'transform': 'translateY(-' + 50 + 'px)',
+          'transition': 'all ' + 1.5 + 's'
+        })
+      }
     },
     displaySpe(param){
       this.spePage = param;
-      console.log(this.spePage)
-
     }
   },
   created() {

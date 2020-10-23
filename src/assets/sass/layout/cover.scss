@@ -26,13 +26,26 @@
 .cover--box{
   position: relative;
   &:hover &--front {
-    transform: rotateY(-180deg) scale(1.7) translateX(60px);
+    transform: rotateY(-180deg) ;
   }
 
   &:hover &--back {
-    transform: rotateY(0) scale(1.7) translateX(60px);
-
+    transform: rotateY(0) scale(1.5) translateX(50px);
   }
+  &:hover .cover__img--pointer{
+    z-index: 0;
+  }
+}
+
+.cover__img--pointer{
+  width: 30px;
+  position: absolute;
+  z-index: 1000;
+  top:27rem;
+  left:50%;
+  animation-duration: 1s;
+  animation-name: pointer;
+  animation-iteration-count: infinite;
 }
 .download {
   margin-top: 31rem;

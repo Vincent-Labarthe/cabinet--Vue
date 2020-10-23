@@ -20,7 +20,7 @@ export default {
     BookPage,
     HomePage,
     HomePageCabinet,
-    BurgerMenu
+    BurgerMenu,
   },
   data() {
     return {

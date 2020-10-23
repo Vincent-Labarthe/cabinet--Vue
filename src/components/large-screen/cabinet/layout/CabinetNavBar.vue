@@ -22,21 +22,21 @@
           </a>
             <div class="dropdown-content">
               <a class="cabinet--navbar--center--link--sub" href="#osteo_sport" @click="selectedSpe('sport')">Ostéopathie du Sport</a>
-              <a class="cabinet--navbar--center--link--sub" href="#">Ostéopathie pédiatrique</a>
-              <a class="cabinet--navbar--center--link--sub" href="#">Ostéopathie de la femme enceinte</a>
+              <a class="cabinet--navbar--center--link--sub" href="#osteo_baby" @click="selectedSpe('baby')">Ostéopathie pédiatrique</a>
+              <a class="cabinet--navbar--center--link--sub" href="#osteo_pregnant" @click="selectedSpe('pregnant')">Ostéopathie de la femme enceinte</a>
             </div>
           </div>
 
         </li>
         <li>
           <div class="dropdown">
-            <a class="cabinet--navbar--center cabinet--navbar--center--link " href="#" >Pourquoi consulter ?
+            <a class="cabinet--navbar--center cabinet--navbar--center--link " href="#reasons" >Pourquoi consulter ?
             </a>
             <div class="dropdown-content">
-              <a class="cabinet--navbar--center--link--sub" href="#" >Maux de dos</a>
-              <a class="cabinet--navbar--center--link--sub" href="#">Douleurs articulaire</a>
-              <a class="cabinet--navbar--center--link--sub" href="#">Stress & trouble du sommeil</a>
-              <a class="cabinet--navbar--center--link--sub" href="#">Douleur post-trauma</a>
+              <a class="cabinet--navbar--center--link--sub" href="#back_pain" >Maux de dos</a>
+              <a class="cabinet--navbar--center--link--sub" href="#joint">Douleurs articulaire</a>
+              <a class="cabinet--navbar--center--link--sub" href="#stress">Stress & trouble du sommeil</a>
+              <a class="cabinet--navbar--center--link--sub" href="#trauma">Douleur post-trauma</a>
 
             </div>
           </div>

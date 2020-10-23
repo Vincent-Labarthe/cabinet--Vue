@@ -1,0 +1,46 @@
+#reasons {
+  padding-top: 10rem;
+  p{
+    color: #666666;
+    font-weight: 400;
+  }
+}
+
+
+.reason-modal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reason-modal--sub{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  &--1{
+    margin-bottom: 4rem;
+  }
+}
+
+.reason-box{
+  width: 40%;
+  height: 20rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.reason-img{
+  width: 30%;
+  border-radius: 5px;
+  opacity: 0.8;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  transform: translate(-50px, -20px);
+}
+
+.reason-text{
+  margin-left: 1rem;
+  transform: translateY(-50px);
+
+}
