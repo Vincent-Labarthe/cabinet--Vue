@@ -1,7 +1,7 @@
 <template>
   <div id="cabinet">
     <CabinetNavBar v-if="scrollpx > 450" @handle-spe="displaySpe"></CabinetNavBar>
-    <div id="page" >
+    <div id="page">
       <Cabinet></Cabinet>
       <Osteopathie></Osteopathie>
       <Specialisation v-if="spePage === ''" @handle-spe="displaySpe"></Specialisation>
@@ -9,7 +9,8 @@
       <OsteoBaby v-if="spePage === 'baby'" @handle-spe="displaySpe"></OsteoBaby>
       <OsteoPregnant v-if="spePage === 'pregnant'" @handle-spe="displaySpe"></OsteoPregnant>
       <Reasons></Reasons>
-  </div>
+      <Formation></Formation>
+    </div>
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import OsteoSport from "@/components/large-screen/cabinet/OsteoSport";
 import OsteoBaby from "@/components/large-screen/cabinet/OsteoBaby";
 import OsteoPregnant from "@/components/large-screen/cabinet/OsteoPregnant";
 import Reasons from "@/components/large-screen/cabinet/Reasons";
+import Formation from "@/components/large-screen/cabinet/Formation";
 import $ from "jquery";
 
 export default {
@@ -34,12 +36,13 @@ export default {
     OsteoSport,
     OsteoBaby,
     OsteoPregnant,
-    Reasons
+    Reasons,
+    Formation
   },
   data() {
     return {
       scrollpx: 0,
-      spePage:'',
+      spePage: '',
     }
   },
   methods: {
@@ -54,8 +57,7 @@ export default {
           'transform': 'translateY(' + 0 + ')',
           'transition': 'all ' + 1.5 + 's'
         })
-      }
-      else{
+      } else {
         $(".reason-img").css({
           'transform': 'translate(-' + 50 + 'px,-' + 20 + 'px)',
           'transition': 'all ' + 1.5 + 's'
@@ -66,7 +68,7 @@ export default {
         })
       }
     },
-    displaySpe(param){
+    displaySpe(param) {
       this.spePage = param;
     }
   },

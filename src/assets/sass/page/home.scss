@@ -26,7 +26,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 40px 0 0 40px;
-    background: $home-right, url("../img/cover-left-picture.jpg");
+    background: linear-gradient(to right, rgba(221, 221, 221, 1), rgba(149, 186, 199, 0.1)), url("../img/cover-left-picture.jpg");
     background-size: cover;
     background-position: center;
     color: #666;
@@ -50,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: $home-right, url("../img/cover-right-picture.jpg");
+    background: linear-gradient(to right, rgba(221, 221, 221, 0.1), rgba(149, 186, 199, 1)), url("../img/cover-right-picture.jpg");
     background-size: cover;
     background-position: center;
     color: #F9F9F9;

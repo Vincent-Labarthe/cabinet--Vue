@@ -60,7 +60,7 @@
     margin-left: 0.5rem; }
 
 .icon-arrow-left {
-  animation-duration: 1s;
+  animation-duration: .8s;
   animation-name: arrow-left;
   animation-iteration-count: infinite; }
 
@@ -650,7 +650,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 40px 0 0 40px;
-    background: linear-gradient(to right, rgba(221, 221, 221, 0.5), rgba(149, 186, 199, 0.5)), url("../img/cover-left-picture.jpg");
+    background: linear-gradient(to right, #dddddd, rgba(149, 186, 199, 0.1)), url("../img/cover-left-picture.jpg");
     background-size: cover;
     background-position: center;
     color: #666;
@@ -669,7 +669,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, rgba(221, 221, 221, 0.5), rgba(149, 186, 199, 0.5)), url("../img/cover-right-picture.jpg");
+    background: linear-gradient(to right, rgba(221, 221, 221, 0.1), #95bac7), url("../img/cover-right-picture.jpg");
     background-size: cover;
     background-position: center;
     color: #F9F9F9;
@@ -1263,7 +1263,7 @@ a {
   width: 30%;
   border-radius: 5px;
   opacity: 0.8;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
   transform: translate(-50px, -20px); }
 
 .reason-text {

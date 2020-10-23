@@ -43,7 +43,7 @@
 
         </li>
         <li>
-          <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Formations</a>
+          <a href="#formation" class="cabinet--navbar--center cabinet--navbar--center--link">Formations</a>
         </li>
         <li>
           <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Info pratiques</a>
