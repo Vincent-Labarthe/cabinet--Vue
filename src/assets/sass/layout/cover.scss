@@ -41,14 +41,15 @@
   width: 30px;
   position: absolute;
   z-index: 1000;
-  top:27rem;
+  top:30rem;
   left:50%;
+  transform: translateX(-50%);
   animation-duration: 1s;
   animation-name: pointer;
   animation-iteration-count: infinite;
 }
 .download {
-  margin-top: 31rem;
+  margin-top: 35rem;
   display: flex;
   justify-content: center;
 }

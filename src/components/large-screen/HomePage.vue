@@ -1,22 +1,26 @@
 <template>
-  <div id="home" class="home">
+  <div id="home" class=" home">
     <div class="home-box">
-      <div class="home-box--1">
-        <div class="home-modal">
-          <h2>Joséphine Lyon</h2>
-          <p class=" mb-5">Ostéopathe D.O</p>
-          <a class="home__link home__link--1" @click="handleBookPage('cabinet')" href="#cabinet">Le Cabinet
-            d'Ostéopathie</a>
+      <a class="home-box--1" href="#cabinet" @click="handleBookPage('cabinet')">
+        <div>
+          <div class="home-modal">
+            <h2>Joséphine Lyon</h2>
+            <p class=" mb-5">Ostéopathe D.O</p>
+            <p class="home__link home__link--1">Le Cabinet
+              d'Ostéopathie</p>
+          </div>
         </div>
-      </div>
-      <div class="home-box--2">
-        <div class="home-modal">
-          <h2>Repenser l'équitation</h2>
-          <p class="mb-5">J.Lyon & F.Brigaud</p>
-          <a class="home__link home__link--2" @click="handleBookPage('book')" href="#book-container"> Découvrir le
-            livre</a>
+      </a>
+      <a class="home-box--2" href="#book-container" @click="handleBookPage('book')">
+        <div>
+          <div class="home-modal">
+            <h2>Repenser l'équitation</h2>
+            <p class="mb-5">J.Lyon & F.Brigaud</p>
+            <p class="home__link home__link--2"> Découvrir le
+              livre</p>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </template>

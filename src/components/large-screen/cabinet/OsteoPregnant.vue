@@ -11,7 +11,7 @@
         <div class="spe-pregnant">
           <div class="pregnant-card">
             <div class="pregnant-card--header pregnant-card--header--1">
-              <h5>L'intérêt pour les sportifs </h5>
+              <h5>La grossesse</h5>
             </div>
             <div class="pregnant-card--body">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
@@ -24,7 +24,7 @@
           </div>
           <div class="pregnant-card">
             <div class="pregnant-card--header pregnant-card--header--2">
-              <h5>Pour tous les niveaux </h5>
+              <h5>L'accouchement</h5>
             </div>
             <div class="pregnant-card--body">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
@@ -37,7 +37,7 @@
           </div>
           <div class="pregnant-card">
             <div class="pregnant-card--header pregnant-card--header--3">
-              <h5>la pratique ostéopathique chez les sportifs</h5>
+              <h5>l'allaitement</h5>
             </div>
             <div class="pregnant-card--body">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,

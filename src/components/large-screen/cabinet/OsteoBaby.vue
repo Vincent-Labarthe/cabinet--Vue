@@ -11,7 +11,7 @@
         <div class="spe-baby">
           <div class="baby-card">
             <div class="baby-card--header baby-card--header--1">
-              <h5>L'intérêt pour les sportifs </h5>
+              <h5>Le nourrisson</h5>
             </div>
             <div class="baby-card--body">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
@@ -24,7 +24,7 @@
           </div>
           <div class="baby-card">
             <div class="baby-card--header baby-card--header--2">
-              <h5>Pour tous les niveaux </h5>
+              <h5>L'enfant</h5>
             </div>
             <div class="baby-card--body">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
@@ -37,7 +37,7 @@
           </div>
           <div class="baby-card">
             <div class="baby-card--header baby-card--header--3">
-              <h5>la pratique ostéopathique chez les sportifs</h5>
+              <h5>L'adolescent</h5>
             </div>
             <div class="baby-card--body">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,

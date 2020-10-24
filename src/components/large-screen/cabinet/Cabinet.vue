@@ -11,14 +11,12 @@
         </div>
         <div class="cabinet-content">
           <div class="cabinet-img-modal">
-            <img class="cabinet-img cabinet-img--1" src="../../../../public/img/salle_attente-1.jpg"
-                 alt="cabinet ostéopathie Paris 15">
-            <img class="cabinet-img cabinet-img--2" src="../../../../public/img/cabinet-1.jpg"
+            <img class="cabinet-img cabinet-img--2" src="../../../../public/img/cabinet.jpg"
                  alt="cabinet ostéopathie Paris 15">
             <img class="cabinet-img cabinet-img--3" src="../../../../public/img/acces.png"
                  alt="cabinet ostéopathie Paris 15">
           </div>
-          <div>
+          <div class="cabinet-content-text">
             <p>Le Cabinet médical Croisic Duroc se situe 2 Square du Croisic 75015 Paris. (entrée au 12 boulevard du
               Montparnasse)</p>
             <p>A deux pas de l'hôpital Necker, entre les stations Duroc (L10 et L13), Falguière (L12) et Montparnasse.
@@ -36,18 +34,14 @@
               <br> de 9h à 13h le samedi.</p>
             <div class="acces-info">
               <p><img class="icon" src="../../../../public/icon/telephone.svg" alt="icon téléphone">01.53.69.19.32.</p>
-              <p><a href="https://bit.ly/3dPt3Sn" target="_blank"><img class="icon"
-                                                                       src="../../../../public/icon/location.svg"
-                                                                       alt="icon adresse cabinet ostéopathie Paris 15">2
+              <p><a href="https://bit.ly/3dPt3Sn" target="_blank"><img class="icon" src="../../../../public/icon/location.svg" alt="icon adresse cabinet ostéopathie Paris 15">2
                 square du Croisic 75015 Paris</a></p>
-              <p><img class="icon" src="../../../../public/icon/metro.svg"
-                      alt="icon métro cabinet ostéopathie Paris 15">Métro : Duroc - Falguière - Montparnasse</p>
+              <p><img class="icon" src="../../../../public/icon/metro.svg" alt="icon métro cabinet ostéopathie Paris 15">Métro : Duroc - Falguière - Montparnasse</p>
               <p><img class="icon" src="../../../../public/icon/send-email.svg" alt="icon adresse email">josephinelyon.osteo@gmail.com
               </p>
               <div class="doctolib-btn">
-                <a href="https://www.doctolib.fr/osteopathe/paris/josephine-lyon" target="_blank"><p>Prendre
-                  rendez-vous via <img class="icon-doctolib" src="../../../../public/icon/doctolib.svg"
-                                       alt="icon doctolib"></p></a>
+                <a href="https://www.doctolib.fr/osteopathe/paris/josephine-lyon" target="_blank"><p>Prendre rendez-vous via
+                  <img class="icon-doctolib" src="../../../../public/icon/doctolib.svg" alt="icon doctolib"></p></a>
               </div>
 
             </div>
