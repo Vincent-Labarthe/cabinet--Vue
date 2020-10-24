@@ -1,6 +1,7 @@
 <template>
   <div id="formation">
     <div id="cabinet-background">
+
     </div>
   </div>
 </template>

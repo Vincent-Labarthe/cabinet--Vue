@@ -54,8 +54,10 @@
 
     }
     &--3{
-      top:12rem;
-      left:5rem;
+      height: 12rem;
+      width: 20rem;
+      top:14rem;
+      left:4 rem;
     }
   }
 }
@@ -92,6 +94,7 @@
   text-align: center;
   transition: all .3s;
   letter-spacing: 2px;
+  font-weight: bold;
 
   &:hover{
     transform: translateY(-3px);
@@ -101,5 +104,9 @@
   }
   a:hover{
     color:#666666;
+  }
+  &:hover .icon-doctolib{
+    transform: scale(2);
+    margin-left: 1.5rem;
   }
 }

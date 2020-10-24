@@ -1,15 +1,15 @@
 <template>
   <div class="cabinet--navbar">
     <div class="cabinet--navbar--left">
-      <a href="#home"> <p class="cabinet--navbar--left cabinet--navbar--left--1">Joséphine LYON</p>
-      <p class="cabinet--navbar--left cabinet--navbar--left--2">Ostéopathe D.O</p>
+      <a href="#home"> <p class="cabinet--navbar--left cabinet--navbar--left--1">Cabinet d'Ostéopathie</p>
+      <p class="cabinet--navbar--left cabinet--navbar--left--2">Joséphine LYon</p>
       <p class="cabinet--navbar--left cabinet--navbar--left--3">01.53.69.19.32</p>
       </a>
     </div>
     <div class="cabinet--navbar--center">
       <ul>
         <li>
-          <a href="#cabinet" class="cabinet--navbar--center cabinet--navbar--center--link">Le Cabinet</a>
+          <a href="#cabinet" class="cabinet--navbar--center cabinet--navbar--center--link">Accueil</a>
         </li>
         <li>
           <a href="#osteopathie" class="cabinet--navbar--center cabinet--navbar--center--link">L'Ostéopathie</a>
@@ -30,7 +30,7 @@
         </li>
         <li>
           <div class="dropdown">
-            <a class="cabinet--navbar--center cabinet--navbar--center--link " href="#reasons" >Pourquoi consulter ?
+            <a class="cabinet--navbar--center cabinet--navbar--center--link " href="#reasons" >Quand consulter ?
             </a>
             <div class="dropdown-content">
               <a class="cabinet--navbar--center--link--sub" href="#back_pain" >Maux de dos</a>
@@ -46,7 +46,7 @@
           <a href="#formation" class="cabinet--navbar--center cabinet--navbar--center--link">Formations</a>
         </li>
         <li>
-          <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Info pratiques</a>
+          <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Infos pratiques</a>
         </li>
       </ul>
 

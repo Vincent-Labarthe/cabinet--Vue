@@ -60,7 +60,7 @@ export default {
       } else {
         $(".reason-img").css({
           'transform': 'translate(-' + 50 + 'px,-' + 20 + 'px)',
-          'transition': 'all ' + 1.5 + 's'
+          'transition': 'all ' + 1.5 + 's',
         })
         $(".reason-text").css({
           'transform': 'translateY(-' + 50 + 'px)',

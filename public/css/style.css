@@ -56,8 +56,8 @@
   width: 3.7rem;
   transition: all .3s; }
   .icon-doctolib:hover {
-    transform: scale(1.4);
-    margin-left: 0.5rem; }
+    transform: scale(2);
+    margin-left: 1.5rem; }
 
 .icon-arrow-left {
   animation-duration: .8s;
@@ -367,10 +367,11 @@
       .cabinet--navbar--left a:hover {
         color: #E8E8E8; }
     .cabinet--navbar--left--1 {
-      font-size: 1.25rem; }
+      font-size: 1.25rem;
+      margin-bottom: 0.7rem; }
     .cabinet--navbar--left--2 {
       font-size: 0.8rem;
-      margin-bottom: 0.5rem; }
+      margin-bottom: 0.7rem; }
     .cabinet--navbar--left--3 {
       font-size: 0.8rem;
       margin-bottom: 0; }
@@ -627,7 +628,10 @@
     transform: translateY(3px); }
 
 .home {
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
 
 .home-box {
   height: 98vh;
@@ -686,6 +690,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column; }
+  .home-modal p {
+    font-size: 1.3rem; }
 
 .home__link {
   font-size: 1.1rem;
@@ -969,8 +975,10 @@ a {
       top: 4rem;
       right: 3rem; }
     .cabinet-img-modal .cabinet-img--3 {
-      top: 12rem;
-      left: 5rem; }
+      height: 12rem;
+      width: 20rem;
+      top: 14rem;
+      left: 4 rem; }
 
 .acces-content {
   display: flex;
@@ -1000,13 +1008,17 @@ a {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: all .3s;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-weight: bold; }
   .doctolib-btn:hover {
     transform: translateY(-3px); }
   .doctolib-btn:active {
     transform: translateY(3px); }
   .doctolib-btn a:hover {
     color: #666666; }
+  .doctolib-btn:hover .icon-doctolib {
+    transform: scale(2);
+    margin-left: 1.5rem; }
 
 #cabinet {
   width: 100vw; }
@@ -1041,6 +1053,9 @@ a {
 .accordion-text {
   color: #666666;
   text-decoration: none; }
+  .accordion-text:hover {
+    color: #333333;
+    font-weight: bold; }
 
 #specialisation {
   padding-top: 10rem; }
@@ -1264,8 +1279,16 @@ a {
   border-radius: 5px;
   opacity: 0.8;
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
-  transform: translate(-50px, -20px); }
+  transform: translate(-50px, -20px) translateZ(0);
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0); }
 
 .reason-text {
   margin-left: 1rem;
-  transform: translateY(-50px); }
+  transform: translateY(-50px) translateZ(0);
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0); }

@@ -1,6 +1,5 @@
 <template>
   <div style="width: 100vw">
-    <BurgerMenu v-show="false"></BurgerMenu>
     <HomePage @handle-book="switchPage"></HomePage>
     <BookPage v-if="page === 'book'"></BookPage>
     <HomePageCabinet v-if="page === 'cabinet'"> </HomePageCabinet>
@@ -12,7 +11,6 @@
 import HomePage from "@/components/large-screen/HomePage";
 import BookPage from "@/components/large-screen/book/BookPage";
 import HomePageCabinet from "@/components/large-screen/cabinet/HomePageCabinet";
-import BurgerMenu from "@/components/large-screen/menu/BurgerMenu";
 
 export default {
   name: 'LargeContainer',
@@ -20,7 +18,6 @@ export default {
     BookPage,
     HomePage,
     HomePageCabinet,
-    BurgerMenu,
   },
   data() {
     return {

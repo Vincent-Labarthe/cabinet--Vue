@@ -32,4 +32,8 @@
 .accordion-text{
   color:#666666;
   text-decoration: none;
+  &:hover{
+    color: #333333;
+    font-weight: bold;
+  }
 }
