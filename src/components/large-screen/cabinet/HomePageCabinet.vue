@@ -24,7 +24,6 @@ import OsteoBaby from "@/components/large-screen/cabinet/OsteoBaby";
 import OsteoPregnant from "@/components/large-screen/cabinet/OsteoPregnant";
 import Reasons from "@/components/large-screen/cabinet/Reasons";
 import Formation from "@/components/large-screen/cabinet/Formation";
-import $ from "jquery";
 
 export default {
   name: 'HomePageCabinet',
@@ -48,25 +47,6 @@ export default {
   methods: {
     handleScroll() {
       this.scrollpx = window.scrollY;
-      if (this.scrollpx > 2862) {
-        $(".reason-img").css({
-          'transform': 'translate(' + 0 + ',' + 0 + ')',
-          'transition': 'all ' + 1.5 + 's'
-        })
-        $(".reason-text").css({
-          'transform': 'translateY(' + 0 + ')',
-          'transition': 'all ' + 1.5 + 's'
-        })
-      } else {
-        $(".reason-img").css({
-          'transform': 'translate(-' + 50 + 'px,-' + 20 + 'px)',
-          'transition': 'all ' + 1.5 + 's',
-        })
-        $(".reason-text").css({
-          'transform': 'translateY(-' + 50 + 'px)',
-          'transition': 'all ' + 1.5 + 's'
-        })
-      }
     },
     displaySpe(param) {
       this.spePage = param;

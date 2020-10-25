@@ -5,3 +5,50 @@
     font-weight: 400;
   }
 }
+
+.formation-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  &--2{
+    margin-top: 2rem;
+  }
+  &--3{
+    margin-top: 2rem;
+  }
+  &--4{
+    margin-top: 2rem;
+  }
+  &--5{
+    margin-top: 2rem;
+  }
+}
+.formtion-card-header{
+  width: 40%;
+}
+.formation-img{
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  &--1{
+    width: 12rem;
+    border-radius: 100px;
+  }
+
+  &--2{
+    border-radius: 5px;
+    width: 14rem;
+  }
+  &--3{
+    border-radius: 5px;
+    width: 14rem;
+  }
+  &--4{
+    border-radius: 5px;
+    width: 14rem;
+  }
+  &--5{
+    border-radius: 35px;
+    width: 14rem;
+  }
+}

@@ -567,6 +567,10 @@
     transform: scale(0.5); }
 
 .order-link {
+  display: flex;
+  justify-content: center; }
+
+.order-link-btn {
   margin-top: 1rem;
   font-family: 'GFS Didot', serif;
   text-transform: uppercase;
@@ -574,28 +578,21 @@
   letter-spacing: 3px;
   text-align: center;
   display: inline-block;
-  width: 100%;
   color: #666;
-  font-weight: 400; }
-  .order-link:hover {
-    opacity: 0.8; }
-  .order-link::after {
-    text-align: center;
-    content: '';
-    display: block;
-    width: 10%;
-    height: 2px;
-    opacity: 0.5;
-    background: #b5c5d3;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    transition: width .3s, opacity .3s; }
-  .order-link:hover::after {
-    margin-left: 50%;
-    transform: translateX(-50%);
-    width: 40%;
-    transition: width .5s;
-    opacity: 1; }
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: rgba(181, 197, 211, 0.5);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem 1.5rem;
+  transition: all .3s; }
+  .order-link-btn:hover {
+    transform: translateY(-3px);
+    background-color: #ffffff;
+    border: 1px solid #b5c5d3; }
+    .order-link-btn:hover a:hover {
+      color: #b5c5d3; }
+  .order-link-btn:active {
+    transform: translateY(3px); }
 
 .modal-box {
   color: #f9f9f9;
@@ -1024,9 +1021,6 @@ a {
     transform: scale(2);
     margin-left: 1.5rem; }
 
-#cabinet {
-  width: 100vw; }
-
 .osteopathie-page {
   padding-top: 10rem; }
   .osteopathie-page p {
@@ -1296,3 +1290,44 @@ a {
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
   -o-transform: translateZ(0); }
+
+#formation {
+  padding-top: 10rem; }
+  #formation p {
+    color: #666666;
+    font-weight: 400; }
+
+.formation-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+  .formation-card--2 {
+    margin-top: 2rem; }
+  .formation-card--3 {
+    margin-top: 2rem; }
+  .formation-card--4 {
+    margin-top: 2rem; }
+  .formation-card--5 {
+    margin-top: 2rem; }
+
+.formtion-card-header {
+  width: 40%; }
+
+.formation-img {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); }
+  .formation-img--1 {
+    width: 12rem;
+    border-radius: 100px; }
+  .formation-img--2 {
+    border-radius: 5px;
+    width: 14rem; }
+  .formation-img--3 {
+    border-radius: 5px;
+    width: 14rem; }
+  .formation-img--4 {
+    border-radius: 5px;
+    width: 14rem; }
+  .formation-img--5 {
+    border-radius: 35px;
+    width: 14rem; }

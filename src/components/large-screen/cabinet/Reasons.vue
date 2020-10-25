@@ -2,7 +2,7 @@
   <div id="reasons">
     <div id="cabinet-background">
       <div class="osteopathie-header">
-        <h3 class="header--secondary">Pourquoi consulter ? </h3>
+        <h3 class="header--secondary">Quand consulter ? </h3>
       </div>
       <div class="reason-modal ">
         <div id="back_pain" class="reason-modal--sub reason-modal--sub--1">

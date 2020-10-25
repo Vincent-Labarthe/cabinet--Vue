@@ -1,5 +1,10 @@
+.order-link{
+  display: flex;
+  justify-content: center;
+}
 
-.order-link {
+
+.order-link-btn {
   margin-top: 1rem;
   font-family: 'GFS Didot', serif;
   text-transform: uppercase;
@@ -7,33 +12,24 @@
   letter-spacing: 3px;
   text-align: center;
   display: inline-block;
-  width: 100%;
   color: #666;
-  font-weight: 400;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color:rgba(181, 197, 211, 0.5);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding:1rem 1.5rem;
+  transition: all .3s;
 
+  &:hover{
+    transform: translateY(-3px);
+    background-color:#ffffff;
+    border: 1px solid rgb(181, 197, 211);
+    a:hover{
+      color:rgb(181, 197, 211) ;
+    }
 
-  &:hover {
-    opacity: 0.8;
   }
-
-  &::after {
-    text-align: center;
-    content: '';
-    display: block;
-    width: 10%;
-    height: 2px;
-    opacity: 0.5;
-    background: #b5c5d3;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    transition: width .3s, opacity .3s;
-  }
-
-  &:hover::after {
-    margin-left: 50%;
-    transform: translateX(-50%);
-    width: 40%;
-    transition: width .5s;
-    opacity: 1;
+  &:active{
+    transform: translateY(3px);
   }
 }

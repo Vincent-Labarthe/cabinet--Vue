@@ -54,13 +54,6 @@ export default {
           'transition': 'all ' + 1.5 + 's'
         });
       }
-      if (this.scrollpx > 1250) {
-        console.log(this.scrollpx)
-        $("#order_link").css({
-          'transform': 'scale(' + 1 + ',' + 2 + ')',
-          'transition': 'all ' + 1 + 's'
-        })
-      }
       if (this.scrollpx > 1200) {
         $(".author__text").css({
           'transform': 'translate(' + 0 + ',' + 0 + ')',
