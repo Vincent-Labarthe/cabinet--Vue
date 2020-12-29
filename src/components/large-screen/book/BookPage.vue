@@ -1,6 +1,6 @@
 <template>
   <div id="book-container">
-  <Navbar v-if="scrollpx > 450"></Navbar>
+  <Navbar></Navbar>
   <div id="page" >
     <div id="book-header">
       <h2 class="header--primary">Repenser l'équitation</h2>

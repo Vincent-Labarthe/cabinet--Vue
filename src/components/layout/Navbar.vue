@@ -1,32 +1,27 @@
 <template>
-  <div class="cabinet--navbar">
-    <div class="cabinet--navbar--left">
-      <p class="cabinet--navbar--left cabinet--navbar--left--1">Joséphine LYON</p>
-      <p class="cabinet--navbar--left cabinet--navbar--left--2">Ostéopathe D.O</p>
-      <p class="cabinet--navbar--left cabinet--navbar--left--3">06.62.02.81.18</p>
-    </div>
-    <div class="cabinet--navbar--center">
-      <ul>
-        <li>
-          <a href="#page" class="cabinet--navbar--center cabinet--navbar--center--link">Le Livre</a>
-        </li>
-        <li>
-          <a href="#author" class="cabinet--navbar--center cabinet--navbar--center--link">Les auteurs</a>
-        </li>
-        <li>
-          <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Vidéos</a>
-        </li>
-        <li>
-          <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Formations</a>
-        </li>
-      </ul>
-
-    </div>
-    <div class="cabinet--navbar--right">
-      <a href="">
-        <p>Acheter le livre</p>
-      </a>
-    </div>
+  <div>
+    <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Joséphine Lyon <br>  Ostéopathe D.O</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#page">Le Livre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#author">Les auteurs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#formation">Vidéos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Formations</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
 </template>
 

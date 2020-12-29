@@ -1,35 +1,31 @@
 .order-link{
   display: flex;
   justify-content: center;
+  padding: 1rem 0;
 }
 
 
 .order-link-btn {
-  margin-top: 1rem;
   font-family: 'GFS Didot', serif;
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 3px;
   text-align: center;
-  display: inline-block;
-  color: #666;
+  color: rgb(181, 197, 211);
+  border: 1px solid rgb(181, 197, 211);
   font-weight: bold;
   border-radius: 25px;
-  background-color:rgba(181, 197, 211, 0.5);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding:1rem 1.5rem;
   transition: all .3s;
 
   &:hover{
-    transform: translateY(-3px);
-    background-color:#ffffff;
+    transform: translateY(-10px);
+    background-color:rgb(181, 197, 211);
     border: 1px solid rgb(181, 197, 211);
-    a:hover{
-      color:rgb(181, 197, 211) ;
-    }
-
+      color:#fff ;
   }
   &:active{
-    transform: translateY(3px);
+    transform: translateY(5px);
   }
 }

@@ -1,18 +1,18 @@
-.cabinet--navbar {
-  display: flex;
-  justify-content: space-between;
-  height: 8rem;
-  background-color: #b5c5d3;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  z-index: 5;
-  text-transform: uppercase;
-  box-shadow: 0.067em 0.067em 4.133em rgba(12, 71, 84, 0.08);
-  line-height: 9px;
-  color: #fff;
 
-  ul {
+
+.navbar {
+  top: 0!important;
+  width: 100%!important;
+  position: fixed !important;
+  z-index: 500;
+  background-color: #b5c5d3 !important;
+  box-shadow: 0.067em 0.067em 4.133em rgba(12, 71, 84, 0.08)!important;
+  color: #fff !important;
+}
+
+
+
+ /* ul {
     margin-bottom: 0;
   }
 
@@ -22,9 +22,10 @@
     letter-spacing: 2px;
     &--1{
       font-size: 1.25rem;
+      margin-bottom: 7px;
     }
     &--2 {
-      font-size: 0.8rem;
+      font-size: 1.25rem;
       margin-bottom: 7px;
     }
 
@@ -67,7 +68,7 @@
         transition: width .3s, opacity .3s;
       }
 
-      &:hover:after {;
+      &:hover:after {
         margin-left: 50%;
         transform: translateX(-50%);
         width: 80%;
@@ -134,3 +135,4 @@
   display: block;
 }
 
+*/

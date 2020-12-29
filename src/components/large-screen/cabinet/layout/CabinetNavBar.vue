@@ -1,61 +1,54 @@
 <template>
-  <div class="cabinet--navbar">
-    <div class="cabinet--navbar--left">
-      <a href="#home"> <p class="cabinet--navbar--left cabinet--navbar--left--1">Cabinet d'Ostéopathie</p>
-      <p class="cabinet--navbar--left cabinet--navbar--left--2">Joséphine LYon</p>
-      <p class="cabinet--navbar--left cabinet--navbar--left--3">01.53.69.19.32</p>
-      </a>
-    </div>
-    <div class="cabinet--navbar--center">
-      <ul>
-        <li>
-          <a href="#cabinet" class="cabinet--navbar--center cabinet--navbar--center--link">Accueil</a>
-        </li>
-        <li>
-          <a href="#osteopathie" class="cabinet--navbar--center cabinet--navbar--center--link">L'Ostéopathie</a>
-        </li>
-
-
-        <li>
-          <div class="dropdown">
-          <a class="cabinet--navbar--center cabinet--navbar--center--link " href="#specialisation" @click="selectedSpe('')">Mes Spécialisations
-          </a>
-            <div class="dropdown-content">
-              <a class="cabinet--navbar--center--link--sub" href="#osteo_sport" @click="selectedSpe('sport')">Ostéopathie du Sport</a>
-              <a class="cabinet--navbar--center--link--sub" href="#osteo_baby" @click="selectedSpe('baby')">Ostéopathie pédiatrique</a>
-              <a class="cabinet--navbar--center--link--sub" href="#osteo_pregnant" @click="selectedSpe('pregnant')">Ostéopathie de la femme enceinte</a>
-            </div>
-          </div>
-
-        </li>
-        <li>
-          <div class="dropdown">
-            <a class="cabinet--navbar--center cabinet--navbar--center--link " href="#reasons" >Quand consulter ?
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Joséphine Lyon <br>  Ostéopathe D.O</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#cabinet">Accueil </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#osteopathie">L'Ostéopathie</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  role="button" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Mes Spécialisations
             </a>
-            <div class="dropdown-content">
-              <a class="cabinet--navbar--center--link--sub" href="#back_pain" >Maux de dos</a>
-              <a class="cabinet--navbar--center--link--sub" href="#joint">Douleurs articulaire</a>
-              <a class="cabinet--navbar--center--link--sub" href="#stress">Stress & trouble du sommeil</a>
-              <a class="cabinet--navbar--center--link--sub" href="#trauma">Douleur post-trauma</a>
-
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#osteo_sport" @click="selectedSpe('sport')">Ostéopathie du Sport</a>
+              <a class="dropdown-item" href="#osteo_baby" @click="selectedSpe('baby')">Ostéopathie pédiatrique</a>
+              <a class="dropdown-item" href="#osteo_pregnant" @click="selectedSpe('pregnant')">Ostéopathie de la femme enceinte</a>
             </div>
-          </div>
+          </li>
 
-        </li>
-        <li>
-          <a href="#formation" class="cabinet--navbar--center cabinet--navbar--center--link">Formations</a>
-        </li>
-        <li>
-          <a href="" class="cabinet--navbar--center cabinet--navbar--center--link">Infos pratiques</a>
-        </li>
-      </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  role="button"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Quand consulter ?
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#back_pain">Maux de dos</a>
+              <a class="dropdown-item" href="#joint">Douleurs articulaire</a>
+              <a class="dropdown-item" href="#stress">Stress & trouble du sommeil</a>
+              <a class="dropdown-item" href="#trauma">Douleur post-trauma</a>
+            </div>
+          </li>
 
-    </div>
-    <div class="cabinet--navbar--right">
-      <a href="https://www.doctolib.fr/osteopathe/paris/josephine-lyon">
-        <p>Prendre Rendez-Vous</p>
-      </a>
-    </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#formation">Formations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Infos pratiques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-secondary" href="https://www.adverbum.fr/editions-desiris/frederic-brigaud-et-josephine-lyon/repenser-l-equitation_6xb5n7paauhq.html">Prendre rendez-vous</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
   </div>
 </template>
 

@@ -21,22 +21,13 @@ export default {
   },
   data() {
     return {
-      page: '',
-      scrollpx:''
+      page: ''
     }
-  },methods: {
+  },
+  methods: {
     switchPage(param) {
       this.page = param
     },
-    handleScroll() {
-      this.scrollpx = window.scrollY
-    }
-  },
-  created() {
-    window.addEventListener('scroll', this.handleScroll);
-  },
-  destroyed() {
-    window.removeEventListener('scroll', this.handleScroll);
   }
 }
 

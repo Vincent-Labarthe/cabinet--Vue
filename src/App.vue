@@ -1,31 +1,33 @@
 <template>
-  <div id="app" >
+  <div id="app" class="container-fluid" >
     <Modal v-if="isModalVisible"
            @close="closeModal"></Modal>
-    <LargeContainer v-if="windowWidth > 992"> </LargeContainer>
-    <Footer v-if="scrollpx > 1000"></Footer>
+    <LargeContainer> </LargeContainer>
+
+    <!--<LargeContainer v-if="windowWidth > 992"> </LargeContainer>
+    <SmallContainer v-if="windowWidth < 992"></SmallContainer>-->
   </div>
 </template>
 
 <script>
 import Modal from "@/components/layout/Modal";
-import Footer from "@/components/layout/Footer";
 import $ from 'jquery';
 import LargeContainer from "@/components/large-screen/Large-Container";
+// import SmallContainer from  "@/components/small-screen/Small-Container"
 
 export default {
   name: 'App',
   data() {
     return {
       scrollpx: 0,
-      windowWidth:2000,
+      windowWidth: $(window).width(),
       isModalVisible: true,
 
     }
   },
   components: {
     LargeContainer,
-    Footer,
+    // SmallContainer,
     Modal
   },
   methods: {
@@ -53,10 +55,6 @@ export default {
 
 <style>
 
-#app {
-  display: flex;
-  flex-direction: column;
-}
 html {
   scroll-behavior: smooth;
 }
