@@ -10,7 +10,10 @@
   text-transform: uppercase;
   letter-spacing: 4px;
 }
+.custom-shadow{
+  box-shadow: 0.067em 0.067em 4.133em rgba(12, 71, 84, 0.08)!important;
 
+}
 .header--secondary {
   font-size: 2rem;
   color: #666;
@@ -18,3 +21,10 @@
   font-style: italic;
   font-family: 'GFS Didot', serif;
 }
+
+@media (max-width: 599px) {
+  .header--primary {
+    font-size: 2rem;
+  }
+}
+

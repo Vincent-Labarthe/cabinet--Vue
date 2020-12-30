@@ -1,5 +1,6 @@
 <template>
-  <div class="cover">
+  <div class="wrap">
+
     <div class="cover--box">
       <img class=" cover--box--front cover__img cover__img--front"
            src="../../../../public/img/repenser_equitation_cover.jpg" alt="repenser l'équitation">

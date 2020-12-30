@@ -4,7 +4,7 @@
       <h2 class="header--primary">Cabinet d'ostéopathie Paris-15 </h2>
       <h3 class="header--secondary"> 2 square du Croisic 75015 Paris</h3>
     </div>
-    <div class="wrap">
+    <div>
       <div id="cabinet-background">
         <div id="cabinet" class="cabinet-header">
           <h3 class="header--secondary">Accueil</h3>
@@ -13,18 +13,17 @@
           <div class="container">
             <div class="row d-flex justify-content-between align-items-center">
               <div class="col-sm-6">
-                <div class="cabinet-img-modal">
-                  <img src="../../../../public/img/cabinet.jpg" class="shadow  img-fluid rounded m-2" alt="cabinet ostéopathie Paris 15">
-                  <img src="../../../../public/img/acces.png" class="shadow  img-fluid rounded m-2" alt="cabinet ostéopathie Paris 15">
+                <div class="cabinet-img-modal justify-content-center">
+                  <Carousel class="mb-sm-4"></Carousel>
                 </div>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-6 mt-sm-4">
                 <div class="cabinet-content-text">
-                  <p>Le Cabinet médical Croisic Duroc se situe 2 Square du Croisic 75015 Paris. (entrée au 12 boulevard du
+                  <p class="text-justify">Le Cabinet médical Croisic Duroc se situe 2 Square du Croisic 75015 Paris. (entrée au 12 boulevard du
                     Montparnasse)</p>
-                  <p>A deux pas de l'hôpital Necker, entre les stations Duroc (L10 et L13), Falguière (L12) et Montparnasse.
+                  <p class="text-justify">A deux pas de l'hôpital Necker, entre les stations Duroc (L10 et L13), Falguière (L12) et Montparnasse.
                     (L4,L6,L12,L13)</p>
-                  <p>Il se compose d'un gynécologue obstétricien échographiste : Romain Guilherme, d'une psychologue : Déborah
+                  <p class="text-justify">Il se compose d'un gynécologue obstétricien échographiste : Romain Guilherme, d'une psychologue : Déborah
                     Mlockier et d'une ostéopathe : Joséphine Lyon. </p>
                 </div>
               </div>
@@ -36,7 +35,7 @@
             <div class="row d-flex justify-content-between align-items-center">
               <div class="col-sm-6 mb-md-4">
                 <div class="acces-text">
-                  <p>Les consultations d'ostéopathie sont assurées par Joséphine Lyon et <br>sa collaboratrice Mylène Dufresne
+                  <p class="text-justify">Les consultations d'ostéopathie sont assurées par Joséphine Lyon et <br>sa collaboratrice Mylène Dufresne
                     de 9h à 21h du lundi au vendredi et
                     <br> de 9h à 13h le samedi.</p>
                   <div class="acces-info">
@@ -72,8 +71,13 @@
 
 <script>
 
+import Carousel from "@/components/large-screen/cabinet/Carousel";
+
 export default {
   name: 'Cabinet',
+  components: {
+    Carousel
+  },
 }
 
 </script>

@@ -1,15 +1,22 @@
 <template>
-  <div id="book-container">
-  <Navbar></Navbar>
+  <div id="book-container" class="cabinet-header">
+  <Navbar v-if="scrollpx > 450" ></Navbar>
   <div id="page" >
     <div id="book-header">
       <h2 class="header--primary">Repenser l'équitation</h2>
       <h3 class="header--secondary"> Gestes, postures et performance</h3>
     </div>
     <div class="book-containter">
-      <Cover></Cover>
-      <Resume></Resume>
-      <HomePictureLeft></HomePictureLeft>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <BookCarousel></BookCarousel>
+          </div>
+          <div class="col-sm">
+            <Resume></Resume>
+          </div>
+        </div>
+      </div>
     </div>
     <OrderLink></OrderLink>
     <AuthorPage></AuthorPage>
@@ -20,24 +27,22 @@
 
 <script>
 import $ from 'jquery'
-import Cover from "@/components/large-screen/book/Cover";
 import Resume from "@/components/large-screen/book/Resume";
-import HomePictureLeft from "@/components/large-screen/book/HomePictureLeft";
 import OrderLink from "@/components/large-screen/book/OrderLink";
 import AuthorPage from "@/components/large-screen/book/AuthorPage";
 import BookVideo from "@/components/large-screen/book/BookVideo";
 import Navbar from "@/components/layout/Navbar";
+import BookCarousel from "@/components/large-screen/book/BookCarousel";
 
 export default {
   name: 'BookPage',
   components: {
-    Cover,
     Resume,
-    HomePictureLeft,
     OrderLink,
     AuthorPage,
     BookVideo,
-    Navbar
+    Navbar,
+    BookCarousel
 
   },
   data() {
