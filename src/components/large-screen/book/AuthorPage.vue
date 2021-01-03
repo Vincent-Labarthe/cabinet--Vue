@@ -1,10 +1,9 @@
 <template>
   <div id="author" class="author__box ">
-    <div class="container author__box author__box--1">
-      <div class="row">
-        <div class="col-sm">
-          <h3 class="author__box author__box--header author__box--header--1"> Joséphine Lyon</h3>
-          <div class="author__box author__box--modal">
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col><h3 class="author__box author__box&#45;&#45;header author__box&#45;&#45;header&#45;&#45;1"> Joséphine Lyon</h3>
+          <div class="author__box author__box&#45;&#45;modal">
             <p class="author__text">Ostéopathe DO exerçant à Paris depuis 2011, est passionnée d’équitation
               depuis l’enfance.
               Cavalière de compétition depuis 1999, niveau club puis amateur (nombreux podiums par équipe au championnat de
@@ -26,27 +25,25 @@
               son
               corps et permettre l’aisance gestuelle et la progression.
             </p>
-            <div class="profile-picture--box">
-              <div class="profile-box profile-box--1">
-                <img class="profile-picture" src="../../../../public/img/josephine-lyon.jpg" alt="Joséphine Lyon">
-              </div>
-            </div>
+
+          </div></b-col>
+        <b-col><div class="profile-picture&#45;&#45;box">
+          <div class="profile-box profile-box&#45;&#45;1">
+            <img class="profile-picture" src="../../../../public/img/josephine-lyon.jpg" alt="Joséphine Lyon">
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="container author__box author__box--2">
-      <div class="row">
-        <div class="col-sm">
-          <h3 class="author__box author__box--header author__box--header--2"> Fred Brigaud</h3>
-        </div>
-        <div class="col-sm">
-          <div class="author__box author__box--modal">
-            <div class="profile-picture--box">
-              <div class="profile-box profile-box--2">
-                <img class="profile-picture" src="../../../../public/img/fred-brigaud.jpg" alt="Fred Brigaud">
-              </div>
-            </div>
+        </div></b-col>
+      </b-row>
+    </b-container>
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col><div class="profile-picture&#45;&#45;box">
+          <div class="profile-box profile-box&#45;&#45;2">
+            <img class="profile-picture" src="../../../../public/img/fred-brigaud.jpg" alt="Fred Brigaud">
+          </div>
+        </div></b-col>
+        <b-col><h3 class="author__box author__box&#45;&#45;header author__box&#45;&#45;header&#45;&#45;2"> Fred Brigaud</h3>
+          <div class="author__box author__box&#45;&#45;modal">
+
             <div class="author__text">
               <p>Consultant en biomécanique Humaine, Ostéopathe DO auprès de sportifs de haut niveau
                 depuis 1994 : </p>
@@ -65,7 +62,7 @@
                 <li>Auteur d'articles sportifs et biomécaniques</li>
               </ul>
               <p>Auteur de :</p>
-              <ul class="author--book">
+              <ul class="author&#45;&#45;book">
                 <li> Repenser l'équitation, 2021, Éditions DésIris (à paraître). Ouvrage co-écrit avec Joséphine Lyon.
                 </li>
                 <li> Corriger le pied sans semelle - nouvelle édition, 2019, Éditions DésIris
@@ -83,10 +80,27 @@
               <a href="http://www.eadconcept.com">Site : http://www.eadconcept.com</a>
             </div>
           </div>
+        </b-col>
+
+      </b-row>
+    </b-container>
+   <!-- <div class="container author__box author__box&#45;&#45;1">
+      <div class="row">
+        <div class="col-sm">
+
+        </div>
+      </div>
+    </div>
+    <div class="container author__box author__box&#45;&#45;2">
+      <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="col-sm">
+
         </div>
 
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 

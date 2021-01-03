@@ -14,7 +14,7 @@
             <a class="card-link" style="color: #1b1e21" href="" @click="selectedSpe('sport')">
             <h5 class="card-title">Les Sportifs
               </h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p></a>
+            <p class="card-text">Toute perte de mobilité des articulations, des muscles, des ligaments ou des viscères peut provoquer un déséquilibre de l’état de santé. Celui-ci se manifeste chez le sportif par différents symptômes, de la simple contracture à la douleur chronique, altérant de toute façon les performances.</p></a>
           </div>
         </div>
         <div class="card m-2 shadow-sm">
@@ -22,7 +22,7 @@
             <a class="card-link" style="color: #1b1e21" href="" @click="selectedSpe('baby')">
               <h5 class="card-title">Les Nourrissons / Bébés / Jeunes Enfants
               </h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p></a>
+              <p class="card-text">L’ostéopathe peut dès la naissance effectuer un bilan sur le nouveau-né. Ses techniques et sa prise en charge sont sans risque et ne sont jamais douloureuses pour l’enfant.</p></a>
           </div>
         </div>
         <div class="card m-2 shadow-sm" >
@@ -30,7 +30,7 @@
             <a class="card-link" style="color: #1b1e21" href="" @click="selectedSpe('pregnant')">
               <h5 class="card-title">Les Femmes Enceintes
               </h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p></a>
+              <p class="card-text">De plus en plus de femmes choisissent l’ostéopathie pour favoriser leur chance de tomber enceinte, vivre une grossesse confortable, préparer l’accouchement ou pour accélérer la récupération après l’accouchement</p></a>
           </div>
         </div>
         </div>

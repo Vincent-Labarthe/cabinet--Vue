@@ -14,10 +14,15 @@
           </div>
           <div class="col-sm">
             <Resume></Resume>
+            <div class="order-link">
+
+            <b-button variant="info"><a href="https://fr.calameo.com/read/00021996329017519aa08" target="_blank">Feuilleter le livre</a></b-button>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <OrderLink></OrderLink>
     <AuthorPage></AuthorPage>
     <BookVideo v-show="false"></BookVideo>

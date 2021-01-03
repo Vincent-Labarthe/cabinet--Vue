@@ -10172,13 +10172,11 @@ li {
   width: 75%;
   color: #666;
   font-size: 14px;
-  font-family: 'Noto Sans', sans-serif;
-  transform: translate(-100px, 100px); }
+  font-family: 'Noto Sans', sans-serif; }
 
 .profile-picture--box {
   height: 25px;
   position: relative;
-  transform: translateY(-100px);
   opacity: 0; }
 
 .profile-picture {
@@ -10554,19 +10552,20 @@ li {
 
 .reason-box {
   width: 40%;
-  height: 20rem;
   margin: 1rem;
   display: flex;
   flex-direction: row; }
 
 .reason-img {
-  width: 30%;
   border-radius: 5px;
   opacity: 0.8;
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5); }
 
 .reason-text {
   margin-left: 1rem; }
+
+.reason-img-box {
+  width: 5rem; }
 
 #formation {
   padding-top: 10rem; }
