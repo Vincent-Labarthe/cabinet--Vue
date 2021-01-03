@@ -3,6 +3,7 @@
 
 }
 .author__box {
+  
 text-align: center;
   line-height: 1.75rem;
 
@@ -108,18 +109,4 @@ text-align: center;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 
-}
-
-.profile-box {
-  position: absolute;
-
-  &--1 {
-    top: -3rem;
-    right: 3rem;
-  }
-
-  &--2 {
-    top: -3rem;
-    left: 3rem;
-  }
 }

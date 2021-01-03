@@ -1,7 +1,5 @@
 <template>
   <div id="app" class="container-fluid" >
-    <Modal v-if="isModalVisible"
-           @close="closeModal"></Modal>
     <LargeContainer> </LargeContainer>
 
     <!--<LargeContainer v-if="windowWidth > 992"> </LargeContainer>
@@ -10,7 +8,6 @@
 </template>
 
 <script>
-import Modal from "@/components/layout/Modal";
 import $ from 'jquery';
 import LargeContainer from "@/components/large-screen/Large-Container";
 // import SmallContainer from  "@/components/small-screen/Small-Container"
@@ -28,7 +25,6 @@ export default {
   components: {
     LargeContainer,
     // SmallContainer,
-    Modal
   },
   methods: {
     closeModal() {

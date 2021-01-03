@@ -1,5 +1,5 @@
 <template>
-  <div id="book-container" class="cabinet-header">
+  <div id="book-container" class="book-header">
   <Navbar v-if="scrollpx > 450" ></Navbar>
   <div id="page" >
     <div id="book-header">
