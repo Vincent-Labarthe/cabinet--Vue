@@ -8,7 +8,7 @@
     </a></b-button>
 
   </div>
-  <div style="width: 75%">
+  <div>
     <b-embed
         type="iframe"
         aspect="16by9"
