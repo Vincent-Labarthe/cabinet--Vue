@@ -10074,7 +10074,8 @@ li {
   width: 100vw; }
 
 #book-header {
-  padding-top: 10rem; }
+  padding-top: 10rem;
+  margin-left: 2rem; }
 
 .book-containter {
   width: 100%;
@@ -10274,6 +10275,7 @@ li {
   margin-top: 3rem; }
 
 .acces-img {
+  height: 25%;
   width: 100%;
   border-radius: 5px; }
 
@@ -10542,7 +10544,7 @@ li {
     margin-bottom: 4rem; }
 
 .reason-box {
-  width: 40%;
+  width: 50%;
   margin: 1rem;
   display: flex;
   flex-direction: row; }
@@ -10556,7 +10558,8 @@ li {
   margin-left: 1rem; }
 
 .reason-img-box {
-  width: 5rem; }
+  width: 5rem;
+  height: 8rem; }
 
 #formation {
   padding-top: 10rem; }

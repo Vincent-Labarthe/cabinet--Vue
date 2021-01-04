@@ -6,7 +6,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav justify-content-center">
           <li class="nav-item active">
             <a class="nav-link" href="#cabinet">Accueil </a>
           </li>
@@ -39,11 +39,12 @@
           <li class="nav-item">
             <a class="nav-link" href="#formation">Formations</a>
           </li>
-          <li class="nav-item">
+<!--          <li class="nav-item">
             <a class="nav-link" href="#">Infos pratiques</a>
-          </li>
+          </li>-->
           <li class="nav-item">
-            <a class="nav-link btn btn-secondary" href="https://www.adverbum.fr/editions-desiris/frederic-brigaud-et-josephine-lyon/repenser-l-equitation_6xb5n7paauhq.html">Prendre rendez-vous</a>
+
+            <a class="nav-link btn btn-ligh" style="background-color: #E8E8E8" href="https://www.adverbum.fr/editions-desiris/frederic-brigaud-et-josephine-lyon/repenser-l-equitation_6xb5n7paauhq.html">Prendre rendez-vous via Doctolib</a>
           </li>
 
         </ul>

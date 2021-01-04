@@ -13,12 +13,12 @@
           <li class="nav-item">
             <a class="nav-link" href="#author">Les auteurs</a>
           </li>
-          <li class="nav-item">
+         <!-- <li class="nav-item">
             <a class="nav-link" href="#formation">Vidéos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Formations</a>
-          </li>
+          </li>-->
         </ul>
       </div>
     </nav>

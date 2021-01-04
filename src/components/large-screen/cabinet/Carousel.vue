@@ -17,6 +17,17 @@
         <template #img>
           <img
               class="d-block img-fluid w-auto shadow rounded"
+              width="1356"
+              height="792"
+              src="../../../../public/img/carousel-1.jpg"
+              alt="Cabinet Ostéopathie Paris 15"
+          >
+        </template>
+      </b-carousel-slide>
+      <b-carousel-slide>
+        <template #img>
+          <img
+              class="d-block img-fluid w-auto shadow rounded"
               width="1256"
               height="834"
               src="../../../../public/img/cabinet.jpg"
@@ -31,6 +42,17 @@
               width="1356"
               height="792"
               src="../../../../public/img/acces.png"
+              alt="Cabinet Ostéopathie Paris 15"
+          >
+        </template>
+      </b-carousel-slide>
+      <b-carousel-slide>
+        <template #img>
+          <img
+              class="d-block img-fluid w-auto shadow rounded"
+              width="1356"
+              height="792"
+              src="../../../../public/img/carousel-2.jpg"
               alt="Cabinet Ostéopathie Paris 15"
           >
         </template>

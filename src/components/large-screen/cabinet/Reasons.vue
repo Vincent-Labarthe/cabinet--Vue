@@ -13,7 +13,7 @@
                   <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
                       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Les maux de dos /  tete / ventre
+                        Les maux de dos -  tete - ventre
                       </button>
                     </h2>
                   </div>
@@ -113,9 +113,9 @@
   - trouble du sommeil, irritabilité <br>
   - blocage articulaire douloureux, tensions musculaires <br>
   - maux de ventre… <br>
-  <br><br>
+  <br>
   Le système neurovégétatif sympathique se situe au niveau des articulations qui relient les côtes et les vertèbres du thorax. Le système parasympathique se situe essentiellement au niveau du crâne et du bassin.
-  <br><br>
+  <br>
   L’ostéopathe peut directement agir sur le système neurovégétatif en travaillant sur le crâne, les vertèbres et le bassin. Il peut ainsi en rééquilibrant les deux systèmes : effacer l’état de stress, permettre au patient de retrouver un état de sérénité et un sommeil de meilleure qualité.</p>                    </div>
                   </div>
                 </div>
@@ -127,8 +127,9 @@
 
         <div id="back_pain" class="reason-modal--sub reason-modal--sub--1 d-none d-md-flex">
           <div class="reason-box reason-box--1">
-            <div class="reason-img-box">            <img class="reason-img reason-img--1 img-fluid" src="../../../../public/img/back-pain.jpg" alt="">
-            </div>
+           <!-- <div class="reason-img-box">
+              <img class="reason-img  img-fluid" src="../../../../public/img/back-pain.jpg" alt="">
+            </div>-->
             <div class="reason-text">
               <h4>Les maux de dos : </h4>
               <ul class="osteopathie-text mb-4">
@@ -144,30 +145,31 @@
             </div>
           </div>
           <div id="joint" class="reason-box reason-box--2">
-            <div class="reason-img-box">            <img class="reason-img reason-img--2 img-fluid" src="../../../../public/img/joint.jpg" alt="">
-            </div>
+           <!-- <div class="reason-img-box">
+              <img class="reason-img  img-fluid" src="../../../../public/img/joint.jpg" alt="">
+            </div>-->
             <div class="reason-text">
               <h4>Les douleurs articulaires : </h4>
-              <ul class="osteopathie-text text-justify">
-                <li>Articulations de la cheville et du pied</li>
-                <li>Articulations du genou</li>
-                <li>Articulations de la hanche</li>
-                <li>Articulations de bassin : pubis, sacro iliaque, coccyx</li>
-                <li>Articulations de la colonne vertébrale : cervicales, dorsales, lombaires</li>
-                <li>Articulations de l’épaule</li>
-                <li>Articulations du coude</li>
-                <li>Articulations du poignet et de la main</li>
-                <li>Articulations temporo-mandibulaire (ATM) : mâchoire</li>
-                <li>Douleurs ou raideurs liées à l’arthrose</li>
-              </ul>
+              <p>
+                L’appareil locomoteur est constitué des os (rigidité) qui sont reliés entre eux par des articulations et des muscles (mobilité). C’est grâce à lui que nous pouvons nous déplacer dans l’espace.
+                On parle couramment de « blocage articulaire » mais le terme le plus approprié pour décrire ce trouble serait dysfonction articulaire.
+
+                Une articulation peut se mettre en dysfonction pour des raisons variées : traumatisme, faux mouvement, mauvaise posture, alimentation trop acide, mauvais apport sanguin, stress, trouble digestif…
+              </p>
+              <p>Les conséquences de cette dysfonctions vont être multiples : une raideur de l’articulation et donc une difficulté à faire certains gestes, une douleur, une inflammation, une hypersollicitation musculaire, un trouble de la vascularisation et de la conduction nerveuse, l’apparition de nouvelle dysfonctions à distance (articulaire, viscérales) bref c’est tout le système qui en sera perturbé.
+                A terme, si la dysfonction ne disparait pas on assistera à une modification irréversible des tissus : c’est alors qu’apparaissent les phénomènes de fibrose et d’arthrose.
+              </p>
+              <p>
+                Le but de l’ostéopathe n’est pas de « remettre les os en place » ni de les replacer dans un bon alignement mais de traiter ces dysfonctions articulaires ou d’éviter qu’il en apparaisse. L’intégrité du système locomoteur est d’une importance cruciale pour le fonctionnement général du corps et dans le maintien de la santé.
+              </p>
             </div>
           </div>
         </div>
         <div id="stress" class="reason-modal--sub reason-modal--sub--2 d-none d-md-flex">
           <div class="reason-box reason-box--3">
-            <div class="reason-img-box">
-              <img class="reason-img reason-img--3 img-fluid" src="../../../../public/img/stress.jpg" alt="">
-            </div>
+            <!--<div class="reason-img-box">
+              <img class="reason-img img-fluid" src="../../../../public/img/stress.jpg" alt="">
+            </div>-->
             <div class="reason-text">
               <h4>Stress & Trouble du sommeil : </h4>
               <p class="text-justify">On appelle « stressor » une forte stimulation (émotion forte, agression...) qui déclenche des réactions involontaires dites « neurovégétatives sympathiques » à savoir : le cœur qui bat plus vite, la bouche sèche, les mains moites, la respiration qui s’amplifie, la sueur, la rougeur du visage, l’apparition de tremblements…
@@ -176,19 +178,19 @@
                 Normalement, le retour à la normal s’effectue de façon automatique grâce au système « neurovégétatif parasympathique ».
                 <br><br>
                 Parfois, l’état de stress est maintenu dans le temps car l’intensité ou le nombre de « stressors » sont trop importants pour un retour à la normale. Cela aboutit à une situation de tension permanente :
-                <br><br>
+                <br>
                 - trouble du sommeil, irritabilité <br>
                 - blocage articulaire douloureux, tensions musculaires <br>
                 - maux de ventre… <br>
-                <br><br>
+                <br>
                 Le système neurovégétatif sympathique se situe au niveau des articulations qui relient les côtes et les vertèbres du thorax. Le système parasympathique se situe essentiellement au niveau du crâne et du bassin.
-                <br><br>
+                <br>
                 L’ostéopathe peut directement agir sur le système neurovégétatif en travaillant sur le crâne, les vertèbres et le bassin. Il peut ainsi en rééquilibrant les deux systèmes : effacer l’état de stress, permettre au patient de retrouver un état de sérénité et un sommeil de meilleure qualité.</p>
             </div>
           </div>
           <div id="trauma" class="reason-box reason-box--4">
-            <div class="reason-img-box"> <img class="reason-img reason-img--4 img-fluid" src="../../../../public/img/trauma.jpg" alt="">
-            </div>
+            <!--<div class="reason-img-box"> <img class="reason-img  img-fluid" src="../../../../public/img/trauma.jpg" alt="">
+            </div>-->
             <h4></h4>
             <div class="reason-text">
               <h4>Douleur post-trauma : </h4>
