@@ -44,7 +44,7 @@
           </li>-->
           <li class="nav-item">
 
-            <a class="nav-link btn btn-ligh" style="background-color: #E8E8E8" href="https://www.adverbum.fr/editions-desiris/frederic-brigaud-et-josephine-lyon/repenser-l-equitation_6xb5n7paauhq.html">Prendre rendez-vous via Doctolib</a>
+            <a class="nav-link btn btn-ligh" style="background-color: #E8E8E8" href="https://www.doctolib.fr/osteopathe/paris/josephine-lyon">Prendre rendez-vous via Doctolib</a>
           </li>
 
         </ul>
