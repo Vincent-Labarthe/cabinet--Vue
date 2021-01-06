@@ -1,27 +1,22 @@
 <template>
   <div>
-    <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Joséphine Lyon <br>  Ostéopathe D.O</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#page">Le Livre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#author">Les auteurs</a>
-          </li>
-         <!-- <li class="nav-item">
-            <a class="nav-link" href="#formation">Vidéos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Formations</a>
-          </li>-->
-        </ul>
-      </div>
-    </nav>
+    <b-navbar toggleable="lg" type="dark" variant="info">
+      <b-navbar-brand href="#home" class="navbar-brand">Joséphine Lyon <br>  Ostéopathe D.O</b-navbar-brand>
+
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item href="#page">Le Livre</b-nav-item>
+          <b-nav-item href="#author">Les auteurs</b-nav-item>
+        </b-navbar-nav>
+
+        <!-- Right aligned nav items -->
+        <b-navbar-nav class="ml-auto">
+          <b-button class="my-2 my-sm-0" variant="outline-info"><a href="https://www.adverbum.fr/editions-desiris/frederic-brigaud-et-josephine-lyon/repenser-l-equitation_6xb5n7paauhq.html">Commander le livre</a></b-button>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
   </div>
 </template>
 

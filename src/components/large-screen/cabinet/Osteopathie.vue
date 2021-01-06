@@ -5,7 +5,7 @@
         <h3 class="header--secondary">L'Ostéopathie</h3>
       </div>
       <div class="osteopathie-body">
-        <div class="container">
+        <div class="container wrapper">
           <div class="row">
             <div class="col-sm-4">
               <img class="shadow  img-fluid rounded d-none d-md-flex" src="../../../../public/img/osteo-1.jpg" alt="">

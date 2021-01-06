@@ -1,9 +1,8 @@
 <template>
   <div id="author" class="author__box ">
-    <div class="container mb-5">
+    <div class="container wrapper mb-5">
       <div class="row">
         <div class="col-sm">
-          <h3 class="author__box author__box&#45;&#45;header author__box&#45;&#45;header&#45;&#45;1 mb-3"> Joséphine Lyon</h3>
 
           <div class="profile-box profile-box&#45;&#45;1">
             <img class="profile-picture" src="../../../../public/img/josephine-lyon.jpg" alt="Joséphine Lyon">
@@ -11,6 +10,8 @@
         </div>
         <div class="col-sm">
           <div class="author__box author__box&#45;&#45;modal">
+            <h3 class="author__box author__box&#45;&#45;header author__box&#45;&#45;header&#45;&#45;1 mt-3"> Joséphine Lyon</h3>
+
             <p class="author__text">Ostéopathe DO exerçant à Paris depuis 2011, est passionnée d’équitation
               depuis l’enfance.
               Cavalière de compétition depuis 1999, niveau club puis amateur (nombreux podiums par équipe au championnat de
@@ -40,6 +41,7 @@
         <div class="row">
           <div class="col-sm">
             <div class="author__box author__box&#45;&#45;modal">
+              <h3 class="author__box author__box&#45;&#45;header author__box&#45;&#45;header&#45;&#45;2 mt-3"> Fred Brigaud</h3>
 
               <div class="author__text">
                 <p>Consultant en biomécanique Humaine, Ostéopathe DO auprès de sportifs de haut niveau
@@ -79,8 +81,6 @@
             </div>
         </div>
           <div class="col-sm">
-            <h3 class="author__box author__box&#45;&#45;header author__box&#45;&#45;header&#45;&#45;2 mb-3"> Fred Brigaud</h3>
-
             <div class="profile-box profile-box&#45;&#45;1">
               <img class="profile-picture" src="../../../../public/img/fred-brigaud.jpg" alt="fred brigaud">
             </div>

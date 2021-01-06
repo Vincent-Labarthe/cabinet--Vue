@@ -10,6 +10,7 @@
       <OsteoPregnant v-if="spePage === 'pregnant'" @handle-spe="displaySpe"></OsteoPregnant>
       <Reasons></Reasons>
       <Formation></Formation>
+
     </div>
   </div>
 </template>
@@ -36,7 +37,7 @@ export default {
     OsteoBaby,
     OsteoPregnant,
     Reasons,
-    Formation
+    Formation,
   },
   data() {
     return {

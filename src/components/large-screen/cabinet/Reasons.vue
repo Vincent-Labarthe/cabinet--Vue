@@ -5,7 +5,7 @@
         <h3 class="header--secondary">Quand consulter ? </h3>
       </div>
       <div class="reason-modal ">
-        <div class="container d-md-none">
+        <div class="container wrapper d-md-none">
           <div class="row">
             <div class="col-sm">
               <div class="accordion" id="accordionExample">

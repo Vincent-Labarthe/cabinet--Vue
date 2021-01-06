@@ -10,14 +10,14 @@
           <h3 class="header--secondary">Accueil</h3>
         </div>
         <div class="cabinet-content">
-          <div class="container">
+          <div class="container wrapper">
             <div class="row d-flex justify-content-between align-items-center">
-              <div class="col-sm-6">
+              <div class="col-sm-7">
                 <div class="cabinet-img-modal justify-content-center">
                   <Carousel class="mb-sm-4"></Carousel>
                 </div>
               </div>
-              <div class="col-sm-6 mt-sm-4">
+              <div class="col-sm-5 mt-sm-4">
                 <div class="cabinet-content-text">
                   <p class="text-justify"><b>Le Cabinet médical Croisic Duroc </b> se situe 2 Square du Croisic 75015 Paris. (entrée au 12 boulevard du
                     Montparnasse)</p>
@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="acces-content mt-md-4">
-          <div class="container">
+          <div class="container wrapper">
             <div class="row d-flex justify-content-between align-items-center">
               <div class="col-sm-6 mb-md-4">
                 <div class="acces-text">

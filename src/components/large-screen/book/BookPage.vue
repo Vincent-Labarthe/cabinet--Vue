@@ -7,7 +7,7 @@
       <h3 class="header--secondary"> Gestes, postures et performance</h3>
     </div>
     <div class="book-containter">
-      <div class="container">
+      <div class="container wrapper">
         <div class="row">
           <div class="col-sm">
             <BookCarousel></BookCarousel>
@@ -15,7 +15,6 @@
           <div class="col-sm">
             <Resume></Resume>
             <div class="order-link">
-
             <b-button variant="info"><a href="https://fr.calameo.com/read/00021996329017519aa08" target="_blank">Feuilleter le livre</a></b-button>
             </div>
           </div>
@@ -23,7 +22,7 @@
       </div>
     </div>
 
-    <OrderLink></OrderLink>
+    <OrderLink class="m-5"></OrderLink>
     <AuthorPage></AuthorPage>
     <BookVideo v-show="false"></BookVideo>
   </div>
