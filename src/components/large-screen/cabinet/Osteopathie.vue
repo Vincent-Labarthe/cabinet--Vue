@@ -12,11 +12,19 @@
             </div>
             <div class="col-sm-8 mt-sm-4">
               <div class="osteopathie-text">
-                <p>Connu comme le "thérapeute du mal de dos", l'ostéopathe peut traiter bien plus que les douleurs
-                  musculosquelletiques. Il pourra également agir sur les troubles du système cardiovasculaire, digestif,
-                  génito-urinaire, neurologique ou encore oto-rhino-laryngologique et pulmonaire. Un champ d'action large qui
-                  fait de la pratique de l'ostéopathie une option véritablement intéressante que ce soit pour les douleurs
-                  aiguës ou chroniques.</p>
+                <p class="text-justify">Le Registre des ostéopathes de France définit l’ostéopathie
+                  comme une méthode de soins qui s’emploie à déterminer et à
+                  traiter les restrictions de mobilité qui peuvent affecter
+                  l’ensemble des structures composant le corps humain. <br><br>
+                  Toute perte de mobilité des articulations, des muscles, des
+                  ligaments ou des viscères peut provoquer un déséquilibre de
+                  l’état de santé. L’ostéopathie est fondée sur la capacité du corps
+                  à s’autoéquilibrer et sur une connaissance approfondie de
+                  l’anatomie. <br><br>
+                  Elle prévient et soigne de nombreux troubles physiques et agit
+                  également aux plans nerveux, fonctionnel et psychologique. Elle
+                  aide chacun à gérer, de manière responsable et autonome, son
+                  “capital vie” pour un mieux-être au quotidien.</p>
 
                 <div class="accordion" id="accordionExample">
                   <p>Principes fondamentaux de l'ostéopathie, il en existe 3 : </p>
@@ -32,9 +40,9 @@
 
                     <div id="collapse-1" class="collapse" aria-labelledby="heading-1" data-parent="#accordionExample">
                       <div class="card-body">
-                        le corps humain est une unité fonctionnelle constituée de différentes parties. Une affection dans une
+                        Le corps humain est une unité fonctionnelle constituée de différentes parties. Une affection dans une
                         partie du corps influence les autres. C’est pourquoi l’ostéopathe manipule parfois des zones éloignées
-                        de votre douleur première (sur le diaphragme pour soulager le dos par exemple).
+                        de votre douleur première.
                       </div>
                     </div>
                   </div>
@@ -51,7 +59,7 @@
 
                     <div id="collapse-2" class="collapse " aria-labelledby="heading-2" data-parent="#accordionExample">
                       <div class="card-body">
-                        les diverses fonctions corporelles interagissent avec la structure du système musculosquelettique.
+                        Les diverses fonctions corporelles interagissent avec la structure du système musculosquelettique.
                       </div>
                     </div>
                   </div>
@@ -77,7 +85,7 @@
                     </div>
                   </div>
                 </div>
-                <p>L'ostéopathe ne s'intéresse pas uniquement à un symptôme douloureux, mais considère le patient comme un
+                <p class="text-justify">L'ostéopathe ne s'intéresse pas uniquement à un symptôme douloureux, mais considère le patient comme un
                   tout devant être évalué dans son ensemble. Il doit découvrir de façon précise l'origine des tensions et des
                   blocages qui restreignent la mobilité des différents tissus.</p>
               </div>
