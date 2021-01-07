@@ -3,55 +3,56 @@
     <b-carousel
         id="carousel-1"
         v-model="slide"
-        :interval="3000"
+        :interval="2500"
         controls
         indicators
         background="#ababab"
-        style="text-shadow: 1px 1px 2px #333;"
+        style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);"
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
     >
       <!-- Slides with img slot -->
       <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-      <b-carousel-slide>
-        <template #img>
+      <b-carousel-slide rounded="lg">
+        <template #img >
           <img
-              class="d-block img-fluid w-auto shadow rounded"
-              width="1356"
-              height="792"
+              class=" d-block img-fluid w-auto "
+              title="Nulla vitae elit libero, a pharetra augue mollis interdum."
+              width="1350"
+              height="650"
               src="../../../../public/img/carousel-1.jpg"
               alt="Cabinet Ostéopathie Paris 15"
           >
         </template>
       </b-carousel-slide>
-      <b-carousel-slide>
+      <b-carousel-slide rounded="lg">
         <template #img>
           <img
-              class="d-block img-fluid w-auto shadow rounded"
-              width="1256"
-              height="834"
-              src="../../../../public/img/cabinet.jpg"
+              class="  d-block img-fluid w-auto  "
+              width="1350"
+              height="650"
+              src="../../../../public/img/carousel-4.jpg"
               alt="Cabinet Ostéopathie Paris 15"
           >
         </template>
       </b-carousel-slide>
-      <b-carousel-slide>
+      <b-carousel-slide rounded="lg">
         <template #img>
           <img
-              class="d-block img-fluid w-auto shadow rounded"
-              width="1356"
-              height="792"
-              src="../../../../public/img/acces.png"
+              class=" d-block img-fluid w-auto  "
+              width="1350"
+              height="650"
+              src="../../../../public/img/carousel-3.jpg"
               alt="Cabinet Ostéopathie Paris 15"
           >
         </template>
       </b-carousel-slide>
-      <b-carousel-slide>
+      <b-carousel-slide rounded="lg">
         <template #img>
           <img
-              class="d-block img-fluid w-auto shadow rounded"
-              width="1356"
-              height="792"
+              class=" d-block img-fluid w-auto  "
+              width="1350"
+              height="650"
               src="../../../../public/img/carousel-2.jpg"
               alt="Cabinet Ostéopathie Paris 15"
           >

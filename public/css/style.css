@@ -9925,7 +9925,7 @@ input[type="color"].form-control:disabled {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #dddddd, rgba(149, 186, 199, 0.1)), url("../img/cover-left-picture.jpg");
+    background: linear-gradient(to right, #dddddd, rgba(149, 186, 199, 0.1)), url("../img/cover-left-picture.svg");
     background-size: cover;
     background-position: center;
     color: #666;
@@ -9943,7 +9943,7 @@ input[type="color"].form-control:disabled {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, rgba(221, 221, 221, 0.1), #95bac7), url("../img/cover-right-picture.jpg");
+    background: linear-gradient(to right, rgba(221, 221, 221, 0.1), #95bac7), url("../img/cover-right-picture.svg");
     background-size: cover;
     background-position: center;
     color: #F9F9F9;
@@ -10042,6 +10042,9 @@ input[type="color"].form-control:disabled {
   color: #333;
   text-shadow: none;
   /* Prevent inheritance from `body` */ }
+
+.test {
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5); }
 
 html {
   scroll-behavior: smooth; }
@@ -10278,9 +10281,10 @@ li {
   margin-top: 3rem; }
 
 .acces-img {
-  height: 50%;
-  width: 100%;
-  border-radius: 5px; }
+  height: 20rem;
+  width: 90%;
+  border-radius: 5px;
+  margin-left: 1rem; }
 
 .doctolib-btn {
   margin-top: 3rem;

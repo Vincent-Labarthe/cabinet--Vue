@@ -20,6 +20,7 @@
             <a class="dropdown-item" href="#stress">Stress & trouble du sommeil</a>
             <a class="dropdown-item" href="#trauma">Douleur post-trauma</a>
           </b-nav-item-dropdown>
+          <b-nav-item href="#formation">Mes formations</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
