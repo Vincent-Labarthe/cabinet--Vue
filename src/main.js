@@ -11,3 +11,4 @@ Vue.use(IconsPlugin)
 new Vue({
   render: h => h(App),
 }).$mount('#app')
+

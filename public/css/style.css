@@ -9925,7 +9925,7 @@ input[type="color"].form-control:disabled {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #dddddd, rgba(149, 186, 199, 0.1)), url("../img/cover-left-picture.svg");
+    background: linear-gradient(to right, #dddddd, rgba(149, 186, 199, 0.1)), url("../img/cover-left-picture.jpg");
     background-size: cover;
     background-position: center;
     color: #666;
@@ -9943,7 +9943,7 @@ input[type="color"].form-control:disabled {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, rgba(221, 221, 221, 0.1), #95bac7), url("../img/cover-right-picture.svg");
+    background: linear-gradient(to right, rgba(221, 221, 221, 0.1), #95bac7), url("../img/cover-right-picture.jpg");
     background-size: cover;
     background-position: center;
     color: #F9F9F9;
@@ -10365,7 +10365,7 @@ li {
   .spe-img-box:hover {
     transform: scale(1.1); }
   .spe-img-box--1 {
-    background-image: url("../img/sport.jpg");
+    background-image: url("../img/sport.jpg ");
     background-size: cover; }
   .spe-img-box--2 {
     background-image: url("../img/baby-1.jpg");
