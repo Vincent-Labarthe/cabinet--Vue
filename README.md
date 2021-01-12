@@ -1,5 +1,5 @@
 # Joséphine Lyon - Ostéopathe 
-http://www.josephinelyon.com/
+https://www.josephinelyon.com/
 
 ## Project setup
 ```
