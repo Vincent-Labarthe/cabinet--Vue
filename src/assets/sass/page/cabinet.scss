@@ -101,16 +101,17 @@
 .doctolib-btn {
   margin-top: 3rem;
   border-radius: 0.25rem;
-  background-color:#d4e3f1;
+  padding: 0 2rem;
+  border-color: transparent!important;
+  background-color:#d4e3f1!important;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: all .3s;
-  letter-spacing: 2px;
   font-weight: bold;
-  width: 24rem;
 
   &:hover{
     transform: translateY(-3px);
+    background-color:#d4e3f1!important;
   }
   &:active{
     transform: translateY(3px);
@@ -119,8 +120,11 @@
     color:#666666;
   }
   &:hover .icon-doctolib{
-    transform: scale(2);
-    margin-left: 1.5rem;
+    transform: scale(1.5);
+    margin-left: 1rem;
+  }
+  p{
+    margin-bottom: 0;
   }
 }
 
@@ -142,4 +146,17 @@
 @media (max-width: 767px) {
   #head { min-height:420px; padding-top:160px; }
   #head .lead { font-size: 34px; }
+
+
+}
+@media (max-width: 576px) {
+  .cabinet-content-text{
+    padding:1rem 0 0 0;
+  }
+  .acces-text{
+    padding-left: 0;
+  }
+  .doctolib-btn{
+    margin-bottom: 2rem;
+  }
 }

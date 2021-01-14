@@ -1,5 +1,6 @@
 #osteo_sport {
   margin-top: 10rem;
+  color: #8cbddd !important;
 }
 
 .spe-sport{
@@ -43,7 +44,7 @@
 
   &:hover &--header{
     height: 26rem;
-    filter: blur(7px) ;
+    filter: blur(1.5rem) ;
     h5{
       transform: translateY(-150px);
     }
@@ -51,7 +52,7 @@
 
   &:hover  div.sport-card--body{
     transform: translateY(-200px);
-    color: #f9f9f9;
+    color: #F4F4F4;
   }
 }
 

@@ -1,23 +1,4 @@
 <template>
-<!--  <div id="footer">
-    <div class="footer&#45;&#45;container">
-      <div class="footer&#45;&#45;container footer&#45;&#45;container__top">
-        <ul>
-          <li class="footer&#45;&#45;container__link">L'ostéopathie</li>
-          <li class="footer&#45;&#45;container__link">Info pratiques</li>
-          <li class="footer&#45;&#45;container__link">Contact</li>
-        </ul>
-      </div>
-      <div class="footer&#45;&#45;container footer&#45;&#45;container__medium">
-        <img class="footer&#45;&#45;container__medium&#45;&#45;icon" src="../../../public/icon/instagram.svg" alt="">
-        <img class="footer&#45;&#45;container__medium&#45;&#45;icon" src="../../../public/icon/facebook.svg" alt="">
-      </div>
-      <div class="footer&#45;&#45;container__bottom">
-
-      </div>
-    </div>
-  </div>-->
-
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info" fixed="bottom">
       <b-navbar-brand ><p class="footer--container__bottom footer--container__bottom--text">© 2020 Joséphine Lyon | Design by <a
