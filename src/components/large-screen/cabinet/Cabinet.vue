@@ -5,7 +5,7 @@
         <div class="row d-flex flex-column">
           <h1 class="lead">Cabinet d'ostéopathie Paris - 15</h1>
           <p class="tagline">2 square du Croisic 75015 Paris </p>
-          <p> <a class="btn btn-primary btn-custom " role="button" href="http://www.doctolib.com">PRENDRE RENDEZ-VOUS</a></p>
+          <p> <a class="btn btn-primary btn-custom " role="button" href="https://www.doctolib.fr/osteopathe/paris/josephine-lyon">PRENDRE RENDEZ-VOUS</a></p>
         </div>
       </div>
     </header>

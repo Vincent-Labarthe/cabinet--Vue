@@ -50,7 +50,7 @@
             <img class="card-icon mb-4" src="../../../../../public/icon/question.svg" alt="">
             <div class="h-caption"><h4 class="card-title">Dorsalgie</h4></div>
             <p class="card-text">Douleur au milieu du dos, entre les omoplates </p>
-            <b-button  v-b-toggle.sidebar-2 variant="light">Lire notre dossier</b-button >
+<!--            <b-button  v-b-toggle.sidebar-2 variant="light">Lire notre dossier</b-button >
             <b-sidebar id="sidebar-2" title="Dorsalgie" shadow>
               <div class="px-3 py-20">
                 <p>
@@ -59,7 +59,7 @@
                 </p>
                 <b-img src="https://picsum.photos/500/500/?image=54" fluid thumbnail></b-img>
               </div>
-            </b-sidebar>
+            </b-sidebar>-->
           </div>
         </div>
       </div>

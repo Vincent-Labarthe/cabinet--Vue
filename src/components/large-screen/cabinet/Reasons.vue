@@ -13,12 +13,12 @@
                   <BackPain></BackPain>
                 </b-tab>
 
-                <b-tab title="Douleurs articulaires" title-link-class="tab-title" >
+  <!--              <b-tab title="Douleurs articulaires" title-link-class="tab-title" >
                   <ul> <b-card-text>
                     <p>Lombalgie / lumbago : douleur en bas du dos</p>
                   </b-card-text>
                     <b-button variant="primary">Lire notre dossier</b-button>
-                    <b-card-text>
+                  &lt;!&ndash;  <b-card-text>
                       <p>Sciatique/Sciatalgie : douleur qui part du bas du dos ou de la fesse et irradie à la face postérieure de la jambe pouvant parfois aller jusqu’au pied.</p>
                     </b-card-text>
                     <b-card-text>
@@ -31,7 +31,7 @@
                     <b-card-text>
                       <p>Cervicalgie : douleur du cou et de la nuque.</p>
                     </b-card-text>
-                    <b-button variant="primary">Lire notre dossier</b-button>
+                    <b-button variant="primary">Lire notre dossier</b-button>&ndash;&gt;
                   </ul>
                 </b-tab>
 
@@ -99,7 +99,7 @@
                     </b-card-text>
                     <b-button variant="primary">Lire notre dossier</b-button>
                   </ul>
-                </b-tab>
+                </b-tab>-->
 
               </b-tabs>
             </div>

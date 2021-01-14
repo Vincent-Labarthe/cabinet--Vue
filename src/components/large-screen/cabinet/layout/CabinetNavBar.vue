@@ -14,12 +14,12 @@
             <a class="dropdown-item" href="#osteo_baby" @click="selectedSpe('baby')">Ostéopathie pédiatrique</a>
             <a class="dropdown-item" href="#osteo_pregnant" @click="selectedSpe('pregnant')">Ostéopathie de la femme enceinte</a>
           </b-nav-item-dropdown>
-          <b-nav-item-dropdown text="Quand consulter ?" right>
+          <!--<b-nav-item-dropdown text="Quand consulter ?" right>
             <a class="dropdown-item" href="#back_pain">Maux de dos</a>
             <a class="dropdown-item" href="#joint">Douleurs articulaire</a>
             <a class="dropdown-item" href="#stress">Stress & trouble du sommeil</a>
             <a class="dropdown-item" href="#trauma">Douleur post-trauma</a>
-          </b-nav-item-dropdown>
+          </b-nav-item-dropdown>-->
           <b-nav-item href="#formation">Mes formations</b-nav-item>
         </b-navbar-nav>
 
