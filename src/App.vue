@@ -2,8 +2,6 @@
   <div id="app" class="container-fluid" >
     <LargeContainer> </LargeContainer>
 
-    <!--<LargeContainer v-if="windowWidth > 992"> </LargeContainer>
-    <SmallContainer v-if="windowWidth < 992"></SmallContainer>-->
   </div>
 </template>
 
@@ -23,7 +21,6 @@ export default {
   },
   components: {
     LargeContainer,
-    // SmallContainer,
   },
   methods: {
     closeModal() {
