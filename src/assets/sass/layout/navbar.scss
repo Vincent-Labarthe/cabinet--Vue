@@ -2,12 +2,16 @@
 
 .navbar {
   top: 0!important;
-  width: 100%!important;
+  width: 100vw!important;
   position: fixed !important;
   z-index: 500;
-  background-color: #b5c5d3 !important;
+  background-color: #d4e3f1 !important;
   box-shadow: 0.067em 0.067em 4.133em rgba(12, 71, 84, 0.08)!important;
   color: #fff !important;
+}
+
+.nav-link{
+  color:#fff!important;
 }
 
 

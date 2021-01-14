@@ -7,7 +7,7 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#cabinet">Accueil</b-nav-item>
+          <b-nav-item href="#cabinet" nav-item-class="custom-navbar">Accueil</b-nav-item>
           <b-nav-item href="#osteopathie">L'Ostéopathie</b-nav-item>
           <b-nav-item-dropdown text="Mes Spécialisations" right>
             <a class="dropdown-item" href="#osteo_sport" @click="selectedSpe('sport')">Ostéopathie du Sport</a>

@@ -9365,6 +9365,10 @@ input[type="color"].form-control:disabled {
   animation-name: arrow-right;
   animation-iteration-count: infinite; }
 
+.card-icon {
+  height: 35px;
+  width: 35px; }
+
 .navigation li {
   list-style: none; }
 
@@ -9487,11 +9491,14 @@ input[type="color"].form-control:disabled {
 
 .navbar {
   top: 0 !important;
-  width: 100% !important;
+  width: 100vw !important;
   position: fixed !important;
   z-index: 500;
-  background-color: #b5c5d3 !important;
+  background-color: #d4e3f1 !important;
   box-shadow: 0.067em 0.067em 4.133em rgba(12, 71, 84, 0.08) !important;
+  color: #fff !important; }
+
+.nav-link {
   color: #fff !important; }
 
 /* ul {
@@ -10021,13 +10028,13 @@ input[type="color"].form-control:disabled {
   padding: .25rem 0;
   font-size: 1.5rem;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   background-color: transparent;
   border-bottom: .25rem solid transparent; }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, 0.25); }
+  border-bottom-color: white; }
 
 .nav-masthead .nav-link + .nav-link {
   margin-left: 1rem; }
@@ -10194,7 +10201,7 @@ li {
   text-align: left;
 }*/
 .header--primary {
-  color: #b5c5d3;
+  color: #d4e3f1;
   font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: 4px; }
@@ -10236,6 +10243,12 @@ li {
   padding-top: 2rem;
   margin-left: 3rem;
   margin-bottom: 2rem; }
+
+.btn-custom {
+  background-color: #d4e3f1;
+  border-color: transparent !important; }
+  .btn-custom:hover {
+    background-color: rgba(255, 255, 255, 0.8); }
 
 .wrapper {
   max-width: 90% !important; }
@@ -10288,13 +10301,14 @@ li {
 
 .doctolib-btn {
   margin-top: 3rem;
-  border-radius: 25px;
-  background-color: rgba(181, 197, 211, 0.5);
+  border-radius: 0.25rem;
+  background-color: #d4e3f1;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: all .3s;
   letter-spacing: 2px;
-  font-weight: bold; }
+  font-weight: bold;
+  width: 24rem; }
   .doctolib-btn:hover {
     transform: translateY(-3px); }
   .doctolib-btn:active {
@@ -10304,6 +10318,72 @@ li {
   .doctolib-btn:hover .icon-doctolib {
     transform: scale(2);
     margin-left: 1.5rem; }
+
+#head {
+  margin-top: 20rem;
+  background: linear-gradient(to right, #dddddd, rgba(149, 186, 199, 0.1)), url("../img/carousel-1.jpg");
+  background-size: cover;
+  min-height: 520px;
+  text-align: center;
+  padding-top: 240px;
+  color: white;
+  font-family: "Open sans", Helvetica, Arial;
+  font-weight: 300; }
+
+#head.secondary {
+  height: 100px;
+  min-height: 100px;
+  padding-top: 0px; }
+
+#head .lead {
+  font-family: "Open sans", Helvetica, Arial;
+  font-size: 44px;
+  margin-bottom: 6px;
+  color: #fff;
+  line-height: 1.15em; }
+
+#head .tagline {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 2rem; }
+
+#head .tagline a {
+  color: #fff; }
+
+#head .btn {
+  margin-bottom: 10px; }
+
+#head .btn-default {
+  text-shadow: none;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.5);
+  background: transparent; }
+
+#head .btn-default:hover,
+#head .btn-default:focus {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.8);
+  -moz-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.8);
+  box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.8);
+  background: transparent; }
+
+#head .btn-default:active,
+#head .btn-default.active {
+  color: #fff;
+  -webkit-box-shadow: inset 0px 0px 0px 3px #fff;
+  -moz-box-shadow: inset 0px 0px 0px 3px #fff;
+  box-shadow: inset 0px 0px 0px 3px #fff;
+  background: transparent; }
+
+@media (max-width: 767px) {
+  #head {
+    min-height: 420px;
+    padding-top: 160px; }
+  #head .lead {
+    font-size: 34px; } }
 
 .osteopathie-page {
   padding-top: 10rem; }
@@ -10538,6 +10618,15 @@ li {
     color: #666666;
     font-weight: 400; }
 
+.tab-title {
+  color: #666666 !important; }
+
+#sidebar-1 {
+  width: 620px; }
+
+#sidebar-2 {
+  width: 620px; }
+
 .reason-modal {
   display: flex;
   flex-direction: column;
@@ -10567,6 +10656,20 @@ li {
 .reason-img-box {
   width: 5rem;
   height: 8rem; }
+
+.card-title {
+  font-size: 1.2rem; }
+
+.card-home {
+  background: #d4e3f1;
+  height: 16rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
+  padding: 1rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  .card-home:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18), 0 10px 10px rgba(0, 0, 0, 0.14); }
 
 #formation {
   padding-top: 10rem; }
