@@ -29,6 +29,14 @@
   margin-bottom: 2rem;
 }
 
+.btn-custom{
+  background-color: #d4e3f1;
+  border-color: transparent!important;
+  &:hover{
+    background-color: rgba(255,255,255,0.8);
+  }
+}
+
 .wrapper{
   max-width: 90%!important;
 }
@@ -92,13 +100,14 @@
 
 .doctolib-btn {
   margin-top: 3rem;
-  border-radius: 25px;
-  background-color:rgba(181, 197, 211, 0.5);
+  border-radius: 0.25rem;
+  background-color:#d4e3f1;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: all .3s;
   letter-spacing: 2px;
   font-weight: bold;
+  width: 24rem;
 
   &:hover{
     transform: translateY(-3px);
@@ -113,4 +122,24 @@
     transform: scale(2);
     margin-left: 1.5rem;
   }
+}
+
+#head {
+  margin-top: 20rem;
+  background: linear-gradient(to right, rgba(221, 221, 221, 1), rgba(149, 186, 199, 0.1)), url("../img/carousel-1.jpg");
+  background-size: cover; min-height:520px; text-align: center; padding-top:240px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
+#head.secondary { height:100px; min-height: 100px; padding-top:0px; }
+#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:6px; color: #fff; line-height:1.15em; }
+#head .tagline { color:#fff; margin-bottom:25px; font-size: 2rem; }
+#head .tagline a { color:#fff; }
+#head .btn { margin-bottom:10px;}
+#head .btn-default { text-shadow: none; background:transparent; color:rgba(255,255,255,.5); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); background: transparent; }
+#head .btn-default:hover,
+#head .btn-default:focus { color:rgba(255,255,255,.8); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); background: transparent; }
+#head .btn-default:active,
+#head .btn-default.active { color:#fff; -webkit-box-shadow:inset 0px 0px 0px 3px #fff; -moz-box-shadow:inset 0px 0px 0px 3px #fff; box-shadow:inset 0px 0px 0px 3px #fff; background: transparent; }
+
+@media (max-width: 767px) {
+  #head { min-height:420px; padding-top:160px; }
+  #head .lead { font-size: 34px; }
 }

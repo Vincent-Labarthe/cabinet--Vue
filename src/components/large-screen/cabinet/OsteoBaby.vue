@@ -8,6 +8,7 @@
                alt="icon téléphone">
           Retour
         </p>
+      </div>
         <div class="spe-baby">
           <div class="baby-card">
             <div class="baby-card--header baby-card--header--1">
@@ -45,7 +46,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>

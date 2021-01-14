@@ -1,9 +1,14 @@
 <template>
   <div class="cabinet-page">
-    <div id="cabinet_header" class="cabinet-header">
-      <h2 class="header--primary">Cabinet d'ostéopathie Paris-15 </h2>
-      <h3 class="header--secondary"> 2 square du Croisic 75015 Paris</h3>
-    </div>
+    <header id="head">
+      <div class="container">
+        <div class="row d-flex flex-column">
+          <h1 class="lead">Cabinet d'ostéopathie Paris - 15</h1>
+          <p class="tagline">2 square du Croisic 75015 Paris </p>
+          <p> <a class="btn btn-primary btn-custom " role="button" href="http://www.doctolib.com">PRENDRE RENDEZ-VOUS</a></p>
+        </div>
+      </div>
+    </header>
     <div>
         <div id="cabinet-background">
         <div id="cabinet" class="cabinet-header">

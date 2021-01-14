@@ -10,7 +10,6 @@
 <script>
 import $ from 'jquery';
 import LargeContainer from "@/components/large-screen/Large-Container";
-// import SmallContainer from  "@/components/small-screen/Small-Container"
 
 export default {
   name: 'App',
