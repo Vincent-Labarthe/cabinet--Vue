@@ -10062,7 +10062,7 @@ html {
   box-sizing: border-box; }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.7; }
@@ -10302,22 +10302,25 @@ li {
 .doctolib-btn {
   margin-top: 3rem;
   border-radius: 0.25rem;
-  background-color: #d4e3f1;
+  padding: 0 2rem;
+  border-color: transparent !important;
+  background-color: #d4e3f1 !important;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: all .3s;
-  letter-spacing: 2px;
-  font-weight: bold;
-  width: 24rem; }
+  font-weight: bold; }
   .doctolib-btn:hover {
-    transform: translateY(-3px); }
+    transform: translateY(-3px);
+    background-color: #d4e3f1 !important; }
   .doctolib-btn:active {
     transform: translateY(3px); }
   .doctolib-btn a:hover {
     color: #666666; }
   .doctolib-btn:hover .icon-doctolib {
-    transform: scale(2);
-    margin-left: 1.5rem; }
+    transform: scale(1.5);
+    margin-left: 1rem; }
+  .doctolib-btn p {
+    margin-bottom: 0; }
 
 #head {
   margin-top: 20rem;
@@ -10385,6 +10388,14 @@ li {
   #head .lead {
     font-size: 34px; } }
 
+@media (max-width: 576px) {
+  .cabinet-content-text {
+    padding: 1rem 0 0 0; }
+  .acces-text {
+    padding-left: 0; }
+  .doctolib-btn {
+    margin-bottom: 2rem; } }
+
 .osteopathie-page {
   padding-top: 10rem; }
   .osteopathie-page p {
@@ -10420,6 +10431,10 @@ li {
     color: #333333;
     font-weight: bold; }
 
+@media (max-width: 576px) {
+  .osteopathie-text {
+    padding: 0; } }
+
 #specialisation {
   padding-top: 10rem; }
 
@@ -10428,6 +10443,8 @@ li {
   flex-direction: row;
   justify-content: space-around;
   margin: 3rem 1rem; }
+  .spe-body a:hover {
+    color: #8cbddd !important; }
 
 .spe-img-box {
   width: 30%;
@@ -10453,14 +10470,13 @@ li {
   .spe-img-box--3 {
     background-image: url("../img/pregnant.jpg");
     background-size: cover; }
-  .spe-img-box a {
-    color: #BCCBD7; }
 
 .spe-img {
   width: 100%; }
 
 #osteo_sport {
-  margin-top: 10rem; }
+  margin-top: 10rem;
+  color: #8cbddd !important; }
 
 .spe-sport {
   display: flex;
@@ -10494,12 +10510,12 @@ li {
       background-size: cover; }
   .sport-card:hover .sport-card--header {
     height: 26rem;
-    filter: blur(7px); }
+    filter: blur(1.5rem); }
     .sport-card:hover .sport-card--header h5 {
       transform: translateY(-150px); }
   .sport-card:hover div.sport-card--body {
     transform: translateY(-200px);
-    color: #f9f9f9; }
+    color: #F4F4F4; }
 
 .sport-card--body {
   position: absolute;

@@ -7,6 +7,9 @@
   flex-direction: row;
   justify-content: space-around;
   margin: 3rem 1rem;
+  a:hover {
+    color: #8cbddd !important;
+  }
 }
 
 .spe-img-box {
@@ -23,7 +26,6 @@
   text-align: center;
   letter-spacing: 4px;
   transition: all .2s;
-
   &:hover{
     transform: scale(1.1);
   }
@@ -40,9 +42,6 @@
   &--3 {
     background-image: url("../img/pregnant.jpg");
     background-size: cover;
-  }
-  a {
-    color:#BCCBD7;
   }
 }
 
