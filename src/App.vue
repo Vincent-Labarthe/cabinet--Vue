@@ -1,14 +1,11 @@
 <template>
-  <div id="app" class="container-fluid" >
-    <LargeContainer> </LargeContainer>
-
+  <div id="app" class="container-fluid custom-container" >
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import $ from 'jquery';
-import LargeContainer from "@/components/large-screen/Large-Container";
-
 export default {
   name: 'App',
   data() {
@@ -20,11 +17,10 @@ export default {
     }
   },
   components: {
-    LargeContainer,
   },
   methods: {
-    closeModal() {
-      this.isModalVisible = false;
+    switchPage(param) {
+      this.page = param
     },
     handleScroll() {
       this.scrollpx = window.scrollY;

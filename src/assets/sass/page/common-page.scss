@@ -5,6 +5,7 @@
 }*/
 
 .header--primary {
+  font-weight: 400;
   color: #d4e3f1;
   font-size: 3rem;
   text-transform: uppercase;
@@ -21,6 +22,14 @@
   font-style: italic;
   font-family: 'GFS Didot', serif;
 }
+  .header--tertiaire {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #666;
+    margin-top:1rem;
+    font-style: italic;
+    font-family: 'GFS Didot', serif;
+  }
 
 @media (max-width: 599px) {
   .header--primary {
