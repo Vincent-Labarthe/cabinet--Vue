@@ -10120,7 +10120,7 @@ li {
     height: 3rem; }
 
 #videoDiv2 {
-  width: 100%;
+  width: 100vw;
   margin: auto;
   display: block;
   position: relative; }
