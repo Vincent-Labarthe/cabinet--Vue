@@ -1,6 +1,6 @@
 <template>
   <div id="cabinet">
-    <CabinetNavBar v-if="scrollpx > 450" @handle-spe="displaySpe"></CabinetNavBar>
+    <CabinetNavBar @handle-spe="displaySpe"></CabinetNavBar>
     <div id="page">
       <Cabinet></Cabinet>
       <Osteopathie></Osteopathie>

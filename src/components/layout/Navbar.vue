@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#home" class="navbar-brand">Joséphine Lyon <br>  Ostéopathe D.O</b-navbar-brand>
+      <b-navbar-brand href="/" class="navbar-brand">Joséphine Lyon <br>  Ostéopathe D.O</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -9,6 +9,8 @@
         <b-navbar-nav>
           <b-nav-item href="#page">Le Livre</b-nav-item>
           <b-nav-item href="#author">Les auteurs</b-nav-item>
+          <b-nav-item href="/">Cabinet d'Ostéopathie Paris 15</b-nav-item>
+
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->

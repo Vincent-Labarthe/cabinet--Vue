@@ -1,11 +1,15 @@
 <template>
   <div id="book-container" class="book-header">
-  <Navbar v-if="scrollpx > 450" ></Navbar>
-  <div id="page" >
-    <div id="book-header">
-      <h2 class="header--primary">Repenser l'équitation</h2>
-      <h3 class="header--secondary"> Gestes, postures et performance</h3>
+    <Navbar></Navbar>
+    <div id="videoDiv2">
+      <video id="video2" src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/blurry-trees.mov" autoplay loop playsinline muted></video>
+      <div id="videoMessage2" class="styling">
+        <h2 class="header--primary">Repenser l'équitation</h2>
+        <h3 class="header--secondary"> Gestes, postures et performance</h3>
+      </div>
     </div>
+  <div id="page" >
+    <h3 class="header--tertiaire" > Quel cavalier n’a pas rêvé d’une pratique de l’équitation fluide, efficace, sans heurt et sans douleurs ?</h3>
     <div class="book-containter">
       <div class="container wrapper">
         <div class="row">
