@@ -13,12 +13,12 @@ Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 const routes = [
-  { path: '/osteopathe-paris-15', component : HomePage},
+  { path: '', component : HomePage},
   {  path: '/cabinet-osteopathie-paris-15', component: HomePageCabinet },
   {  path: '/repenser-lequitation', component: BookPage },
   {
     path: "/",
-    redirect: "osteopathe-paris-15"
+    redirect: ""
   },
 ]
 
