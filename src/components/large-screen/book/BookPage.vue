@@ -2,9 +2,7 @@
   <div id="book-container" class="book-header">
     <Navbar></Navbar>
     <div id="videoDiv2">
-      <video id="video2"  autoplay loop muted>
-        <source :src="video" type="video/mp4">
-      </video>
+      <video id="video2"  src="video/video_header.mov" autoplay loop playsinline muted></video>
       <div id="videoMessage2" class="styling">
         <h2 class="header--primary">Repenser l'équitation</h2>
         <h3 class="header--secondary"> Gestes, postures et performance</h3>
@@ -58,7 +56,6 @@ export default {
   data() {
     return {
       scrollpx: 0,
-      video: "public/video/video.mp4"
     }
   },
   methods: {

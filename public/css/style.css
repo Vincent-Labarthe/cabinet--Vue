@@ -9834,7 +9834,7 @@ input[type="color"].form-control:disabled {
   font-family: 'Roboto', sans-serif;
   color: #666;
   margin-right: 2rem;
-  font-weight: 400; }
+  font-weight: 300; }
   .resume__text {
     text-align: justify;
     list-style: none; }
@@ -10130,7 +10130,6 @@ li {
   width: 100%;
   height: 100%; }
 
-/* This has been changed */
 #videoMessage2 {
   position: absolute;
   top: 0;
@@ -10247,9 +10246,9 @@ li {
 
 .header--tertiaire {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #666;
-  margin-top: 1rem;
+  margin-top: 3rem;
   font-style: italic;
   font-family: 'GFS Didot', serif; }
 
@@ -10435,7 +10434,7 @@ li {
 .osteopathie-page {
   padding-top: 10rem; }
   .osteopathie-page p {
-    font-weight: 400; }
+    font-weight: 300; }
 
 .osteopathie-header {
   padding-top: 2rem;
