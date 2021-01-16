@@ -58,7 +58,7 @@ export default {
   data() {
     return {
       scrollpx: 0,
-      video: "public/img/video_header.mov"
+      video: "public/video/video.mp4"
     }
   },
   methods: {
