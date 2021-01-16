@@ -1,0 +1,16 @@
+.carousel-3d-slide{
+  background-color: transparent!important;
+  border-style: none!important;
+  border-radius: 10px;
+}
+.card-network{
+  box-shadow: none;
+  &:hover{
+    box-shadow: none;
+  }
+}
+
+.card-text-network{
+  font-size: 0.8rem;
+  font-weight: normal;
+}

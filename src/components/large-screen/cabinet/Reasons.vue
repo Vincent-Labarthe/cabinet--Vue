@@ -9,7 +9,7 @@
           <div>
             <div>
               <b-tabs content-class="m-3">
-                <b-tab title="Maux de dos" active title-link-class="tab-title">
+                <b-tab id="back_pain" title="Maux de dos" active title-link-class="tab-title">
                   <BackPain></BackPain>
                 </b-tab>
 

@@ -2,7 +2,9 @@
   <div id="book-container" class="book-header">
     <Navbar></Navbar>
     <div id="videoDiv2">
-      <video id="video2" src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/blurry-trees.mov" autoplay loop playsinline muted></video>
+      <video id="video2"  autoplay loop muted>
+        <source :src="video" type="video/mp4">
+      </video>
       <div id="videoMessage2" class="styling">
         <h2 class="header--primary">Repenser l'équitation</h2>
         <h3 class="header--secondary"> Gestes, postures et performance</h3>
@@ -56,6 +58,7 @@ export default {
   data() {
     return {
       scrollpx: 0,
+      video: "public/img/video_header.mov"
     }
   },
   methods: {

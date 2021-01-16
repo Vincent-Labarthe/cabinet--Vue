@@ -10,7 +10,7 @@
       <OsteoPregnant v-if="spePage === 'pregnant'" @handle-spe="displaySpe"></OsteoPregnant>
       <Reasons></Reasons>
       <Formation></Formation>
-
+      <Network></Network>
     </div>
   </div>
 </template>
@@ -25,10 +25,11 @@ import OsteoBaby from "@/components/large-screen/cabinet/OsteoBaby";
 import OsteoPregnant from "@/components/large-screen/cabinet/OsteoPregnant";
 import Reasons from "@/components/large-screen/cabinet/Reasons";
 import Formation from "@/components/large-screen/cabinet/Formation";
+import Network from "@/components/large-screen/cabinet/Network";
 
 export default {
   name: 'HomePageCabinet',
-  components: {
+    components: {
     CabinetNavBar,
     Cabinet,
     Osteopathie,
@@ -38,6 +39,7 @@ export default {
     OsteoPregnant,
     Reasons,
     Formation,
+    Network
   },
   data() {
     return {
