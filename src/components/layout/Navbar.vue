@@ -9,22 +9,6 @@
           <b-navbar-nav>
             <b-nav-item href="#page" nav-item-class="custom-navbar">Le Livre</b-nav-item>
             <b-nav-item href="#author">Les auteurs</b-nav-item>
-            <b-nav-item-dropdown text="Mes Spécialisations" right>
-            <router-link to="/repenser-lequitation" @click="handleBookPage('cabinet')" class="nav-link">Cabinet d'Ostéopathie Paris 15</router-link>
-
-              <a class="dropdown-item" href="#osteo_sport" @click="selectedSpe('sport')">Ostéopathie du Sport</a>
-              <a class="dropdown-item" href="#osteo_baby" @click="selectedSpe('baby')">Ostéopathie pédiatrique</a>
-              <a class="dropdown-item" href="#osteo_pregnant" @click="selectedSpe('pregnant')">Ostéopathie de la femme enceinte</a>
-            </b-nav-item-dropdown>
-            <b-nav-item-dropdown text="Quand consulter ?" right>
-              <a class="dropdown-item" href="#back_pain">Maux de dos</a>
-              <!--  <a class="dropdown-item" href="#joint">Douleurs articulaire</a>
-                <a class="dropdown-item" href="#stress">Stress & trouble du sommeil</a>
-                <a class="dropdown-item" href="#trauma">Douleur post-trauma</a>-->
-            </b-nav-item-dropdown>
-            <b-nav-item href="#formation">Mes formations</b-nav-item>
-            <b-nav-item href="#network">Mon Réseaux</b-nav-item>
-
             <router-link to="/cabinet-osteopathie-paris-15" @click="handleBookPage('cabinet')" class="nav-link">Cabinet d'Ostéopathie Paris 15</router-link>
           </b-navbar-nav>
 
