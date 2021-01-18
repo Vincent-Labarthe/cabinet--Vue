@@ -23,7 +23,7 @@
           <b-nav-item href="#formation">Mes formations</b-nav-item>
           <b-nav-item href="#network">Mon Réseaux</b-nav-item>
 
-          <b-nav-item href="/">Repenser l'équitation</b-nav-item>
+          <router-link to="/repenser-lequitation" @click="handleBookPage('cabinet')" class="nav-link">Cabinet d'Ostéopathie Paris 15</router-link>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->

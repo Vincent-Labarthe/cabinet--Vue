@@ -5,11 +5,11 @@
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-      <b-collapse id="nav-collapse" is-nav>
+      <b-collapse id="nav-col lapse" is-nav>
         <b-navbar-nav>
           <b-nav-item href="#page">Le Livre</b-nav-item>
           <b-nav-item href="#author">Les auteurs</b-nav-item>
-          <b-nav-item href="/">Cabinet d'Ostéopathie Paris 15</b-nav-item>
+          <router-link to="/cabinet-osteopathie-paris-15" @click="handleBookPage('cabinet')" class="nav-link">Cabinet d'Ostéopathie Paris 15</router-link>
 
         </b-navbar-nav>
 
