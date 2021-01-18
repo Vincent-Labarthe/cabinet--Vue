@@ -6,6 +6,7 @@
       <div id="videoMessage2" class="styling">
         <h2 class="header--primary">Repenser l'équitation</h2>
         <h3 class="header--secondary"> Gestes, postures et performance</h3>
+            <a href="#page" class="cd-next"><img src="icon/down-arrow.svg" alt="" class="down-arrow loop"></a>
       </div>
     </div>
   <div id="page" >
@@ -41,6 +42,7 @@ import AuthorPage from "@/components/large-screen/book/AuthorPage";
 import BookVideo from "@/components/large-screen/book/BookVideo";
 import Navbar from "@/components/layout/Navbar";
 import BookCarousel from "@/components/large-screen/book/BookCarousel";
+import { loop } from '../../../../public/js/animate';
 
 export default {
   name: 'BookPage',
@@ -52,11 +54,6 @@ export default {
     Navbar,
     BookCarousel
 
-  },
-  data() {
-    return {
-      scrollpx: 0,
-    }
   },
   methods: {
     handleScroll() {
@@ -85,6 +82,9 @@ export default {
   },
   destroyed() {
     window.removeEventListener('scroll', this.handleScroll);
+  },
+  mounted(){
+    loop('.loop');
   }
 }
 

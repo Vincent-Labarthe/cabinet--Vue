@@ -42,7 +42,7 @@
 }
 #videoDiv2 {width:100vw;  margin:auto; display:block; position: relative;} /* This has been changed */
 #video2 {
-  width: 100%;
+  width: 100vw;
   height: 100%;
 }
 #videoMessage2 { position: absolute; top: 0; left: 0;
@@ -51,5 +51,25 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;}
+  height: 100%;
+  text-align: center;
+}
+.cd-next{
+  display: block;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  -webkit-transition: opacity .2s 0s,visibility .2s 0s;
+  -moz-transition: opacity .2s 0s,visibility .2s 0s;
+  transition: opacity .2s 0s,visibility .2s 0s;
+  z-index: 5000;
+}
+.down-arrow{
+  width: 40px;
+}
 
+@media (max-width: 576px) {
+  #videoDiv2{
+    margin-top: 94px;
+  }
+}
