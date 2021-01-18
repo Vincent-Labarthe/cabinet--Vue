@@ -52,7 +52,6 @@
                       déménagement,
                       ou si je présente une lésion (hernie discale), je peux mettre une ceinture lombaire
                       ponctuellement, pour un trajet en voiture par
-                      <exemple class=""></exemple>
                     </p>
                   </li>
                   <li><p>Eviter certains gestes : les vertèbres n’aiment pas le mouvement vers l’avant, pour me pencher

@@ -39,6 +39,34 @@
 
 export default {
   name: 'CabinetNavBar',
+  data() {
+    return {
+      navigations: {
+        navigationCabinet:
+           [
+            {link: '/', page: 'Accueil' },
+            { link: '/osteopathie', page: 'L\'Ostéopathie' },
+            { link: '/votre-osteopathe', page: 'Votre Ostéopathe' },
+            { link: '/pour-qui', page: 'Pour qui ?', isDropDown:true },
+            { link: '/la-consultation', page: 'La consultation' },
+            { link: '/faq', page: 'FAQ' },
+            { link: 'https://doctolib.fr', page: 'Prendre RDV' },
+            { link: 'https://doctolib.fr', page: 'Web Sante' },
+           ],
+        navigationBook:
+            [
+              {link: '/', page: 'Accueil' },
+              { link: '/osteopathie', page: 'L\'Ostéopathie' },
+              { link: '/votre-osteopathe', page: 'Votre Ostéopathe' },
+              { link: '/pour-qui', page: 'Pour qui ?', isDropDown:true },
+              { link: '/la-consultation', page: 'La consultation' },
+              { link: '/faq', page: 'FAQ' },
+              { link: 'https://doctolib.fr', page: 'Prendre RDV' },
+              { link: 'https://doctolib.fr', page: 'Web Sante' },
+            ],
+      }
+    }
+  },
   methods: {
     selectedSpe(param) {
       this.$emit('handle-spe', param)

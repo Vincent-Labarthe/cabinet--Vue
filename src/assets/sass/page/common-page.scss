@@ -31,9 +31,16 @@
     font-family: 'GFS Didot', serif;
   }
 
+@media (max-width: 992px) {
+  .header--secondary {
+    color: #d4e3f1;
+  }
+}
+
 @media (max-width: 599px) {
   .header--primary {
     font-size: 2rem;
   }
 }
+
 

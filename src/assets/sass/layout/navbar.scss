@@ -14,11 +14,17 @@
 .nav-link{
   color:#fff!important;
   border-right:1px solid #fff;
-
 }
 
 .navbar-nav{
   margin-left: 2rem;
+}
+
+@media (max-width: 576px) {
+  .nav-link{
+    border-right:none;
+
+  }
 }
 
 

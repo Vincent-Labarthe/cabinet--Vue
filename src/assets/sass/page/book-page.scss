@@ -67,12 +67,15 @@
 .down-arrow{
   width: 40px;
 }
+@media (max-width: 992px) {
+  .cd-next{
+    display: none ;
+  }
+}
 
 @media (max-width: 576px) {
   #videoDiv2{
     margin-top: 94px;
   }
-  .cd-next{
-    display: none ;
-  }
+
 }
