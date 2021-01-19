@@ -1,6 +1,6 @@
 <template>
     <div>
-      <b-navbar toggleable="lg" type="dark" variant="info">
+      <b-navbar toggleable="lg" type="dark" variant="info" :class="{ 'navbar--hidden': !showNavbar }">
         <b-navbar-brand href="/" class="navbar-brand">Joséphine Lyon <br>  Ostéopathe D.O</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -25,6 +25,32 @@
 
 export default {
   name: 'Navbar',
+  data() {
+    return {
+      showNavbar: true,
+    }
+  },
+  methods: {
+    onScroll () {
+      const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop
+      if (currentScrollPosition < 0) {
+        return
+      }
+      // Stop executing this function if the difference between
+      // current scroll position and last scroll position is less than some offset
+      if (Math.abs(currentScrollPosition - this.lastScrollPosition) < 120) {
+        return
+      }
+      this.showNavbar = currentScrollPosition < this.lastScrollPosition
+      this.lastScrollPosition = currentScrollPosition
+    }
+  },
+  mounted () {
+    window.addEventListener('scroll', this.onScroll)
+  },
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.onScroll)
+  }
 
 }
 

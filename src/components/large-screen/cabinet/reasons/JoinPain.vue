@@ -5,8 +5,7 @@
         <div class=" card-home">
           <div class="card-body text-center">
             <img class="card-icon mb-4" src="../../../../../public/icon/question.svg" alt="">
-            <div class="h-caption"><h4 class="card-title">Lombalgie / lumbago</h4></div>
-            <p class="card-text"> Douleur en bas du dos</p>
+            <div class="h-caption"><h4 class="card-title">Douleur Articulaire</h4></div>
             <b-button v-b-toggle.sidebar-1 variant="light">Lire notre dossier</b-button>
             <b-sidebar id="sidebar-1" title="Douleur articulaire" shadow>
               <div class="px-3 py-20 m-3">
