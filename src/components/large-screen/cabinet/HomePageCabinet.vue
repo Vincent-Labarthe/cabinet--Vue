@@ -11,6 +11,7 @@
       <Reasons></Reasons>
       <Formation></Formation>
       <Network></Network>
+      <Footer></Footer>
     </div>
   </div>
 </template>
@@ -26,6 +27,7 @@ import OsteoPregnant from "@/components/large-screen/cabinet/OsteoPregnant";
 import Reasons from "@/components/large-screen/cabinet/Reasons";
 import Formation from "@/components/large-screen/cabinet/Formation";
 import Network from "@/components/large-screen/cabinet/Network";
+import Footer from "@/components/layout/Footer";
 
 export default {
   name: 'HomePageCabinet',
@@ -39,7 +41,8 @@ export default {
     OsteoPregnant,
     Reasons,
     Formation,
-    Network
+    Network,
+    Footer
   },
   data() {
     return {

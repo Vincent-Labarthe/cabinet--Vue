@@ -44,7 +44,7 @@
             <div class="row d-flex justify-content-between align-items-center">
               <div class="col-sm-6 mb-md-4">
                 <div class="acces-text">
-                  <p class="text-justify"><b>Le Cabinet médical Croisic Duroc </b> se situe 2 Square du Croisic 75015 Paris. (entrée au 12 boulevard du
+                  <p class="text-justify"><b>Le Cabinet d'Ostéopathie Paris 15</b> se situe 2 Square du Croisic 75015 Paris. (entrée au 12 boulevard du
                     Montparnasse)</p>
                   <p class="text-justify">A deux pas de l'hôpital Necker, entre les stations Duroc (L10 et L13), Falguière (L12) et Montparnasse.
                     (L4,L6,L12,L13)</p>

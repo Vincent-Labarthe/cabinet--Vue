@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar toggleable="lg" type="dark" variant="info" :class="{ 'navbar--hidden': !showNavbar }">
         <b-navbar-brand href="/" class="navbar-brand">Joséphine Lyon <br>  Ostéopathe D.O</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -23,7 +23,7 @@
           <b-nav-item href="#formation">Mes formations</b-nav-item>
           <b-nav-item href="#network">Mon Réseaux</b-nav-item>
 
-          <router-link to="/repenser-lequitation" @click="handleBookPage('cabinet')" class="nav-link">Cabinet d'Ostéopathie Paris 15</router-link>
+          <router-link to="/repenser-lequitation" @click="handleBookPage('cabinet')" class="nav-link">Repenser l'équitation</router-link>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -41,6 +41,8 @@ export default {
   name: 'CabinetNavBar',
   data() {
     return {
+      showNavbar: true,
+      lastScrollPosition: 0,
       navigations: {
         navigationCabinet:
            [
@@ -70,7 +72,26 @@ export default {
   methods: {
     selectedSpe(param) {
       this.$emit('handle-spe', param)
+    },
+    onScroll () {
+      const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop
+      if (currentScrollPosition < 0) {
+        return
+      }
+      // Stop executing this function if the difference between
+      // current scroll position and last scroll position is less than some offset
+      if (Math.abs(currentScrollPosition - this.lastScrollPosition) < 120) {
+        return
+      }
+      this.showNavbar = currentScrollPosition < this.lastScrollPosition
+      this.lastScrollPosition = currentScrollPosition
     }
+  },
+  mounted () {
+    window.addEventListener('scroll', this.onScroll)
+  },
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.onScroll)
   }
 }
 

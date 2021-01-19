@@ -2,7 +2,7 @@
   <div id="formation">
     <div id="cabinet-background">
       <div class="osteopathie-header">
-        <h3 class="header--secondary">Mes Formations </h3>
+        <h3 class="header--secondary">Mes Formations - Cabinet d'Ostéopathie Paris 15</h3>
       </div>
       <div class="formation-modal">
         <div class="formation-card formation-card--1">
@@ -32,7 +32,7 @@
         </div>
         <div class="formation-card formation-card--5">
           <div class="formtion-card-header formtion-card-header--5">
-            <h4>Empilement Articulaire Dynamique </h4>
+            <h4>Empilement Articulaire Dynamique</h4>
             <p>Corrections posturales et des gestes techniques sportifs par Frédéric Brigaud.</p> </div>
           <div><img class="formation-img formation-img--5" src="../../../../public/img/ead.png" alt=""></div>
         </div>

@@ -29,7 +29,7 @@
 
     <OrderLink class="m-5"></OrderLink>
     <AuthorPage></AuthorPage>
-    <BookVideo v-show="false"></BookVideo>
+    <Footer></Footer>
   </div>
   </div>
 </template>
@@ -39,21 +39,19 @@ import $ from 'jquery'
 import Resume from "@/components/large-screen/book/Resume";
 import OrderLink from "@/components/large-screen/book/OrderLink";
 import AuthorPage from "@/components/large-screen/book/AuthorPage";
-import BookVideo from "@/components/large-screen/book/BookVideo";
 import Navbar from "@/components/layout/Navbar";
 import BookCarousel from "@/components/large-screen/book/BookCarousel";
 import { loop } from '../../../../public/js/animate';
-
+import Footer from "@/components/layout/Footer";
 export default {
   name: 'BookPage',
   components: {
     Resume,
     OrderLink,
     AuthorPage,
-    BookVideo,
     Navbar,
-    BookCarousel
-
+    BookCarousel,
+    Footer
   },
   methods: {
     handleScroll() {

@@ -2,7 +2,7 @@
   <div id="reasons">
     <div id="cabinet-background">
       <div class="osteopathie-header">
-        <h3 class="header--secondary">Quand consulter ? </h3>
+        <h3 class="header--secondary">Quand consulter ? - Cabinet d'Ostéopathie Paris 15</h3>
       </div>
       <div class="container wrapper">
         <div>
@@ -12,7 +12,6 @@
                 <b-tab id="back_pain" title="Maux de dos" active title-link-class="tab-title">
                   <BackPain></BackPain>
                 </b-tab>
-
               </b-tabs>
             </div>
           </div>

@@ -2,7 +2,7 @@
   <div id="specialisation">
     <div id="cabinet-background">
       <div class="osteopathie-header">
-        <h3 class="header--secondary">Mes spécialisations</h3>
+        <h3 class="header--secondary">Mes spécialisations - Cabinet d'Ostéopathie Paris 15</h3>
       </div>
       <div class="spe-body">
         <a class="spe-img-box spe-img-box--1 d-none d-md-flex" href="" @click="selectedSpe('sport')"><p>Les Sportifs</p>

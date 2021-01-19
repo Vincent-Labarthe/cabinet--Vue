@@ -2,7 +2,7 @@
   <div id="network">
     <div id="cabinet-background">
       <div class="osteopathie-header">
-        <h3 class="header--secondary">Mon Réseaux</h3>
+        <h3 class="header--secondary">Mon Réseaux - Cabinet d'Ostéopathie Paris 15</h3>
       </div>
       <div class="container wrapper">
       </div>

@@ -2,7 +2,7 @@
   <div id="osteopathie" class="osteopathie-page">
     <div id="cabinet-background">
       <div class="osteopathie-header">
-        <h3 class="header--secondary">L'Ostéopathie</h3>
+        <h3 class="header--secondary">L'Ostéopathie - Cabinet d'Ostéopathie Paris 15</h3>
       </div>
       <div class="osteopathie-body">
         <div class="container wrapper">
