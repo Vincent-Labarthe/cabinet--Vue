@@ -1,7 +1,7 @@
 <template>
     <div>
       <b-navbar toggleable="lg" type="dark" variant="info" :class="{ 'navbar--hidden': !showNavbar }">
-        <b-navbar-brand href="/" class="navbar-brand">Joséphine Lyon <br>  Ostéopathe D.O</b-navbar-brand>
+        <b-navbar-brand href="/" class="navbar-brand"><img src="icon/logo.svg" alt="" style="width: 10rem"></b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
