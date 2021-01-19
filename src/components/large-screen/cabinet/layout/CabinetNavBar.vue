@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info" :class="{ 'navbar--hidden': !showNavbar }">
-        <b-navbar-brand href="/" class="navbar-brand"><img src="icon/logo.svg" alt="" style="width: 10rem"></b-navbar-brand>
+        <b-navbar-brand href="/" class="navbar-brand"><img src="icon/logo.svg" alt="" style="width: 14rem"></b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -15,7 +15,7 @@
             <a class="dropdown-item" href="#osteo_pregnant" @click="selectedSpe('pregnant')">Ostéopathie de la femme enceinte</a>
           </b-nav-item-dropdown>
           <b-nav-item-dropdown text="Quand consulter ?" right>
-            <a class="dropdown-item" href="#back_pain">Maux de dos</a>
+            <a class="dropdown-item" href="#reasons">Maux de dos</a>
           <!--  <a class="dropdown-item" href="#joint">Douleurs articulaire</a>
             <a class="dropdown-item" href="#stress">Stress & trouble du sommeil</a>
             <a class="dropdown-item" href="#trauma">Douleur post-trauma</a>-->

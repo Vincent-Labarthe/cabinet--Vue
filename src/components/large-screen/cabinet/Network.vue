@@ -1,6 +1,6 @@
 <template>
   <div id="network">
-    <div id="cabinet-background">
+    <div id="cabinet-background" class="bottom-network">
       <div class="osteopathie-header">
         <h3 class="header--secondary">Mon Réseaux - Cabinet d'Ostéopathie Paris 15</h3>
       </div>

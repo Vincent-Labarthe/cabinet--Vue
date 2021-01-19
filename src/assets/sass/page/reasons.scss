@@ -17,6 +17,9 @@
 #sidebar-2{
   width: 620px;
 }
+#sidebar-3{
+  width: 620px;
+}
 
 .reason-modal{
   display: flex;
@@ -61,7 +64,7 @@
 }
 .card-home{
   background: #d4e3f1;
-  height: 16rem;
+  height: 18rem;
   box-shadow:0 6px 14px rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24) ;
   padding: 1rem 1rem;
   margin: 0.5rem 0;
@@ -74,4 +77,8 @@
 }
 .reason-video{
   max-width: 500px;
+}
+
+.bottom-network{
+  margin-bottom: 4rem!important;
 }

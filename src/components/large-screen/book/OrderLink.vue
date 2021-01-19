@@ -8,7 +8,7 @@
     </a></b-button>
 
   </div>
-  <div class="mt-5">
+  <div class="mt-5 d-flex justify-content-center">
     <b-embed
         type="iframe"
         aspect="16by9"

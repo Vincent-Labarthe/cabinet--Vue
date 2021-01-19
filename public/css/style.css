@@ -9632,11 +9632,16 @@ input[type="color"].form-control:disabled {
   display: block; }
 
 .site-footer {
+  border-top: 1px solid #ffffff;
   background-color: #d4e3f1;
   padding: 20px 0 10px;
   font-size: 10px;
   line-height: 24px;
-  color: #737373; }
+  color: #737373;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24); }
+
+.site-footer p {
+  font-size: 13px; }
 
 .site-footer hr {
   border-top-color: #bbb;
@@ -9647,14 +9652,14 @@ input[type="color"].form-control:disabled {
 
 .site-footer h6 {
   color: #fff;
-  font-size: 10px;
+  font-size: 12px;
   text-transform: uppercase;
   margin-top: 5px;
   letter-spacing: 2px; }
 
 .site-footer a {
   color: #737373;
-  font-size: 9px; }
+  font-size: 11px; }
 
 .site-footer a:hover {
   color: #3366cc;
@@ -9874,6 +9879,9 @@ input[type="color"].form-control:disabled {
     color: #fff; }
   .order-link-btn:active {
     transform: translateY(5px); }
+
+.embed-responsive {
+  width: 80% !important; }
 
 .modal-box {
   color: #f9f9f9;
@@ -10295,16 +10303,20 @@ li {
 
 .cabinet-content {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  padding-top: 2rem; }
 
 #cabinet-background {
   border-radius: 5px;
-  box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
   padding-bottom: 2rem;
-  background-color: white; }
+  background-color: white;
+  margin: 0 2rem 0 2rem; }
+
+.box--header {
+  margin-top: 2rem !important; }
 
 .cabinet-header {
-  padding-top: 2rem;
   margin-left: 3rem;
   margin-bottom: 2rem; }
 
@@ -10462,6 +10474,9 @@ li {
     padding-left: 0; }
   .doctolib-btn {
     margin-bottom: 2rem; } }
+
+#cabinet {
+  background-color: #d4e3f1; }
 
 .osteopathie-page {
   padding-top: 10rem; }
@@ -10710,6 +10725,9 @@ li {
 #sidebar-2 {
   width: 620px; }
 
+#sidebar-3 {
+  width: 620px; }
+
 .reason-modal {
   display: flex;
   flex-direction: column;
@@ -10745,7 +10763,7 @@ li {
 
 .card-home {
   background: #d4e3f1;
-  height: 16rem;
+  height: 18rem;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
   padding: 1rem 1rem;
   margin: 0.5rem 0;
@@ -10756,6 +10774,9 @@ li {
 
 .reason-video {
   max-width: 500px; }
+
+.bottom-network {
+  margin-bottom: 4rem !important; }
 
 #formation {
   padding-top: 10rem; }
