@@ -20,52 +20,16 @@
 
                 <p class="text-justify">Une articulation peut se mettre en dysfonction pour des raisons variées : traumatisme, faux mouvement, mauvaise posture, alimentation trop acide, mauvais apport sanguin, stress, trouble digestif…</p>
 
-                <p class="font-italic text-justify">«Il faut bien comprendre que nous ne sommes pas constitués
-                  physiologiquement et structurellement pour être en position assise prolongée. Nous sommes fait pour
-                  être debout, marcher, courir, bouger, nous reposer en position allongée. Nos modes de vie sédentaires
-                  sont la cause principale de notre mal de dos. Nous n’en avons pas conscience car le mal de dos se
-                  manifeste souvent à la suite d’un faux mouvements ou d’une activité quelconque. Le souffrant accuse à
-                  tord ce mauvais geste qui’ n’est en réalité que l’interrupteur d’un problème sous-jacent.» </p>
-                <p class="text-justify">Les lombalgies représentent à elles seules plus de <b>la moitié des motifs de
-                  consultation en ostéopathie </b> et la seconde place en médecine générale. Elles représentent un <b>problème
-                  de santé publique majeur</b> en raison de sa fréquence et des répercussions socio-économiques qui en
-                  découlent (arrêt de travail, bien-être, appréhension pour réaliser des activités, baisse de moral...).
+                <p class="text-justify">Les conséquences de cette dysfonctions vont être multiples : une raideur de l’articulation et donc une difficulté
+                  à faire certains gestes, une douleur, une inflammation, une hypersollicitation musculaire,
+                  un trouble de la vascularisation et de la conduction nerveuse, l’apparition de nouvelle dysfonctions à distance (articulaire, viscérales) bref
+                  c’est tout le système qui en sera perturbé. <br>
+                  A terme, si la dysfonction ne disparait pas on assistera à une modification irréversible des tissus :
+                  c’est alors qu’apparaissent les phénomènes de fibrose et d’arthrose.
                 </p>
-                <h4 class="text-justify pt-3">Astuces pour prévenir une lombalgie ou éviter la récidive : </h4>
-                <ul class="text-justify">
-                  <li><p>Bouger : Le cartilage se réhydrate pas le mouvement, la circulation sanguine des jambes vers
-                    le cœur s’obtient pas la marche, je ne reste pas en position statique prolongée même si je ne
-                    ressens pas de douleur.</p></li>
-                  <li>
-                    <p>Limiter les port de charge, si je n’ai pas le choix, je gaine mes abdominaux, j’utilise mes deux
-                      bras,
-                      j’équilibre la charge sur mes deux épaules (je privilégie le sac à dos au sac à main). En cas de
-                      déménagement,
-                      ou si je présente une lésion (hernie discale), je peux mettre une ceinture lombaire
-                      ponctuellement, pour un trajet en voiture par
-                    </p>
-                  </li>
-                  <li><p>Eviter certains gestes : les vertèbres n’aiment pas le mouvement vers l’avant, pour me pencher
-                    en avant,
-                    je fléchis mes genoux et/ou mes hanche, je n’arrondis jamais le bas du dos. J’évite également les
-                    mouvements de torsion,
-                    je choisis une chaise qui pivote si je travaille sur deux écrans, si je suis debout, ce sont mes
-                    pieds qui pivotent.</p></li>
-                  <li><p>Je respecte les courbures de ma colonne : en position assise, je positionne mon bassin en
-                    position neutre.
-                    La cambrure du bas du dos est physiologique, il faut la respecter, ni plus, ni moins.
-                    J’évite les longues marches en avec des chaussures à talons pour ne pas accentuer cette
-                    cambrure.</p></li>
-                  <li><p>Je banis les postures asymétriques : croiser les jambes, torsion de la colonne sur un côté.</p>
-                  </li>
-                  <li><p>Je décomprime mes vertèbres lombaires : je me suspends à un support solide (barre de traction,
-                    branche, mezzanine, escalier). Je peux aussi, en position debout, mettre tout le poids de mon corps
-                    sur
-                    mes avant-bras posés verticalement sur un bureau. En position allongée, je peux réunir mes deux
-                    genoux
-                    et les rapprocher de ma poitrine, de façon rectiligne puis circulaire</p>.
-                  </li>
-                </ul>
+                <p class="text-justify">Le but de l’ostéopathe n’est pas de « remettre les os en place » ni de les replacer dans un bon alignement mais de <b>traiter ces dysfonctions articulaires</b> ou d’éviter qu’il en apparaisse.
+                  L’intégrité du système locomoteur est d’une importance cruciale pour le fonctionnement général du corps et dans le maintien de la santé.</p>
+
               </div>
             </b-sidebar>
 
