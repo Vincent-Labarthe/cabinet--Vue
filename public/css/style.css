@@ -9505,6 +9505,8 @@ input[type="color"].form-control:disabled {
 
 .nav-link {
   color: #737373 !important; }
+  .nav-link:hover {
+    color: #474646 !important; }
 
 .navbar-nav {
   margin-left: 2rem; }
@@ -10298,7 +10300,8 @@ li {
 #cabinet-background {
   border-radius: 5px;
   box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  background-color: white; }
 
 .cabinet-header {
   padding-top: 2rem;
@@ -10750,6 +10753,9 @@ li {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
   .card-home:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18), 0 10px 10px rgba(0, 0, 0, 0.14); }
+
+.reason-video {
+  max-width: 500px; }
 
 #formation {
   padding-top: 10rem; }

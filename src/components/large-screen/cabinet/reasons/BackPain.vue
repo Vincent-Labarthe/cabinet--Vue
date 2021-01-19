@@ -21,8 +21,7 @@
                   diminution d’apport sanguin du nerf ce qui entraîne des troubles de la sensibilité appelées
                   paresthésies (fourmillement, picotement, engourdissement).
                 </p>
-                <img src="../../../../../public/img/back-pain.jpg" class="img-fluid img-thumbnail mb-3"
-                     style="width: 30%" alt="cabinet osteopathe paris 15">
+                <video class="reason-video mb-3"  src="video/back-pain.mp4" autoplay loop playsinline muted></video>
 
                 <p class="text-justify">Les douleurs sont typiquement intermittentes, d'un seul côté (unilatérale),
                   irradiantes du rachis lombaire jusque dans les orteils, parfois majorées lors des efforts de toux ou à
@@ -84,6 +83,54 @@
         <div class=" card-home">
           <div class="card-body text-center">
             <img class="card-icon  mb-4" src="../../../../../public/icon/question.svg" alt="">
+            <div class="h-caption"><h4 class="card-title">Cervicalgie</h4></div>
+            <p class="card-text">Douleur du cou et de la nuque</p>
+            <b-button v-b-toggle.sidebar-2 variant="light">Lire notre dossier</b-button>
+            <b-sidebar id="sidebar-2" title="Cervicalgie" shadow>
+              <div class="px-3 py-20 m-3">
+                <p class="text-justify">
+                  On dénomme cervicalgie les douleurs du rachis cervical plus communément toutes les douleurs de la région du cou.
+                  Elle peut diffuser dans le bras et/ou être associée de maux de tête.
+                </p>
+                <p class="text-justify">La douleur et la raideur cervicale sont des symptômes très fréquents, particulièrement chez les adultes.
+                  La cervicalgie affecte entre 10 et 15% de la population. Tout comme la lombalgie, elle a un impact sur la qualité de vie et l’une des principales causes d’arrêt de travail.
+                  Le traitement ostéopathique là aussi semble être la méthode de soin la plus efficace à court et à long terme.</p>
+                <p class="text-justify">Dans la très grande majorité des cas, il s’agit de cervicalgies communes (sans gravité) dues à un trouble fonctionnel musculo-ligamentaire de la région cervicale ou à une détérioration dégénérative (l’arthrose).
+                  La cervicarthrose anatomique est d’une extrême fréquence : plus de 50 % des individus après 40 ans et elle augmente avec l’âge</p>
+                <p class="text-justify">Il est important de comprendre que l’arthrose n’est pas une fatalité et qu’elle n’est pas synonyme
+                  de douleur sinon la moitié des individus après 40 ans auraient mal au cou! Il n’y a d’ailleurs pas de concordance entre le stade d’évolution de l’arthrose et la douleur ressentie</p>
+                <h4 class="text-justify pt-3">Astuces pour prévenir les cervicalgies : </h4>
+                <ul class="text-justify">
+                  <li>
+                    <p>Respecter l’horizontalité du regard : hausser le haut de l’écran, éviter les postures prolongées tête en bas </p>
+                  </li>
+                  <li>
+                    <p>Traiter les troubles de la mâchoire : serrement des dents, problèmes d’occlusion</p>
+                  </li>
+                  <li>
+                    <p>Traiter les troubles ophtalmiques et orthoptistes : porter des lunettes ou des lentilles adaptées à votre vision, suivi ophtalmologique régulier, séances d’orthoptie si nécessaire</p>
+                  </li>
+                  <li>
+                    <p>Techniques de gestion du stress : activité physique pour décharger + activité douce pour abaisser le seuil de stress</p>
+                  </li>
+                  <li>
+                    <p>Eviter la posture sur le ventre pour dormir</p>
+                  </li>
+                  <li>
+                    <p>Prendre en charge les troubles de la postures dans son ensemble, les cervicalgies peuvent être la conséquences d’asymétries de postures provenant d’ailleurs :<br>
+                      éviter de croiser les jambes, de toujours porter du même côté, d’incliner la tête toujours du même côté (exemple : port de casque),
+                      de rééquilibrer le corps si pratique d’activité symétrique (ex : sports de raquette)</p>
+                  </li>
+                </ul>
+              </div>
+            </b-sidebar>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 highlight">
+        <div class=" card-home">
+          <div class="card-body text-center">
+            <img class="card-icon  mb-4" src="../../../../../public/icon/question.svg" alt="">
             <div class="h-caption"><h4 class="card-title">Sciatique/Sciatalgie</h4></div>
             <p class="card-text">Douleur qui part du bas du dos ou de la fesse et irradie à la face postérieure de la
               jambe pouvant parfois aller jusqu’au pied. </p>
@@ -106,8 +153,8 @@
             <img class="card-icon mb-4" src="../../../../../public/icon/question.svg" alt="">
             <div class="h-caption"><h4 class="card-title">Dorsalgie</h4></div>
             <p class="card-text">Douleur au milieu du dos, entre les omoplates </p>
-            <b-button v-b-toggle.sidebar-2 variant="light">Lire notre dossier</b-button>
-            <b-sidebar id="sidebar-2" title="Dorsalgie" shadow>
+            <b-button v-b-toggle.sidebar-3 variant="light">Lire notre dossier</b-button>
+            <b-sidebar id="sidebar-3" title="Dorsalgie" shadow>
               <div class="px-3 py-20 m-3">
                 <p class="text-justify">
                   Les dorsalgies sont des douleurs ressenties au milieu du dos, en regard du rachis thoracique (T1 à

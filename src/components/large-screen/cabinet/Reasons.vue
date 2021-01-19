@@ -12,6 +12,9 @@
                 <b-tab id="back_pain" title="Maux de dos" active title-link-class="tab-title">
                   <BackPain></BackPain>
                 </b-tab>
+                <b-tab id="back_pain" title="Douleur articulaire" active title-link-class="tab-title">
+                  <JoinPain></JoinPain>
+                </b-tab>
               </b-tabs>
             </div>
           </div>
@@ -23,9 +26,11 @@
 
 <script>
 import BackPain from "@/components/large-screen/cabinet/reasons/BackPain";
+import JoinPain from "@/components/large-screen/cabinet/reasons/JoinPain";
 export default {
   components: {
     BackPain,
+    JoinPain
   },
   name: 'Reasons',
 }
