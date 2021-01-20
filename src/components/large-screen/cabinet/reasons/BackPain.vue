@@ -21,7 +21,7 @@
                   diminution d’apport sanguin du nerf ce qui entraîne des troubles de la sensibilité appelées
                   paresthésies (fourmillement, picotement, engourdissement).
                 </p>
-                <video class="reason-video mb-3"  src="video/back-pain.mp4" autoplay loop playsinline muted></video>
+                <video class="reason-video col-sm-12 mb-3"  src="video/back-pain.mp4" autoplay loop playsinline muted></video>
 
                 <p class="text-justify">Les douleurs sont typiquement intermittentes, d'un seul côté (unilatérale),
                   irradiantes du rachis lombaire jusque dans les orteils, parfois majorées lors des efforts de toux ou à
@@ -82,7 +82,7 @@
       <div class="col-md-3 col-sm-6 highlight">
         <div class=" card-home">
           <div class="card-body text-center">
-            <img class="card-icon  mb-4" src="../../../../../public/icon/question.svg" alt="">
+            <img class="card-icon mb-4" src="../../../../../public/icon/question.svg" alt="">
             <div class="h-caption"><h4 class="card-title">Cervicalgie</h4></div>
             <p class="card-text">Douleur du cou et de la nuque</p>
             <b-button v-b-toggle.sidebar-2 variant="light">Lire notre dossier</b-button>

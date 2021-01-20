@@ -14,7 +14,7 @@
                   <br>
                   On parle couramment de « blocage articulaire » mais le terme le plus approprié pour décrire ce trouble serait dysfonction articulaire.
                 </p>
-                <video class="reason-video mb-3"  src="video/joint.mp4" autoplay loop playsinline muted></video>
+                <video class="reason-video col-sm-12 mb-3"  src="video/joint.mp4" autoplay loop playsinline muted></video>
 
 
                 <p class="text-justify">Une articulation peut se mettre en dysfonction pour des raisons variées : traumatisme, faux mouvement, mauvaise posture, alimentation trop acide, mauvais apport sanguin, stress, trouble digestif…</p>

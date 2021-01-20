@@ -10463,7 +10463,8 @@ li {
 @media (max-width: 767px) {
   #head {
     min-height: 420px;
-    padding-top: 160px; }
+    padding-top: 160px;
+    width: 100vw; }
   #head .lead {
     font-size: 34px; } }
 
@@ -10473,7 +10474,11 @@ li {
   .acces-text {
     padding-left: 0; }
   .doctolib-btn {
-    margin-bottom: 2rem; } }
+    margin-bottom: 2rem; }
+  #cabinet-background {
+    margin: 0; }
+  .container {
+    width: 99%; } }
 
 #cabinet {
   background-color: #d4e3f1; }

@@ -154,19 +154,30 @@
 #head .btn-default.active { color:#fff; -webkit-box-shadow:inset 0px 0px 0px 3px #fff; -moz-box-shadow:inset 0px 0px 0px 3px #fff; box-shadow:inset 0px 0px 0px 3px #fff; background: transparent; }
 
 @media (max-width: 767px) {
-  #head { min-height:420px; padding-top:160px; }
-  #head .lead { font-size: 34px; }
-
-
+  #head {
+    min-height: 420px;
+    padding-top: 160px;
+    width: 100vw;
+  }
+  #head .lead {
+    font-size: 34px;
+  }
 }
-@media (max-width: 576px) {
-  .cabinet-content-text{
-    padding:1rem 0 0 0;
+
+  @media (max-width: 576px) {
+    .cabinet-content-text{
+      padding:1rem 0 0 0;
+    }
+    .acces-text{
+      padding-left: 0;
+    }
+    .doctolib-btn{
+      margin-bottom: 2rem;
+}
+  #cabinet-background {
+    margin:0;
   }
-  .acces-text{
-    padding-left: 0;
-  }
-  .doctolib-btn{
-    margin-bottom: 2rem;
-  }
+    .container{
+      width: 99%;
+}
 }

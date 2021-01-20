@@ -122,9 +122,16 @@ export default {
           easing: "easeOutExpo",
           duration: 700,
           delay: 100
-        }).add({
-      targets: '.ml11 .letter',
-      opacity: [0, 1],
+          }).add({
+        targets: '.ml11 .letter',
+        opacity: [0, 1],
+        easing: "easeOutExpo",
+        duration: 600,
+        offset: '-=775',
+        delay: (el, i) => 34 * (i + 1)
+      }).add({
+      targets: '.line',
+      opacity: [1, 0],
       easing: "easeOutExpo",
       duration: 600,
       offset: '-=775',
