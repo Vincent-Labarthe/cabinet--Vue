@@ -30,7 +30,7 @@ import JoinPain from "@/components/large-screen/cabinet/reasons/JoinPain";
 export default {
   components: {
     BackPain,
-    JoinPain
+    JoinPain,
   },
   name: 'Reasons',
 }

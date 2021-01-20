@@ -212,6 +212,7 @@
 </template>
 
 <script>
+
 export default {
   name: "BackPain"
 }

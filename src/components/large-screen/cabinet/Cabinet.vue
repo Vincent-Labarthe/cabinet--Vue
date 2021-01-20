@@ -29,6 +29,7 @@
               </div>
               <div class="col-sm-6">
                 <div class="cabinet-content-text mt-1">
+                  <h3 class="header--secondary mb-4 text-center">Cabinet d'Ostéopathie Paris 15</h3>
                   <p class="text-justify">Je privilégie les <b>techniques douces, efficaces et adaptées</b> au patient que je reçois. Je ne
                     m’intéresse pas seulement à la région en souffrance mais à l’ensemble du corps de la tête au pied.</p>
                   <p class="text-justify">Si la priorité est de soulager la douleur, mon rôle a aussi un objectif sur le long terme. Il est

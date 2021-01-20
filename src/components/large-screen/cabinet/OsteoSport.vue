@@ -3,8 +3,7 @@
     <div id="cabinet-background">
       <div class="osteopathie-header">
         <h3 class="header--secondary">Les sportifs</h3>
-        <p @click="handleBackSpe('')"><img class="icon icon-arrow-right icon-arrow--1"
-                                           src="../../../../public/icon/left-arrow.svg" alt="icon téléphone">Retour</p>
+        <p @click="handleBackSpe('')"><img class="icon icon-arrow-right icon-arrow--1" src="../../../../public/icon/left-arrow.svg" alt="icon téléphone">Retour</p>
       </div>
       <div class="spe-sport">
         <div class="sport-card">
