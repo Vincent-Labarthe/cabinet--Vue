@@ -1,16 +1,19 @@
 .cabinet--navbar {
+  top: 0!important;
+  width: 100%!important;
+  position: fixed !important;
+  z-index: 500;
+  background-color: #d4e3f1 !important;
+  box-shadow: 0.067em 0.067em 4.133em rgba(12, 71, 84, 0.08)!important;
+  color: #737373 !important;
+  font-size: 1rem!important;
+  transition: all 1s;
   display: flex;
   justify-content: space-between;
   height: 8rem;
   background-color: rgba(181, 197, 211, 0.9);
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  z-index: 2500;
   text-transform: uppercase;
-  box-shadow: 0.067em 0.067em 4.133em rgba(12, 71, 84, 0.08);
   line-height: 9px;
-  color: #fff;
 
   ul {
     margin-bottom: 0;

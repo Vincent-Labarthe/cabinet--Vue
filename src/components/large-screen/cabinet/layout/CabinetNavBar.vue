@@ -21,7 +21,7 @@
             <a class="dropdown-item" href="#trauma">Douleur post-trauma</a>-->
           </b-nav-item-dropdown>
           <b-nav-item href="#formation">Mes formations</b-nav-item>
-          <b-nav-item href="#network">Mon Réseaux</b-nav-item>
+          <b-nav-item href="#network">Mon Réseau</b-nav-item>
 
           <router-link to="/repenser-lequitation" @click="handleBookPage('cabinet')" class="nav-link">Repenser l'équitation</router-link>
         </b-navbar-nav>
@@ -43,30 +43,6 @@ export default {
     return {
       showNavbar: true,
       lastScrollPosition: 0,
-      navigations: {
-        navigationCabinet:
-           [
-            {link: '/', page: 'Accueil' },
-            { link: '/osteopathie', page: 'L\'Ostéopathie' },
-            { link: '/votre-osteopathe', page: 'Votre Ostéopathe' },
-            { link: '/pour-qui', page: 'Pour qui ?', isDropDown:true },
-            { link: '/la-consultation', page: 'La consultation' },
-            { link: '/faq', page: 'FAQ' },
-            { link: 'https://doctolib.fr', page: 'Prendre RDV' },
-            { link: 'https://doctolib.fr', page: 'Web Sante' },
-           ],
-        navigationBook:
-            [
-              {link: '/', page: 'Accueil' },
-              { link: '/osteopathie', page: 'L\'Ostéopathie' },
-              { link: '/votre-osteopathe', page: 'Votre Ostéopathe' },
-              { link: '/pour-qui', page: 'Pour qui ?', isDropDown:true },
-              { link: '/la-consultation', page: 'La consultation' },
-              { link: '/faq', page: 'FAQ' },
-              { link: 'https://doctolib.fr', page: 'Prendre RDV' },
-              { link: 'https://doctolib.fr', page: 'Web Sante' },
-            ],
-      }
     }
   },
   methods: {

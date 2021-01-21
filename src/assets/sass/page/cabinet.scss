@@ -140,18 +140,73 @@
 }
 
 #head {
-  background: linear-gradient(to right, rgba(221, 221, 221, 1), rgba(149, 186, 199, 0.1)), url("../img/carousel-1.jpg");
-  background-size: cover; min-height:520px; text-align: center; padding-top:240px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
-#head.secondary { height:100px; min-height: 100px; padding-top:0px; }
-#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:6px; color: #fff; line-height:1.15em; }
-#head .tagline { color:#fff; margin-bottom:25px; font-size: 2rem; }
-#head .tagline a { color:#fff; }
-#head .btn { margin-bottom:10px;}
-#head .btn-default { text-shadow: none; background:transparent; color:rgba(255,255,255,.5); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); background: transparent; }
+  background: url("../img/carousel-1.jpg");
+  background-size: cover;
+  min-height: 520px;
+  text-align: center;
+  padding-top: 240px;
+  color: white;
+  font-family: "Open sans", Helvetica, Arial;
+  font-weight: 300;
+  width:100vw;
+  margin:auto;
+}
+
+#head.secondary {
+  height: 100px;
+  min-height: 100px;
+  padding-top: 0px;
+}
+
+#head .lead {
+  font-family: "Open sans", Helvetica, Arial;
+  font-size: 44px;
+  margin-bottom: 6px;
+  color: #fff;
+  line-height: 1.15em;
+}
+
+#head .tagline {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+#head .tagline a {
+  color: #fff;
+}
+
+#head .btn {
+  margin-bottom: 10px;
+}
+
+#head .btn-default {
+  text-shadow: none;
+  background: transparent;
+  color: rgba(255, 255, 255, .5);
+  -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, .5);
+  -moz-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, .5);
+  box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, .5);
+  background: transparent;
+}
+
 #head .btn-default:hover,
-#head .btn-default:focus { color:rgba(255,255,255,.8); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); background: transparent; }
+#head .btn-default:focus {
+  color: rgba(255, 255, 255, .8);
+  -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, .8);
+  -moz-box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, .8);
+  box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, .8);
+  background: transparent;
+}
+
 #head .btn-default:active,
-#head .btn-default.active { color:#fff; -webkit-box-shadow:inset 0px 0px 0px 3px #fff; -moz-box-shadow:inset 0px 0px 0px 3px #fff; box-shadow:inset 0px 0px 0px 3px #fff; background: transparent; }
+#head .btn-default.active {
+  color: #fff;
+  -webkit-box-shadow: inset 0px 0px 0px 3px #fff;
+  -moz-box-shadow: inset 0px 0px 0px 3px #fff;
+  box-shadow: inset 0px 0px 0px 3px #fff;
+  background: transparent;
+}
 
 @media (max-width: 767px) {
   #head {

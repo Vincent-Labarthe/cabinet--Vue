@@ -1,5 +1,6 @@
 <template>
   <div class="cabinet-page">
+
     <header id="head">
       <div class="container">
         <div class="row d-flex flex-column ">
