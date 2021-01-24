@@ -35,7 +35,6 @@
 </template>
 
 <script>
-import $ from 'jquery'
 import Resume from "@/components/large-screen/book/Resume";
 import OrderLink from "@/components/large-screen/book/OrderLink";
 import AuthorPage from "@/components/large-screen/book/AuthorPage";
@@ -52,34 +51,6 @@ export default {
     Navbar,
     BookCarousel,
     Footer
-  },
-  methods: {
-    handleScroll() {
-      this.scrollpx = window.scrollY
-      if (this.scrollpx > 300) {
-        $("#image").css({
-          'transform': 'scale(' + 1 + ')',
-          'transition': 'all ' + 1.5 + 's'
-        });
-      }
-      if (this.scrollpx > 1200) {
-        $(".author__text").css({
-          'transform': 'translate(' + 0 + ',' + 0 + ')',
-          'transition': 'all ' + 1.5 + 's'
-        })
-        $(".profile-picture--box").css({
-          'transform': 'translate(' + 0 + ')',
-          'opacity': 1,
-          'transition': 'all ' + 1.5 + 's'
-        })
-      }
-    }
-  },
-  created() {
-    window.addEventListener('scroll', this.handleScroll);
-  },
-  destroyed() {
-    window.removeEventListener('scroll', this.handleScroll);
   },
   mounted(){
     loop('.loop');

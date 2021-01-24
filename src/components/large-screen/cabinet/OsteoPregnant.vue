@@ -31,15 +31,12 @@
           </div>
           <div class="pregnant-card">
             <div class="pregnant-card--header pregnant-card--header--3">
-              <h5>l'allaitement</h5>
+              <h5>Post-partum</h5>
             </div>
             <div class="pregnant-card--body">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
-                deleniti explicabo facilis magni nam nobis obcaecati omnis sed tempore veritatis.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
-                deleniti explicabo facilis magni nam nobis obcaecati omnis sed tempore veritatis.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
-                deleniti explicabo facilis magni nam nobis obcaecati omnis sed tempore veritatis.</p>
+              <p>Les douleurs du post-partum sont très fréquentes, liées à la grossesse mais aussi directement à l’accouchement et aux gestes qu’il a impliqués(1).
+                Les principales conséquences portent sur le périnée, sur le rachis, la ceinture pelvienne, et sur la sangle abdominale(2).
+                Même si la plupart de ces douleurs disparaissent spontanément, certaines d’entre elle persistent et c’est le rôle de l’ostéopathe de les faire disparaître</p>
             </div>
           </div>
         </div>

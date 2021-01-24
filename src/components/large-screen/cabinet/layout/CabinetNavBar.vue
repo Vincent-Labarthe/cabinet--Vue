@@ -15,10 +15,14 @@
             <a class="dropdown-item" href="#osteo_pregnant" @click="selectedSpe('pregnant')">Ostéopathie de la femme enceinte</a>
           </b-nav-item-dropdown>
           <b-nav-item-dropdown text="Quand consulter ?" right>
-            <a class="dropdown-item" href="#reasons">Maux de dos</a>
-          <!--  <a class="dropdown-item" href="#joint">Douleurs articulaire</a>
-            <a class="dropdown-item" href="#stress">Stress & trouble du sommeil</a>
-            <a class="dropdown-item" href="#trauma">Douleur post-trauma</a>-->
+            <a class="dropdown-item" href="#reasons" @click="selectedReason('backPain')">Maux de dos</a>
+            <a class="dropdown-item" href="#reasons" @click="selectedReason('jointPain')">Douleur Articulaire</a>
+            <a class="dropdown-item" href="#reasons" @click="selectedReason('stress')">Stress et troubles du sommeil</a>
+            <a class="dropdown-item" href="#reasons" @click="selectedReason('baby')">Bébés et enfants</a>
+
+            <!--  <a class="dropdown-item" href="#joint">Douleurs articulaire</a>
+              <a class="dropdown-item" href="#stress">Stress & trouble du sommeil</a>
+              <a class="dropdown-item" href="#trauma">Douleur post-trauma</a>-->
           </b-nav-item-dropdown>
           <b-nav-item href="#formation">Mes formations</b-nav-item>
           <b-nav-item href="#network">Mon Réseau</b-nav-item>
@@ -48,6 +52,9 @@ export default {
   methods: {
     selectedSpe(param) {
       this.$emit('handle-spe', param)
+    },
+    selectedReason(param) {
+      this.$emit('handle-reason', param)
     },
     onScroll () {
       const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop

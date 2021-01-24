@@ -1,6 +1,6 @@
 <template>
   <div id="cabinet">
-    <CabinetNavBar @handle-spe="displaySpe"></CabinetNavBar>
+    <CabinetNavBar @handle-spe="displaySpe" @handle-reason="displayReason"></CabinetNavBar>
     <div id="page">
       <Cabinet></Cabinet>
       <Osteopathie></Osteopathie>
@@ -8,7 +8,7 @@
       <OsteoSport v-if="spePage === 'sport'" @handle-spe="displaySpe"></OsteoSport>
       <OsteoBaby v-if="spePage === 'baby'" @handle-spe="displaySpe"></OsteoBaby>
       <OsteoPregnant v-if="spePage === 'pregnant'" @handle-spe="displaySpe"></OsteoPregnant>
-      <Reasons></Reasons>
+      <Reasons :navBarData="reasonPage"></Reasons>
       <Formation></Formation>
       <Network></Network>
       <Footer></Footer>
@@ -44,10 +44,14 @@ export default {
     Network,
     Footer
   },
+  props: {
+    parentData: Object,
+  },
   data() {
     return {
       scrollpx: 0,
       spePage: '',
+      reasonPage:''
     }
   },
   methods: {
@@ -56,6 +60,9 @@ export default {
     },
     displaySpe(param) {
       this.spePage = param;
+    },
+    displayReason(param) {
+      this.reasonPage = param;
     }
   },
   created() {

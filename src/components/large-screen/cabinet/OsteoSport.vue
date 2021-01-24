@@ -11,9 +11,10 @@
             <h5>Intervention préventive </h5>
           </div>
           <div class="sport-card--body">
-            <p>L’ostéopathe dépiste et traite les dysfonctions de l’organisme avant même qu’elles ne se manifestent (par une douleur ou une raideur).
-              <br> <br>
-              Lorsque ces dysfonctions persistent, elles fragilisent le corps, altèrent le niveau de performance et favorisent l’apparition de blessures.</p>
+            <p>Votre ostéopathe par un examen complet de la tête aux pieds, sait détecter les blocages ,les raideurs,
+              les contractures, les ressauts, les débuts d’inflammation pouvant être à l’origine de pathologies typiques du sportifs
+              (tendinite, périostite, essuie-glace...) voir de blessures (déchirures, entorse, fissure méniscale, claquage...)...
+              En supprimant ces dysfonctionnements, votre ostéopathe favorise l’aisance dans la pratique sportive et facilite la reprise.</p>
           </div>
         </div>
         <div class="sport-card">
@@ -21,9 +22,9 @@
             <h5>Intervention curative </h5>
           </div>
           <div class="sport-card--body">
-            <p> L'ostéopathie permet de rééquilibrer de façon très précise les axes articulaires qui ont été perturbés par un choc,
-              après fractures, entorses ou une opérations chirurgicales pour aider à une bonne cicatrisation. <br> <br>
-               Elle permmet aussi d'effacer les traumatismes même anciens.</p>
+            <p>Si la douleur est présente, il n’est pas trop tard pour intervenir. Votre ostéopathe sait surrpimer la plupart
+              des douleurs d’origine mécanique et accélère la guérison en cas d’inflammation (tendinite, périostite, fasciite plantaire,
+              syndrome fémoro-patellaire...). En cas de blessure, le rétablissement est facilité par l’ostéopathie en complément du traitement médical et kinésithérapique.</p>
           </div>
         </div>
         <div class="sport-card">
@@ -31,9 +32,10 @@
             <h5>Optimisation et amélioration de la performance sportive</h5>
           </div>
           <div class="sport-card--body">
-            <p>L’ostéopathie contribue également à améliorer les performances physiques et donc sportives : en veillant à entretenir une mobilité optimale
-              de l’ensemble des articulations et des chaines musculaires, un traitement ostéopathique régulier permet de prendre davantage conscience de son
-              corps et des signaux qu’il nous envoie, auxquels nous sommes parfois inattentifs.</p>
+            <p>Votre ostéopathe vous propose de corriger vos postures et votre gestuelle durant la pratique sportive (formée au concepts ead).
+              Elle vous expliquera les axes de mouvements à respecter, les limites de mouvements à ne pas dépasser et
+              par quels moyens améliorer l’endurance, la fluidité, la force, la précision, l’amplitude de mouvement par un protocole d’entrainement adapté.
+              Cette démarche vise à concilier performance et préservation du coprs.</p>
           </div>
         </div>
       </div>

@@ -46,7 +46,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col-md-6 col-sm-6 col-xs-">
           <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
             <a href="https://goo.gl/maps/3az5qmenPu8jwyqS9">Web-Sante</a>.
           </p>

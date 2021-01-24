@@ -74,7 +74,7 @@ name: "Network",
           id:5,
           title: 'Les lois naturelles de l’enfant',
           texte: 'Céline Alvarèz a développé des principes éducatifs adaptés au fonctionnement humain',
-          link: 'https://www.maladesdesport.fr/',
+          link: 'https://www.celinealvarez.org/',
           text_link: 'Site internet'
         },
         {
@@ -88,8 +88,8 @@ name: "Network",
           id:7,
           title: 'Médecin Urologue',
           texte: 'Jean-Michel Casanova Fondation Saint Jean de Dieu - Clinique Oudinot, 19 Rue Oudinot, 75007 Paris, 01 47 83 69 64 ',
-          link: '01 47 83 69 64',
-          text_link: 'Site internet'
+          link: '',
+          text_link: '01 47 83 69 64'
         },
         {
           id:8,

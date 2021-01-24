@@ -10606,7 +10606,7 @@ li {
     .sport-card:hover .sport-card--header h5 {
       transform: translateY(-150px); }
   .sport-card:hover div.sport-card--body {
-    transform: translateY(-200px);
+    transform: translateY(-270px);
     color: #F4F4F4; }
 
 .sport-card--body {
@@ -10657,7 +10657,7 @@ li {
     .baby-card:hover .baby-card--header h5 {
       transform: translateY(-150px); }
   .baby-card:hover div.baby-card--body {
-    transform: translateY(-200px);
+    transform: translateY(-270px);
     color: #f9f9f9; }
 
 .baby-card--body {
@@ -10708,7 +10708,7 @@ li {
     .pregnant-card:hover .pregnant-card--header h5 {
       transform: translateY(-150px); }
   .pregnant-card:hover div.pregnant-card--body {
-    transform: translateY(-200px);
+    transform: translateY(-270px);
     color: #f9f9f9; }
 
 .pregnant-card--body {
@@ -10729,14 +10729,8 @@ li {
 .tab-title {
   color: #666666 !important; }
 
-#sidebar-1 {
-  width: 620px; }
-
-#sidebar-2 {
-  width: 620px; }
-
-#sidebar-3 {
-  width: 620px; }
+.b-sidebar {
+  width: 620px !important; }
 
 .reason-modal {
   display: flex;
