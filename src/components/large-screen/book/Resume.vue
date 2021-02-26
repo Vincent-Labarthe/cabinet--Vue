@@ -1,28 +1,20 @@
 <template>
   <div class="resume">
-    <p class="resume__text ">Quel cavalier n’a pas rêvé d’une pratique de l’équitation fluide, efficace, sans heurt
-      et sans douleurs ? </p>
-    <p class="resume__text"> Un tel objectif demande une triple démarche : </p>
-    <ul class="resume__text">
-      <li class="resume__text--list"><img class="icon" src="../../../../public/icon/check.svg" alt="icon téléphone"> Comprendre les tenants et aboutissants de l’équitation pour davantage de
-        maîtrise et ne pas laisser un
-        hasard chaotique dicter son apprentissage.
-      </li>
-      <li class="resume__text--list"><img class="icon" src="../../../../public/icon/check.svg" alt="icon téléphone">Connaître les moyens d’interagir efficacement avec sa monture en toute
-        situation
-      </li>
-      <li class="resume__text--list"><img class="icon" src="../../../../public/icon/check.svg" alt="icon téléphone" >Comprendre la gestuelle à mettre en œuvre afin d’optimiser la relation
-        cavalier/cheval mais aussi de
-        préserver son corps et celui de sa monture, en connaissant ses limites.
-      </li>
-    </ul>
-    <p class="resume__text"> L’équitation est loin d’être un sport ordinaire : être en harmonie avec son cheval et
-      gagner en performance nécessitent de la finesse et de la subtilité. </p>
-    <p class="resume__text">Cet ouvrage vous donne les clés pour analyser votre gestuelle,
-      prendre conscience des gestes adaptés et inadaptés, et trouver des solutions pour corriger les erreurs.
-      La lecture de ce livre changera votre regard sur l’équitation et votre pratique, qui ne sera plus jamais la
-      même.
-    </p>
+    <h6 class="resume__text mt-5">Pourquoi repenser sa gestuelle en équitation ?</h6>
+    <p class="resume__text"> Le cavalier a tendance à focaliser son attention sur l’attitude de son cheval, il régule à chaque instant sa vitesse,
+      l’amplitude des foulées, la direction, l’allure, la configuration du cheval (incurvé, angulation de sa tête, équilibre latéral...),
+      la battue d’appel avant l’obstacle... </p>
+    <p class="resume__text">Il devrait pourtant commencer par maîtriser parfaitement ses propres postures et gestuelles,
+      de façon à être irréprochable vis à vis de son propre corps et celui de son cheval.</p>
+    <p class="resume__text font-italic mb-3"> «Monter à cheval n’est ni physiologique ni naturel. Nous ne sommes pas adaptés morphologiquement pour tenir une position assise prolongée sur un cheval en
+      <strong class="font-weight-bold">Le cavalier ne peut donc pas se contenter de pratiquer uniquement sa discipline</strong>. Retenez que, contre toute attente,
+      la pratique de l’équitation n’est pas un sport complet qui maintient un corps équilibré.» </p>
+
+    <h6 class="resume__text ">Comment puis-je concilier pratique de l’équitation, performance et préservation du corps ?</h6>
+    <p class="resume__text font-italic"> «Cette recherche de performance équestre et de préservation du corps imposent une pratique avec <strong class="font-weight-bold">d'avantage de conscience,
+      de ressenti, de maîtrise et de connaissances</strong>. Pour cela, il est nécessaire de comprendre la construction de chaque mouvement, leur origine,
+      les articulations employées, mais également d’en maîtriser l’amplitude pour mieux respecter les limites architecturales du corps.
+      Performance et préservation du corps vont de pair.» </p>
   </div>
 </template>
 

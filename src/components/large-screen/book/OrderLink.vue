@@ -2,7 +2,7 @@
   <div >
   <div class="order-link">
 
-    <b-button variant="info" size="lg">
+    <b-button class="book-btn" size="lg">
       <a id="order_link" href="https://www.adverbum.fr/editions-desiris/frederic-brigaud-et-josephine-lyon/repenser-l-equitation_6xb5n7paauhq.html" target="_blank">
       Commander le livre
     </a></b-button>

@@ -24,7 +24,9 @@ body {
 a {
   text-decoration: none!important;
   color: #fff;
-
+ &:hover{
+   color: #fff;
+ }
 }
 
 ul,

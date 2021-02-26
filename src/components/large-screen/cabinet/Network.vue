@@ -4,7 +4,8 @@
       <div class="osteopathie-header">
         <h3 class="header--secondary">Mon Réseau - Cabinet d'Ostéopathie Paris 15</h3>
       </div>
-      <div class="container wrapper">
+      <div class="mt-5 mb-5">
+      <div class="container wrappermt-5">
       </div>
       <carousel-3d :autoplay="true" :autoplay-timeout="5000" :display="9">
         <slide v-for="slide in slides" :key="slide.id" :index="slide.id">
@@ -17,7 +18,7 @@
           </div>
         </slide>
       </carousel-3d>
-
+      </div>
     </div>
   </div>
 </template>
