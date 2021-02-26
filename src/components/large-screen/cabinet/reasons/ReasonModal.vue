@@ -341,30 +341,6 @@ export default {
               '<p class="text-justify">Cette méthode contribue à diminuer significativement le degré de l’asymétrie crânienne.\n' +
               'De nombreux conseils sont également donnés aux parents notamment pour stimuler la rotation opposée à celle du torticolis et/ou du méplat crânien.</p>'
         },
-        {
-          id: 13,
-          title: 'Les Coliques',
-          subTitle: 'Les coliques sont un symptôme très fréquent dans les premiers mois de vie',
-          catgeory: 'baby',
-          text: '<p class="text-justify">Les coliques sont définies comme des épisodes de pleurs durant au minimum trois heures par jour pendant au moins trois jours par semaine pendant plus de trois semaines.' +
-              ' Le bébé en dehors des crises est en pleine santé et se nourrit correctement.</p>' +
-              '<p class="text-justify">Les coliques donnent lieu à un tableau caractéristique : le nourrisson a le visage rouge, les poings serrés, le front plissé,' +
-              ' les cuisses repliées sur le ventre qui semble ballonné avec des émissions répétées de gaz. Ces pleurs surviennent le plus souvent en fin de journée,' +
-              ' entre 18 h et minuit</p>' +
-              '<p class="text-justify">Il n\'existe à ce jour aucune cause réellement déterminée pouvant expliquer les coliques du nourrisson.' +
-              ' De nombreuses hypothèses sont néanmoins envisagées, parmi lesquelles : l’immaturité du système digestif,' +
-              ' l’excès d’air avalé pendant l’allaitement, l’intolérance au lactose ou aux protéines de lait de vache.</p>' +
-              '<p class="text-justify">Ce n’est pas parce que ces crises évoluent spontanément vers la disparition (à partir de l’âge de 4 mois) qu’il est inutile de les prendre en charge.' +
-              ' Le caractère inconfortable voire douloureux pour l’enfant, les pleurs, le manque de sommeil et les tensions qui' +
-              ' en découlent sont autant de raisons valables pour consulter votre ostéopathe. Le stress que cela inflige aux parents s’additionne à toutes ces raisons.</p>' +
-              '<p class="text-justify">Les thérapies manuelles ont démontré leurs efficacité dans le traitement des coliques du nourrisson. ' +
-              'Si l’ostéopathe ne peut avoir d’influence sur la maturation du tube digestif ni sur l’intolérance au lait, il peut agir sur la qualité de succion.</p>' +
-              '<p class="text-justify">En effet, il existe une relation directe entre les muscles de la bouche et les cervicales supérieures.' +
-              ' Le simple fait de relâcher les cervicales supérieures peut, dans de nombreux cas, faciliter la succion et diminuer l’absorption d’air pendant la tétée,' +
-              ' que ce soit au sein ou au biberon.</p>' +
-              '<p class="text-justify">D’autres dérangements mécaniques peuvent participer à ces troubles intestinaux (tension digestive, ligamentaire, bassin…).' +
-              ' L’ostéopathe utilise des techniques douces, sans danger et indolores pour enlever l’ensemble de ces dérangements mécaniques ce qui améliore le confort de l’enfant et sa digestion.</p>'
-        },
       ]
     }
   },
