@@ -7,9 +7,7 @@
             Métro : Duroc - Falguière - Montparnasse <br>
             01.53.69.19.32.
           </p>
-
         </div>
-
         <div class="col-xs-6 col-md-3">
           <h6>Spécialisation - Ostéopathe Paris 15</h6>
           <ul class="footer-links">
@@ -19,7 +17,6 @@
             </li>
           </ul>
         </div>
-
         <div class="col-xs-6 col-md-3">
           <h6>Formation - Ostéopathe Paris 15</h6>
           <ul class="footer-links">
@@ -30,7 +27,6 @@
             <li><a href="http://scanfcode.com/sitemap/">Empilement Articulaire Dynamique</a></li>
           </ul>
         </div>
-
         <div class="col-xs-6 col-md-3">
           <h6>Quand Consulter ? - Ostéopathe Paris 15</h6>
           <ul class="footer-links">
@@ -40,7 +36,6 @@
             <li><a href="http://scanfcode.com/category/java-programming-language/">Douleur post-trauma</a></li>
           </ul>
         </div>
-
       </div>
       <hr>
     </div>
@@ -59,9 +54,7 @@
     </div>
   </footer>
 </template>
-
 <script>
-
 export default {
   name: 'Footer',
   methods: {
@@ -70,10 +63,4 @@ export default {
     }
   }
 }
-
 </script>
-
-<style scoped>
-
-
-</style>
